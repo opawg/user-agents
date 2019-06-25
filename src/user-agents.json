@@ -59,7 +59,7 @@
         "user_agents": [
             "^Bose\\/"
         ],
-        "name": "Bose SoundTouch",
+        "app": "Bose SoundTouch",
         "device": "speaker"
     },
     {
