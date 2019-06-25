@@ -7,14 +7,14 @@ A list of apps, services and bots that consume podcast data.
 For now, the simplest way is to add to the file at `src/user-agents.json`. Each app, service or
 bot should have its own entry.
 
-Each entry _must_ contain:
+Each entry _must_ contain the following properties:
 
-* A `user_agents` property, which is a list of regular expressions. Backslaches (\) should be
-double-escaped, so instead of `^Echo\/1\.`, the string should read `^Echo\\/1\\.`.
+* `user_agents` (array of strings): a list of regular expressions against which the requesting user-agent
+should be validated. Backslaches ("\\") should be escaped, so instead of `^Echo\/1\.`, the string should read `^Echo\\/1\\.`.
 
 Each entry _can_ contain one of the following properties:
 
-* `bot` (boolean): set to `true` or `false`. The inference is that bot downloads shouldn't be counted.
+* `bot` (boolean): set to `true` when the requesting agent is a bot (no need to set to `false` otherwise).
 * `app` (string): set to the human-readable name of the app or service.
 * `device` (string): set to a slug of the device type, usually one of
   * `pc` (meaning a desktop or laptop computer running Linux, macOS or Windows)
