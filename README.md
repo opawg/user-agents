@@ -44,6 +44,11 @@ I propose that we only specify a property above when it is _known_ (not assumed)
 difficult to _know_ whether an Android app is running on a phone or a tablet. We can _assume_ that since
 Android tablets are rarer, almost all requests will be via Android phones, but we can't _know_ that.
 
+## Parsing order
+
+Right now, there isn't a great deal of thought put into the order... it's sort-of alphabetical depending on
+circumstance. It might be worth ordering based on the accuracy of each set of regexes.
+
 ## Future plans
 
 To stop the list becoming unwieldy, I'll probably separate out the apps into separate files, that are then
@@ -52,3 +57,6 @@ possible to run a static site and use a CI script -- a script that is called whe
 repository -- to combine the files and generate the static file.
 
 Happy to accept advice or actual code to make this happen :)
+
+Also, if we do use multiple files, it will become necessary to have some sort of `priority` or `accuracy`
+property for each agent, so that they can be combined in parsing order.
