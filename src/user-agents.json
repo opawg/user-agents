@@ -16,9 +16,17 @@
     },
     {
         "user_agents": [
+            "^AlexaMediaPlayer\\/5\\."
+        ],
+        "app": "Amazon Echo Dot",
+        "device": "speaker",
+        "os": "alexa"
+    },
+    {
+        "user_agents": [
             "^AmazonNewsContentService"
         ],
-        "app": "Flash Briefing",
+        "app": "Amazon Alexa Flash Briefing",
         "device": "speaker",
         "os": "alexa"
     },
@@ -91,6 +99,22 @@
             "^Cast(?:b|B)ox\\/.+iOS"
         ],
         "app": "CastBox",
+        "device": "phone",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^Luminary\\/.+Android"
+        ],
+        "app": "Luminary",
+        "device": "phone",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "^Luminary\\/.+iOS"
+        ],
+        "app": "Luminary",
         "device": "phone",
         "os": "ios"
     },
@@ -508,6 +532,7 @@
         "user_agents": [
             "^Spotify"
         ],
+        "app": "Spotify caching service",
         "bot": true
     },
     {
@@ -554,7 +579,7 @@
         "user_agents": [
             "^Storiyoh\\/"
         ],
-        "bot": true
+        "app": "Storiyoh podcast app"
     },
     {
         "user_agents": [
