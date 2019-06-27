@@ -83,8 +83,7 @@
             "^Breaker\\/"
         ],
         "app": "Breaker",
-        "device": "phone",
-        "os": "ios"
+        "device": "phone"
     },
     {
         "user_agents": [
@@ -257,9 +256,7 @@
         "user_agents": [
             "^gPodder\\/"
         ],
-        "app": "gPodder",
-        "device": "pc",
-        "os": "windows"
+        "app": "gPodder"
     },
     {
         "user_agents": [
@@ -271,8 +268,7 @@
         "user_agents": [
             "^Himalaya\\/"
         ],
-        "app": "Himalaya",
-        "os": "ios"
+        "app": "Himalaya"
     },
     {
         "user_agents": [
@@ -280,7 +276,7 @@
         ],
         "app": "HomePod",
         "device": "speaker",
-        "os": "ios"
+        "os": "homepod os"
     },
     {
         "user_agents": [
@@ -403,8 +399,7 @@
         "user_agents": [
             "^Player FM"
         ],
-        "app": "Player FM",
-        "os": "android"
+        "app": "Player FM"
     },
     {
         "user_agents": [
@@ -539,8 +534,7 @@
         "user_agents": [
             "^Spreaker"
         ],
-        "app": "Spreaker",
-        "os": "android"
+        "app": "Spreaker"
     },
     {
         "user_agents": [
@@ -572,8 +566,7 @@
         "user_agents": [
             "^TuneIn"
         ],
-        "app": "TuneIn",
-        "os": "ios"
+        "app": "TuneIn"
     },
     {
         "user_agents": [
@@ -616,8 +609,7 @@
         "user_agents": [
             "^yapa\/"
         ],
-        "app": "Yapa",
-        "os": "android"
+        "app": "Yapa"
     },
     {
         "user_agents": [
