@@ -564,6 +564,12 @@
     },
     {
         "user_agents": [
+            "^Swoot\\/"
+        ],
+        "app": "Swoot"
+    },
+    {
+        "user_agents": [
             "^Trackable\\/"
         ],
         "bot": true
