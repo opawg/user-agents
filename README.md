@@ -29,6 +29,7 @@ Each entry _can_ contain one of the following properties:
   * `linux`
   * `macos`
   * `windows`
+* `description` (string): intended to be a humanly readable description of the app, bot or other
 
 If `bot` is set to `true`, no other properties need to be specified.
 
