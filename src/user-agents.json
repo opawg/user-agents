@@ -800,13 +800,13 @@
         "user_agents": [
             "^Swoot"
         ],
-        "app": "Swoot",
+        "app": "Swoot"
     },
     {
         "user_agents": [
             "^Subcast"
         ],
-        "app": "Subcast",
+        "app": "Subcast"
     }
 
 ]
