@@ -464,14 +464,16 @@
             "^Radioplayer Android app"
         ],
         "app": "RadioPlayer",
-        "os": "android"
+        "os": "android",
+        "description": "Radioplayer is a radio and podcast app, with country-specific versions available in selected countries."
     },
     {
         "user_agents": [
             "^Radioplayer iOS app"
         ],
         "app": "RadioPlayer",
-        "os": "ios"
+        "os": "ios",
+        "description": "Radioplayer is a radio and podcast app, with country-specific versions available in selected countries."
     },
     {
         "user_agents": [
