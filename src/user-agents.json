@@ -531,10 +531,35 @@
     },
     {
         "user_agents": [
-            "^Spotify"
+            "^Spotify\\/.*iOS"
         ],
-        "app": "Spotify caching service",
-        "bot": true
+        "app": "Spotify",
+        "device": "phone",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^Spotify\\/.+Android"
+        ],
+        "app": "Spotify",
+        "device": "phone",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "^Spotify\\/.+Win32"
+        ],
+        "app": "Spotify",
+        "device": "pc",
+        "os": "windows"
+    },
+    {
+        "user_agents": [
+            "^Spotify\\/.+OSX"
+        ],
+        "app": "Spotify",
+        "device": "pc",
+        "os": "macos"
     },
     {
         "user_agents": [
@@ -628,5 +653,160 @@
             "YandexBot"
         ],
         "bot": true
+    },
+    {
+        "user_agents": [
+            "request.js"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^gvfs"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^libwww-perl"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^fyyd-poll"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^curl"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^datagnionbot"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "Googlebot"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^PandoraRSSCrawler"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^SEMrushBot"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^Go-http-client"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^Twitterbot"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^AdsBot-Google"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^Typhoeus"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^WordPress"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^Mechanize"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^Ruby"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^PodcastRepublic.+Android"
+        ],
+        "app": "PodcastRepublic",
+        "device": "phone",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "^Pandora.+Android"
+        ],
+        "app": "Pandora",
+        "device": "phone",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "^Acast.+android"
+        ],
+        "app": "Acast",
+        "device": "phone",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "^Acast.+iOS"
+        ],
+        "app": "Acast",
+        "device": "phone",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^Podcoin"
+        ],
+        "app": "Podcoin"
+    },
+    {
+        "user_agents": [
+            "^Laughable.+iOS"
+        ],
+        "app": "Laughable",
+        "device": "phone",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^Swoot"
+        ],
+        "app": "Swoot",
+    },
+    {
+        "user_agents": [
+            "^Subcast"
+        ],
+        "app": "Subcast",
     }
+
 ]
