@@ -3,6 +3,7 @@
         "user_agents": [
             "AhrefsBot"
         ],
+        "app": "Ahrefs Web Crawler",
         "bot": true
     },
     {
@@ -34,6 +35,7 @@
         "user_agents": [
             "^AndroidDownloadManager"
         ],
+        "app": "Android Download Manager",
         "os": "android"
     },
     {
@@ -47,12 +49,14 @@
         "user_agents": [
             "stagefright\\/"
         ],
+        "app": "stagefright",
         "os": "android"
     },
     {
         "user_agents": [
             "Apache-HttpClient"
         ],
+        "app": "Apache-HttpClient",
         "bot": true
     },
     {
@@ -60,6 +64,7 @@
             "^AppleCoreMedia\\/1\\.(.*)Apple Watch",
             "watchOS\\/"
         ],
+        "app": "Apple Music",
         "device": "watch",
         "os": "watchos"
     },
@@ -137,6 +142,7 @@
         "user_agents": [
             "^Dalvik\\/"
         ],
+        "app": "Android Browser",
         "os": "android"
     },
     {
@@ -151,6 +157,7 @@
         "user_agents": [
             "DotBot\\/1"
         ],
+        "app": "DotBot",
         "bot": true
     },
     {
@@ -173,6 +180,7 @@
         "user_agents": [
             "^Echo\\/1\\."
         ],
+        "app": "Echo",
         "device": "speaker",
         "os": "alexa"
     },
@@ -180,12 +188,14 @@
         "user_agents": [
             "FacebookBot"
         ],
+        "app": "FacebookBot",
         "bot": true
     },
     {
         "user_agents": [
             "^OkDownload\\/"
-        ]
+        ],
+        "app": "OkDownload"
     },
     {
         "user_agents": [
@@ -236,6 +246,7 @@
         "user_agents": [
             "Google-Podcast"
         ],
+        "app": "Google Podcasts",
         "bot": true
     },
     {
@@ -250,6 +261,7 @@
         "user_agents": [
             "Googlebot-Video"
         ],
+        "app": "Googlebot",
         "bot": true
     },
     {
@@ -262,12 +274,13 @@
         "user_agents": [
             "^gpodder.net"
         ],
-        "app": "https://gpodder.net"
+        "app": "gPodder"
     },
     {
         "user_agents": [
             "^GStreamer"
         ],
+        "app": "GStreamer",
         "device": "radio"
     },
     {
@@ -302,6 +315,7 @@
         "user_agents": [
             "^AppleCoreMedia\\/1\\.(.*)iPad"
         ],
+        "app": "Apple Music",
         "device": "tablet",
         "os": "ios"
     },
@@ -309,6 +323,7 @@
         "user_agents": [
             "^AppleCoreMedia\\/1\\.(.*)iPhone"
         ],
+        "app": "Apple Music",
         "device": "phone",
         "os": "ios"
     },
@@ -316,6 +331,7 @@
         "user_agents": [
             "^AppleCoreMedia\\/1\\.(.*)iPod"
         ],
+        "app": "Apple Music",
         "device": "mp3_player",
         "os": "ios"
     },
@@ -323,6 +339,7 @@
         "user_agents": [
             "^AppleCoreMedia\\/1\\.(.*)Apple TV"
         ],
+        "app": "Apple Music",
         "device": "tv",
         "os": "tvos"
     },
@@ -331,12 +348,14 @@
             "iTMS",
             "itunesstored"
         ],
+        "app": "iTunes",
         "bot": true
     },
     {
         "user_agents": [
             "^iTunes\\/4"
         ],
+        "app": "iTunes",
         "device": "speaker"
     },
     {
@@ -365,6 +384,7 @@
         "user_agents": [
             "LG Player"
         ],
+        "app": "LG Player",
         "device": "phone",
         "os": "android"
     },
@@ -380,18 +400,22 @@
         "user_agents": [
             "LivelapBot"
         ],
+        "app": "LivelapBot",
         "bot": true
     },
     {
         "user_agents": [
             "MJ12bot"
         ],
+        "app": "MJ12bot",
         "bot": true
     },
     {
         "user_agents": [
             "okhttp"
-        ]
+        ],
+        "app": "okhttp",
+        "os": "android"
     },
     {
         "user_agents": [
@@ -411,6 +435,7 @@
         "user_agents": [
             "^Pingdom\\/"
         ],
+        "app": "Pingdom",
         "bot": true
     },
     {
@@ -457,6 +482,7 @@
         "user_agents": [
             "python-requests"
         ],
+        "app": "python",
         "bot": true
     },
     {
@@ -485,6 +511,7 @@
         "user_agents": [
             "^Roku\\/DVP-8(.*)\\(04"
         ],
+        "app": "Roku",
         "device": "tv",
         "os": "roku"
     },
@@ -492,6 +519,7 @@
         "user_agents": [
             "^RSSRadio \\("
         ],
+        "app": "RSS Radio",
         "bot": true
     },
     {
@@ -587,6 +615,7 @@
         "user_agents": [
             "StitcherBot"
         ],
+        "app": "Stitcher",
         "bot": true
     },
     {
@@ -599,6 +628,7 @@
         "user_agents": [
             "^Trackable\\/"
         ],
+        "app": "Trackable",
         "bot": true
     },
     {
@@ -625,6 +655,7 @@
         "user_agents": [
             "Wget"
         ],
+        "app": "wget",
         "bot": true
     },
     {
@@ -654,24 +685,29 @@
         "user_agents": [
             "YandexBot"
         ],
+        "app": "Yandex",
         "bot": true
     },
     {
         "user_agents": [
             "request.js"
         ],
+        "app": "request.js",
         "bot": true
     },
     {
         "user_agents": [
             "^gvfs"
         ],
-        "bot": true
+        "app": "GNOME",
+        "device": "pc",
+        "os": "linux"
     },
     {
         "user_agents": [
             "^libwww-perl"
         ],
+        "app": "Perl",
         "bot": true
     },
     {
@@ -684,6 +720,7 @@
         "user_agents": [
             "^curl"
         ],
+        "app": "cURL",
         "bot": true
     },
     {
@@ -696,60 +733,70 @@
         "user_agents": [
             "Googlebot"
         ],
+        "app": "Googlebot",
         "bot": true
     },
     {
         "user_agents": [
             "^PandoraRSSCrawler"
         ],
+        "app": "Pandora",
         "bot": true
     },
     {
         "user_agents": [
             "^SEMrushBot"
         ],
+        "app": "SEMrushBot",
         "bot": true
     },
     {
         "user_agents": [
             "^Go-http-client"
         ],
+        "app": "Go",
         "bot": true
     },
     {
         "user_agents": [
             "^Twitterbot"
         ],
+        "app": "Twitter",
         "bot": true
     },
     {
         "user_agents": [
             "^AdsBot-Google"
         ],
+        "app": "Googlebot",
         "bot": true
     },
     {
         "user_agents": [
             "^Typhoeus"
         ],
+        "app": "Typhoeus",
         "bot": true
     },
     {
         "user_agents": [
             "^WordPress"
         ],
+        "app": "WordPress",
         "bot": true
     },
     {
         "user_agents": [
             "^Mechanize"
         ],
+        "app": "Mechanize",
         "bot": true
     },
     {
         "user_agents": [
             "^Ruby"
         ],
+        "app": "ruby",
         "bot": true
     },
     {
