@@ -17,14 +17,6 @@
     },
     {
         "user_agents": [
-            "^AlexaMediaPlayer\\/5\\."
-        ],
-        "app": "Amazon Echo Dot",
-        "device": "speaker",
-        "os": "alexa"
-    },
-    {
-        "user_agents": [
             "^AmazonNewsContentService"
         ],
         "app": "Amazon Alexa Flash Briefing",
