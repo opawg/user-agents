@@ -155,7 +155,7 @@
     },
     {
         "user_agents": [
-            "^Downcast/"
+            "^Downcast\\/"
         ],
         "app": "Downcast",
         "device": "phone",
@@ -646,7 +646,7 @@
     },
     {
         "user_agents": [
-            "^yapa\/"
+            "^yapa\\/"
         ],
         "app": "Yapa"
     },
