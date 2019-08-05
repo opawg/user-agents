@@ -30,6 +30,9 @@ Each entry _can_ contain one of the following properties:
   * `macos`
   * `windows`
 * `description` (string): intended to be a humanly readable description of the app, bot or other
+* `infourl` (string): a link to the homepage of the app, bot or other, for public consumption
+* `svg` (string): a name of a square SVG file, intended for use in app dashboards for identification purposes
+* `developernotes` (string): freeform notes for developers, where it is helpful to leave notes on behaviour of certain useragents or bots.
 
 If `bot` is set to `true`, no other properties need to be specified.
 
@@ -41,7 +44,7 @@ however they see fit, and using a slug is better for disambiguation.
 
 ### Unknowns
 
-I propose that we only specify a property above when it is _known_ (not assumed). For example, it's often
+It is proposed that we only specify a property above when it is _known_ (not assumed). For example, it's often
 difficult to _know_ whether an Android app is running on a phone or a tablet. We can _assume_ that since
 Android tablets are rarer, almost all requests will be via Android phones, but we can't _know_ that.
 
@@ -52,10 +55,10 @@ circumstance. It might be worth ordering based on the accuracy of each set of re
 
 ## Future plans
 
-To stop the list becoming unwieldy, I'll probably separate out the apps into separate files, that are then
-combined together automatically. That makes it harder to make a static list available via Github, but it's
-possible to run a static site and use a CI script -- a script that is called when code is committed to this
-repository -- to combine the files and generate the static file.
+To stop the list becoming unwieldy, in the future it may be possible to separate out the apps into separate
+files, that are then combined together automatically. That makes it harder to make a static list available
+via Github, but it's possible to run a static site and use a CI script -- a script that is called when code
+is committed to this repository -- to combine the files and generate the static file.
 
 Happy to accept advice or actual code to make this happen :)
 

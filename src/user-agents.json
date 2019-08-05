@@ -419,7 +419,11 @@
             "^PocketCasts\\/"
         ],
         "app": "Pocket Casts",
-        "device": "phone"
+        "device": "phone",
+        "infourl": "https://www.pocketcasts.com/",
+        "description": "A podcast app and web player"
+        "developernotes": "'PocketCasts' is a feed parser; 'Pocket Casts' is the app. There is also a web player.",
+        "svg":"pocketcasts.svg"
     },
     {
         "user_agents": [
@@ -466,7 +470,8 @@
         ],
         "app": "RadioPlayer",
         "os": "android",
-        "description": "Radioplayer is a radio and podcast app, with country-specific versions available in selected countries."
+        "description": "Radioplayer is a radio and podcast app, with country-specific versions available in selected countries.",
+        "infourl": "http://radioplayer.org"
     },
     {
         "user_agents": [
@@ -474,13 +479,17 @@
         ],
         "app": "RadioPlayer",
         "os": "ios",
-        "description": "Radioplayer is a radio and podcast app, with country-specific versions available in selected countries."
+        "description": "Radioplayer is a radio and podcast app, with country-specific versions available in selected countries.",
+        "infourl": "http://radioplayer.org"
     },
     {
         "user_agents": [
             "^RadioPublic\\/"
         ],
-        "app": "RadioPublic"
+        "app": "RadioPublic",
+        "description": "RadioPublic’s free, easy to use podcast player makes listening to podcasts simple, enjoyable, and fun.",
+        "infourl": "https://radiopublic.com/",
+        "svg": "radiopublic.svg"
     },
     {
         "user_agents": [
