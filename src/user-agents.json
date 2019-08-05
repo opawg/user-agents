@@ -415,7 +415,8 @@
     },
     {
         "user_agents": [
-            "^Pocket Casts"
+            "^Pocket Casts",
+            "^PocketCasts\\/"
         ],
         "app": "Pocket Casts",
         "device": "phone"
