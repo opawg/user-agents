@@ -421,9 +421,9 @@
         "app": "Pocket Casts",
         "device": "phone",
         "infourl": "https://www.pocketcasts.com/",
-        "description": "A podcast app and web player"
+        "description": "A podcast app and web player",
         "developernotes": "'PocketCasts' is a feed parser; 'Pocket Casts' is the app. There is also a web player.",
-        "svg":"pocketcasts.svg"
+        "svg": "pocketcasts.svg"
     },
     {
         "user_agents": [
@@ -820,5 +820,4 @@
         ],
         "app": "Subcast"
     }
-
 ]
