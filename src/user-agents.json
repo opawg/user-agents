@@ -262,7 +262,7 @@
         "user_agents": [
             "^gpodder.net"
         ],
-        "app": "https://gpodder.net"
+        "app": "gPodder"
     },
     {
         "user_agents": [
