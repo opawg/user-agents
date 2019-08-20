@@ -254,12 +254,7 @@
     },
     {
         "user_agents": [
-            "^gPodder/"
-        ],
-        "app": "gPodder"
-    },
-    {
-        "user_agents": [
+            "^gPodder/",
             "^gpodder.net"
         ],
         "app": "gPodder"
