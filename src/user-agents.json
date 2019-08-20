@@ -248,7 +248,7 @@
     },
     {
         "user_agents": [
-            "Googlebot-Video"
+            "^Googlebot"
         ],
         "bot": true
     },
@@ -694,12 +694,6 @@
     {
         "user_agents": [
             "^datagnionbot"
-        ],
-        "bot": true
-    },
-    {
-        "user_agents": [
-            "Googlebot"
         ],
         "bot": true
     },
