@@ -663,7 +663,7 @@
     },
     {
         "user_agents": [
-            "request.js"
+            "request\\.js"
         ],
         "bot": true
     },
