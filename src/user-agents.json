@@ -7,8 +7,8 @@
     },
     {
         "user_agents": [
-            "^AlexaMediaPlayer\\/1\\.",
-            "^AlexaMediaPlayer\\/16\\."
+            "^AlexaMediaPlayer/1\\.",
+            "^AlexaMediaPlayer/16\\."
         ],
         "app": "Alexa-enabled device",
         "device": "speaker",
@@ -16,7 +16,7 @@
     },
     {
         "user_agents": [
-            "^AlexaMediaPlayer\\/5\\."
+            "^AlexaMediaPlayer/5\\."
         ],
         "app": "Amazon Echo Dot",
         "device": "speaker",
@@ -38,14 +38,14 @@
     },
     {
         "user_agents": [
-            "^AntennaPod\\/"
+            "^AntennaPod/"
         ],
         "app": "AntennaPod",
         "os": "android"
     },
     {
         "user_agents": [
-            "stagefright\\/"
+            "stagefright/"
         ],
         "os": "android"
     },
@@ -57,15 +57,15 @@
     },
     {
         "user_agents": [
-            "^AppleCoreMedia\\/1\\.(.*)Apple Watch",
-            "watchOS\\/"
+            "^AppleCoreMedia/1\\..*Apple Watch",
+            "watchOS/"
         ],
         "device": "watch",
         "os": "watchos"
     },
     {
         "user_agents": [
-            "^Bose\\/"
+            "^Bose/"
         ],
         "app": "Bose SoundTouch",
         "device": "speaker"
@@ -80,14 +80,14 @@
     },
     {
         "user_agents": [
-            "^Breaker\\/"
+            "^Breaker/"
         ],
         "app": "Breaker",
         "device": "phone"
     },
     {
         "user_agents": [
-            "^Cast(?:b|B)ox\\/.+Android"
+            "^Cast(?:b|B)ox/.+Android"
         ],
         "app": "CastBox",
         "device": "phone",
@@ -95,7 +95,7 @@
     },
     {
         "user_agents": [
-            "^Cast(?:b|B)ox\\/.+iOS"
+            "^Cast(?:b|B)ox/.+iOS"
         ],
         "app": "CastBox",
         "device": "phone",
@@ -103,7 +103,7 @@
     },
     {
         "user_agents": [
-            "^Luminary\\/.+Android"
+            "^Luminary/.+Android"
         ],
         "app": "Luminary",
         "device": "phone",
@@ -111,7 +111,7 @@
     },
     {
         "user_agents": [
-            "^Luminary\\/.+iOS"
+            "^Luminary/.+iOS"
         ],
         "app": "Luminary",
         "device": "phone",
@@ -127,7 +127,7 @@
     },
     {
         "user_agents": [
-            "\\ CrKey\\/"
+            "\\ CrKey/"
         ],
         "app": "Chromecast device",
         "device": "speaker",
@@ -135,7 +135,7 @@
     },
     {
         "user_agents": [
-            "^Dalvik\\/"
+            "^Dalvik/"
         ],
         "os": "android"
     },
@@ -149,13 +149,13 @@
     },
     {
         "user_agents": [
-            "DotBot\\/1"
+            "DotBot/1"
         ],
         "bot": true
     },
     {
         "user_agents": [
-            "^Downcast\\/"
+            "Downcast/"
         ],
         "app": "Downcast",
         "device": "phone",
@@ -163,7 +163,7 @@
     },
     {
         "user_agents": [
-            "^AlexaMediaPlayer\\/5\\."
+            "^AlexaMediaPlayer/5\\."
         ],
         "app": "Amazon Echo Dot",
         "device": "speaker",
@@ -171,7 +171,7 @@
     },
     {
         "user_agents": [
-            "^Echo\\/1\\."
+            "^Echo/1\\."
         ],
         "device": "speaker",
         "os": "alexa"
@@ -184,7 +184,7 @@
     },
     {
         "user_agents": [
-            "^OkDownload\\/"
+            "^OkDownload/"
         ]
     },
     {
@@ -205,7 +205,7 @@
     },
     {
         "user_agents": [
-            "^Mozilla(.*)Firefox\\/"
+            "^Mozilla.*Firefox/"
         ],
         "app": "Firefox"
     },
@@ -219,7 +219,7 @@
     },
     {
         "user_agents": [
-            "^Mozilla(.*)Chrome\\/"
+            "^Mozilla.*Chrome/"
         ],
         "app": "Google Chrome"
     },
@@ -254,7 +254,7 @@
     },
     {
         "user_agents": [
-            "^gPodder\\/"
+            "^gPodder/"
         ],
         "app": "gPodder"
     },
@@ -272,13 +272,13 @@
     },
     {
         "user_agents": [
-            "^Himalaya\\/"
+            "^Himalaya/"
         ],
         "app": "Himalaya"
     },
     {
         "user_agents": [
-            "^AppleCoreMedia\\/1\\.(.*)HomePod"
+            "^AppleCoreMedia/1\\..*HomePod"
         ],
         "app": "HomePod",
         "device": "speaker",
@@ -294,34 +294,34 @@
     },
     {
         "user_agents": [
-            "^iHeartRadio\\/"
+            "^iHeartRadio/"
         ],
         "app": "iHeartRadio"
     },
     {
         "user_agents": [
-            "^AppleCoreMedia\\/1\\.(.*)iPad"
+            "^AppleCoreMedia/1\\..*iPad"
         ],
         "device": "tablet",
         "os": "ios"
     },
     {
         "user_agents": [
-            "^AppleCoreMedia\\/1\\.(.*)iPhone"
+            "^AppleCoreMedia/1\\..*iPhone"
         ],
         "device": "phone",
         "os": "ios"
     },
     {
         "user_agents": [
-            "^AppleCoreMedia\\/1\\.(.*)iPod"
+            "^AppleCoreMedia/1\\..*iPod"
         ],
         "device": "mp3_player",
         "os": "ios"
     },
     {
         "user_agents": [
-            "^AppleCoreMedia\\/1\\.(.*)Apple TV"
+            "^AppleCoreMedia/1\\..*Apple TV"
         ],
         "device": "tv",
         "os": "tvos"
@@ -335,13 +335,13 @@
     },
     {
         "user_agents": [
-            "^iTunes\\/4"
+            "^iTunes/4"
         ],
         "device": "speaker"
     },
     {
         "user_agents": [
-            "^iTunes\\/12\\."
+            "^iTunes/12\\."
         ],
         "app": "iTunes",
         "device": "pc",
@@ -349,7 +349,7 @@
     },
     {
         "user_agents": [
-            "Android 5(.*)ford\\/"
+            "Android 5.*ford/"
         ],
         "app": "Amazon Kindle Fire",
         "device": "tablet",
@@ -357,7 +357,7 @@
     },
     {
         "user_agents": [
-            "^Lavf\\/"
+            "^Lavf/"
         ],
         "app": "ffmpeg"
     },
@@ -395,7 +395,7 @@
     },
     {
         "user_agents": [
-            "^Overcast\\/"
+            "^Overcast/"
         ],
         "app": "Overcast",
         "device": "phone",
@@ -409,14 +409,14 @@
     },
     {
         "user_agents": [
-            "^Pingdom\\/"
+            "^Pingdom/"
         ],
         "bot": true
     },
     {
         "user_agents": [
             "^Pocket Casts",
-            "^PocketCasts\\/"
+            "^PocketCasts/"
         ],
         "app": "Pocket Casts",
         "device": "phone",
@@ -427,7 +427,7 @@
     },
     {
         "user_agents": [
-            "^Podcast(.*)Addict\\/"
+            "^Podcast.*Addict/"
         ],
         "app": "PodcastAddict",
         "device": "phone",
@@ -435,19 +435,19 @@
     },
     {
         "user_agents": [
-            "^Podcasts\\/"
+            "^Podcasts/"
         ],
         "app": "Apple Podcasts"
     },
     {
         "user_agents": [
-            "^PodCruncher\\/"
+            "^PodCruncher/"
         ],
         "app": "PodCruncher"
     },
     {
         "user_agents": [
-            "^Podbean\\/"
+            "^Podbean/"
         ],
         "app": "Podbean"
     },
@@ -484,7 +484,7 @@
     },
     {
         "user_agents": [
-            "^RadioPublic\\/"
+            "^RadioPublic/"
         ],
         "app": "RadioPublic",
         "description": "RadioPublic’s free, easy to use podcast player makes listening to podcasts simple, enjoyable, and fun.",
@@ -493,7 +493,7 @@
     },
     {
         "user_agents": [
-            "^Roku\\/DVP-8(.*)\\(04"
+            "^Roku/DVP-8.*\\(04"
         ],
         "device": "tv",
         "os": "roku"
@@ -506,7 +506,7 @@
     },
     {
         "user_agents": [
-            "^RSSRadio\\/"
+            "^RSSRadio/"
         ],
         "app": "RSS Radio",
         "device": "phone",
@@ -514,7 +514,7 @@
     },
     {
         "user_agents": [
-            "iPhone(.*)AppleWebKit(.*)Safari\\/"
+            "iPhone.*AppleWebKit.*Safari/"
         ],
         "app": "Safari",
         "device": "phone",
@@ -522,7 +522,7 @@
     },
     {
         "user_agents": [
-            "Linux; Android(.*)SM-T350"
+            "Linux; Android.*SM-T350"
         ],
         "device": "tablet",
         "os": "android"
@@ -543,7 +543,7 @@
     },
     {
         "user_agents": [
-            "^Spotify\\/.*iOS"
+            "^Spotify/.*iOS"
         ],
         "app": "Spotify",
         "device": "phone",
@@ -551,7 +551,7 @@
     },
     {
         "user_agents": [
-            "^Spotify\\/.+Android"
+            "^Spotify/.+Android"
         ],
         "app": "Spotify",
         "device": "phone",
@@ -559,7 +559,7 @@
     },
     {
         "user_agents": [
-            "^Spotify\\/.+Win32"
+            "^Spotify/.+Win32"
         ],
         "app": "Spotify",
         "device": "pc",
@@ -567,7 +567,7 @@
     },
     {
         "user_agents": [
-            "^Spotify\\/.+OSX"
+            "^Spotify/.+OSX"
         ],
         "app": "Spotify",
         "device": "pc",
@@ -581,7 +581,7 @@
     },
     {
         "user_agents": [
-            "^AlexaMediaPlayer\\/Stitcher"
+            "^AlexaMediaPlayer/Stitcher"
         ],
         "app": "Stitcher",
         "device": "speaker",
@@ -589,7 +589,7 @@
     },
     {
         "user_agents": [
-            "^Stitcher\\/"
+            "^Stitcher/"
         ],
         "app": "Stitcher"
     },
@@ -601,13 +601,13 @@
     },
     {
         "user_agents": [
-            "^Swoot\\/"
+            "^Swoot/"
         ],
         "app": "Swoot"
     },
     {
         "user_agents": [
-            "^Trackable\\/"
+            "^Trackable/"
         ],
         "bot": true
     },
@@ -619,7 +619,7 @@
     },
     {
         "user_agents": [
-            "^Storiyoh\\/"
+            "^Storiyoh/"
         ],
         "app": "Storiyoh podcast app"
     },
@@ -648,7 +648,7 @@
     {
         "user_agents": [
             "^NSPlayer",
-            "^WMPlayer\\/"
+            "^WMPlayer/"
         ],
         "app": "Windows Media Player",
         "device": "pc",
@@ -656,7 +656,7 @@
     },
     {
         "user_agents": [
-            "^yapa\\/"
+            "^yapa/"
         ],
         "app": "Yapa"
     },
