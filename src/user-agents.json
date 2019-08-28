@@ -802,5 +802,23 @@
             "^Subcast"
         ],
         "app": "Subcast"
+    },
+    {
+        "user_agents": [
+            "^MajelanApp"
+        ],
+        "app": "Majelan"
+    },
+    {
+        "user_agents": [
+            "^Deezer"
+        ],
+        "app": "Deezer"
+    },
+    {
+        "user_agents": [
+            "podCloud"
+        ],
+        "app": "PodCloud"
     }
 ]
