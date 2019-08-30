@@ -455,6 +455,15 @@
     },
     {
         "user_agents": [
+            "^Mozilla/5.0 (PodnewsBot v1.0)"
+        ],
+        "app": "Podnews",
+        "bot": true,
+        "description": "Podnews runs a number of bots to read and test RSS and audio files",
+        "info_url": "http://podnews.net"
+    },
+    {
+        "user_agents": [
             "python-requests"
         ],
         "bot": true
