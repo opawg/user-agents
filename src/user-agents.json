@@ -828,6 +828,6 @@
         "user_agents": [
             "podCloud"
         ],
-        "app": "PodCloud"
+        "bot": true
     }
 ]
