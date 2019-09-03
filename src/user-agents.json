@@ -828,6 +828,10 @@
         "user_agents": [
             "podCloud"
         ],
-        "bot": true
+        "app": "PodCloud",
+        "description": "Le podcast, simplement. A French-language web-based podcast player.",
+        "bot": true,
+        "developer_notes": "This useragent is a bot, doing feed updates and downloading media files. It was observed every six hours. User plays will have a standard browser useragent with a referer of https://podcloud.fr/ ",
+        "info_url": "https://podcloud.fr"
     }
 ]
