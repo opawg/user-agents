@@ -91,7 +91,8 @@
         ],
         "app": "CastBox",
         "device": "phone",
-        "os": "android"
+        "os": "android",
+        "order": 10
     },
     {
         "user_agents": [
@@ -99,7 +100,15 @@
         ],
         "app": "CastBox",
         "device": "phone",
-        "os": "ios"
+        "os": "ios",
+        "order": 10
+    },
+    {
+        "user_agents": [
+            "^Cast(?:b|B)ox"
+        ],
+        "app": "CastBox",
+        "order": 20
     },
     {
         "user_agents": [
@@ -221,7 +230,8 @@
         "user_agents": [
             "^Mozilla.*Chrome/"
         ],
-        "app": "Google Chrome"
+        "app": "Google Chrome",
+        "order": 100
     },
     {
         "user_agents": [
