@@ -8,7 +8,8 @@
     {
         "user_agents": [
             "^AlexaMediaPlayer/1\\.",
-            "^AlexaMediaPlayer/16\\."
+            "^AlexaMediaPlayer/16\\.",
+            "^AlexaMediaPlayer/2\\."
         ],
         "app": "Alexa-enabled device",
         "device": "speaker",
@@ -91,8 +92,7 @@
         ],
         "app": "CastBox",
         "device": "phone",
-        "os": "android",
-        "order": 10
+        "os": "android"
     },
     {
         "user_agents": [
@@ -100,15 +100,14 @@
         ],
         "app": "CastBox",
         "device": "phone",
-        "os": "ios",
-        "order": 10
+        "os": "ios"
     },
     {
         "user_agents": [
             "^Cast(?:b|B)ox"
         ],
         "app": "CastBox",
-        "order": 20
+        "developer_notes": "There are CastBox compatible User Agents that come without Android/iOS platform marker"
     },
     {
         "user_agents": [
@@ -172,6 +171,12 @@
     },
     {
         "user_agents": [
+            "Edge/"
+        ],
+        "app": "Edge"
+    },
+    {
+        "user_agents": [
             "^AlexaMediaPlayer/5\\."
         ],
         "app": "Amazon Echo Dot",
@@ -214,24 +219,11 @@
     },
     {
         "user_agents": [
-            "^Mozilla.*Firefox/"
-        ],
-        "app": "Firefox"
-    },
-    {
-        "user_agents": [
             "^WIN\\ "
         ],
         "app": "Flash",
         "device": "pc",
         "os": "windows"
-    },
-    {
-        "user_agents": [
-            "^Mozilla.*Chrome/"
-        ],
-        "app": "Google Chrome",
-        "order": 100
     },
     {
         "user_agents": [
@@ -250,7 +242,23 @@
     },
     {
         "user_agents": [
-            "GSA"
+            "iPhone;.*GSA/"
+        ],
+        "app": "Google Podcasts",
+        "device": "phone",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iPad;.*GSA/"
+        ],
+        "app": "Google Podcasts",
+        "device": "tablet",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "Android.*GSA/"
         ],
         "app": "Google Podcasts",
         "os": "android"
@@ -273,6 +281,20 @@
             "^GStreamer"
         ],
         "device": "radio"
+    },
+    {
+        "user_agents": [
+            "^Guardian-iOSLive/"
+        ],
+        "app": "Guardian",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "GuardianAndroidApp/"
+        ],
+        "app": "Guardian",
+        "os": "android"
     },
     {
         "user_agents": [
@@ -396,6 +418,19 @@
         "user_agents": [
             "okhttp"
         ]
+    },
+    {
+        "user_agents": [
+            "Opera/.*Android;"
+        ],
+        "app": "Opera",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "Opera[/ ]"
+        ],
+        "app": "Opera"
     },
     {
         "user_agents": [
@@ -523,6 +558,22 @@
         "app": "Safari",
         "device": "phone",
         "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iPad.*AppleWebKit.*Safari/"
+        ],
+        "app": "Safari",
+        "device": "tablet",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "Macintosh.*AppleWebKit.*Safari/"
+        ],
+        "app": "Safari",
+        "device": "pc",
+        "os": "macos"
     },
     {
         "user_agents": [
@@ -811,5 +862,23 @@
             "^Subcast"
         ],
         "app": "Subcast"
+    },
+    {
+        "user_agents": [
+            "^Mozilla.*Chrome/"
+        ],
+        "app": "Google Chrome"
+    },
+    {
+        "user_agents": [
+            "^Mozilla.*Firefox/"
+        ],
+        "app": "Firefox"
+    },
+    {
+        "user_agents": [
+            "MSIE "
+        ],
+        "app": "Internet Explorer"
     }
 ]
