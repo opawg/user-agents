@@ -354,6 +354,13 @@
     },
     {
         "user_agents": [
+            "^AppleCoreMedia/1\\..*Macintosh"
+        ],
+        "device": "pc",
+        "os": "macos"
+    },
+    {
+        "user_agents": [
             "iTMS",
             "itunesstored"
         ],
@@ -639,6 +646,14 @@
     },
     {
         "user_agents": [
+            "^Spotify/.+Linux"
+        ],
+        "app": "Spotify",
+        "device": "pc",
+        "os": "linux"
+    },
+    {
+        "user_agents": [
             "^Spreaker"
         ],
         "app": "Spreaker"
@@ -838,7 +853,7 @@
     },
     {
         "user_agents": [
-            "^Acast.+android"
+            "^Acast.+[Aa]ndroid"
         ],
         "app": "Acast",
         "device": "phone",
@@ -880,6 +895,14 @@
     },
     {
         "user_agents": [
+            "Deezer/.*Android;"
+        ],
+        "app": "Deezer",
+        "device": "phone",
+        "os": "android"
+    },
+    {
+        "user_agents": [
             "^Deezer"
         ],
         "app": "Deezer"
@@ -893,6 +916,13 @@
         "bot": true,
         "developer_notes": "This useragent is a bot, doing feed updates and downloading media files. It was observed every six hours. User plays will have a standard browser useragent with a referer of https://podcloud.fr/ ",
         "info_url": "https://podcloud.fr"
+    },
+    {
+        "user_agents": [
+            "iOS.*The Podcast App/"
+        ],
+        "app": "The Podcast App",
+        "os": "ios"
     },
     {
         "user_agents": [
