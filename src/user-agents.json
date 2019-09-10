@@ -8,7 +8,8 @@
     {
         "user_agents": [
             "^AlexaMediaPlayer/1\\.",
-            "^AlexaMediaPlayer/16\\."
+            "^AlexaMediaPlayer/16\\.",
+            "^AlexaMediaPlayer/2\\."
         ],
         "app": "Alexa-enabled device",
         "device": "speaker",
@@ -103,6 +104,13 @@
     },
     {
         "user_agents": [
+            "^Cast(?:b|B)ox"
+        ],
+        "app": "CastBox",
+        "developer_notes": "There are CastBox compatible User Agents that come without Android/iOS platform marker"
+    },
+    {
+        "user_agents": [
             "^Luminary/.+Android"
         ],
         "app": "Luminary",
@@ -163,6 +171,12 @@
     },
     {
         "user_agents": [
+            "Edge/"
+        ],
+        "app": "Edge"
+    },
+    {
+        "user_agents": [
             "^AlexaMediaPlayer/5\\."
         ],
         "app": "Amazon Echo Dot",
@@ -205,23 +219,11 @@
     },
     {
         "user_agents": [
-            "^Mozilla.*Firefox/"
-        ],
-        "app": "Firefox"
-    },
-    {
-        "user_agents": [
             "^WIN\\ "
         ],
         "app": "Flash",
         "device": "pc",
         "os": "windows"
-    },
-    {
-        "user_agents": [
-            "^Mozilla.*Chrome/"
-        ],
-        "app": "Google Chrome"
     },
     {
         "user_agents": [
@@ -240,10 +242,25 @@
     },
     {
         "user_agents": [
-            "GSA"
+            "iPhone;.*GSA/"
         ],
         "app": "Google Podcasts",
         "device": "phone",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iPad;.*GSA/"
+        ],
+        "app": "Google Podcasts",
+        "device": "tablet",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "Android.*GSA/"
+        ],
+        "app": "Google Podcasts",
         "os": "android"
     },
     {
@@ -264,6 +281,20 @@
             "^GStreamer"
         ],
         "device": "radio"
+    },
+    {
+        "user_agents": [
+            "^Guardian-iOSLive/"
+        ],
+        "app": "Guardian",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "GuardianAndroidApp/"
+        ],
+        "app": "Guardian",
+        "os": "android"
     },
     {
         "user_agents": [
@@ -320,6 +351,13 @@
         ],
         "device": "tv",
         "os": "tvos"
+    },
+    {
+        "user_agents": [
+            "^AppleCoreMedia/1\\..*Macintosh"
+        ],
+        "device": "pc",
+        "os": "macos"
     },
     {
         "user_agents": [
@@ -387,6 +425,19 @@
         "user_agents": [
             "okhttp"
         ]
+    },
+    {
+        "user_agents": [
+            "Opera/.*Android;"
+        ],
+        "app": "Opera",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "Opera[/ ]"
+        ],
+        "app": "Opera"
     },
     {
         "user_agents": [
@@ -526,6 +577,22 @@
     },
     {
         "user_agents": [
+            "iPad.*AppleWebKit.*Safari/"
+        ],
+        "app": "Safari",
+        "device": "tablet",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "Macintosh.*AppleWebKit.*Safari/"
+        ],
+        "app": "Safari",
+        "device": "pc",
+        "os": "macos"
+    },
+    {
+        "user_agents": [
             "Linux; Android.*SM-T350"
         ],
         "device": "tablet",
@@ -576,6 +643,14 @@
         "app": "Spotify",
         "device": "pc",
         "os": "macos"
+    },
+    {
+        "user_agents": [
+            "^Spotify/.+Linux"
+        ],
+        "app": "Spotify",
+        "device": "pc",
+        "os": "linux"
     },
     {
         "user_agents": [
@@ -778,7 +853,7 @@
     },
     {
         "user_agents": [
-            "^Acast.+android"
+            "^Acast.+[Aa]ndroid"
         ],
         "app": "Acast",
         "device": "phone",
@@ -814,9 +889,17 @@
     },
     {
         "user_agents": [
-            "^MajelanApp"
+          "^MajelanApp"
         ],
         "app": "Majelan"
+    },
+    {
+        "user_agents": [
+            "Deezer/.*Android;"
+        ],
+        "app": "Deezer",
+        "device": "phone",
+        "os": "android"
     },
     {
         "user_agents": [
@@ -833,5 +916,30 @@
         "bot": true,
         "developer_notes": "This useragent is a bot, doing feed updates and downloading media files. It was observed every six hours. User plays will have a standard browser useragent with a referer of https://podcloud.fr/ ",
         "info_url": "https://podcloud.fr"
+    },
+    {
+        "user_agents": [
+            "iOS.*The Podcast App/"
+        ],
+        "app": "The Podcast App",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^Mozilla.*Chrome/"
+        ],
+        "app": "Google Chrome"
+    },
+    {
+        "user_agents": [
+            "^Mozilla.*Firefox/"
+        ],
+        "app": "Firefox"
+    },
+    {
+        "user_agents": [
+            "MSIE "
+        ],
+        "app": "Internet Explorer"
     }
 ]
