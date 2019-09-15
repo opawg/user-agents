@@ -582,6 +582,19 @@
     },
     {
         "user_agents": [
+            "Linux; Android.*SM-T350"
+        ],
+        "device": "tablet",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "^Mozilla.*Chrome/"
+        ],
+        "app": "Google Chrome"
+    },
+    {
+        "user_agents": [
             "iPhone.*AppleWebKit.*Safari/"
         ],
         "app": "Safari",
@@ -603,13 +616,6 @@
         "app": "Safari",
         "device": "pc",
         "os": "macos"
-    },
-    {
-        "user_agents": [
-            "Linux; Android.*SM-T350"
-        ],
-        "device": "tablet",
-        "os": "android"
     },
     {
         "user_agents": [
@@ -936,12 +942,6 @@
         ],
         "app": "The Podcast App",
         "os": "ios"
-    },
-    {
-        "user_agents": [
-            "^Mozilla.*Chrome/"
-        ],
-        "app": "Google Chrome"
     },
     {
         "user_agents": [
