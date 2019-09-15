@@ -518,7 +518,7 @@
     },
     {
         "user_agents": [
-            "^Mozilla/5.0 (PodnewsBot v1.0)"
+            "PodnewsBot"
         ],
         "app": "Podnews",
         "bot": true,
