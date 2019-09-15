@@ -631,6 +631,48 @@
     },
     {
         "user_agents": [
+            "^Spotify/.*iOS"
+        ],
+        "app": "Spotify",
+        "device": "phone",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^Spotify/.+Android"
+        ],
+        "app": "Spotify",
+        "device": "phone",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "Windows.+Spotify/",
+            "^Spotify/.+Win32"
+        ],
+        "app": "Spotify",
+        "device": "pc",
+        "os": "windows"
+    },
+    {
+        "user_agents": [
+            "Macintosh.+Spotify/",
+            "^Spotify/.+OSX"
+        ],
+        "app": "Spotify",
+        "device": "pc",
+        "os": "macos"
+    },
+    {
+        "user_agents": [
+            "^Spotify/.+Linux"
+        ],
+        "app": "Spotify",
+        "device": "pc",
+        "os": "linux"
+    },
+    {
+        "user_agents": [
             "iPhone.*AppleWebKit.*Safari/"
         ],
         "app": "Safari",
@@ -674,46 +716,6 @@
         "app": "Sonos",
         "device": "speaker",
         "os": "sonos"
-    },
-    {
-        "user_agents": [
-            "^Spotify/.*iOS"
-        ],
-        "app": "Spotify",
-        "device": "phone",
-        "os": "ios"
-    },
-    {
-        "user_agents": [
-            "^Spotify/.+Android"
-        ],
-        "app": "Spotify",
-        "device": "phone",
-        "os": "android"
-    },
-    {
-        "user_agents": [
-            "^Spotify/.+Win32"
-        ],
-        "app": "Spotify",
-        "device": "pc",
-        "os": "windows"
-    },
-    {
-        "user_agents": [
-            "^Spotify/.+OSX"
-        ],
-        "app": "Spotify",
-        "device": "pc",
-        "os": "macos"
-    },
-    {
-        "user_agents": [
-            "^Spotify/.+Linux"
-        ],
-        "app": "Spotify",
-        "device": "pc",
-        "os": "linux"
     },
     {
         "user_agents": [
