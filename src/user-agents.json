@@ -448,6 +448,30 @@
     },
     {
         "user_agents": [
+            "Opera/.*\\(Linux"
+        ],
+        "app": "Opera",
+        "device": "pc",
+        "os": "linux"
+    },
+    {
+        "user_agents": [
+            "Opera/.*\\(Macintosh"
+        ],
+        "app": "Opera",
+        "device": "pc",
+        "os": "macos"
+    },
+    {
+        "user_agents": [
+            "Opera/.*\\(Windows"
+        ],
+        "app": "Opera",
+        "device": "pc",
+        "os": "windows"
+    },
+    {
+        "user_agents": [
             "Opera[/ ]"
         ],
         "app": "Opera"
