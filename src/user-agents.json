@@ -228,10 +228,17 @@
     },
     {
         "user_agents": [
-            "^Google-Speech-Actions",
-            "GoogleChirp"
+            "^Google-Speech-Actions"
         ],
         "app": "Google Home",
+        "device": "speaker",
+        "os": "google_assistant"
+    },
+    {
+        "user_agents": [
+            "GoogleChirp"
+        ],
+        "app": "Google Podcasts",
         "device": "speaker",
         "os": "google_assistant"
     },
@@ -259,7 +266,7 @@
     },
     {
         "user_agents": [
-            "Android.*GSA/"
+            "(?:Android;.+)?GSA/"
         ],
         "app": "Google Podcasts",
         "os": "android"
