@@ -655,6 +655,14 @@
     },
     {
         "user_agents": [
+            "Windows.*AppleWebKit.*Safari/"
+        ],
+        "app": "Safari",
+        "device": "pc",
+        "os": "windows"
+    },
+    {
+        "user_agents": [
             "support@dorada.co.uk"
         ],
         "bot": true
