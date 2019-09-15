@@ -685,6 +685,12 @@
     },
     {
         "user_agents": [
+            "^Spotify/\\d+"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
             "^Spreaker"
         ],
         "app": "Spreaker"
