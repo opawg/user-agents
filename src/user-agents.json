@@ -467,7 +467,7 @@
     },
     {
         "user_agents": [
-            "^Pingdom/"
+            "^Pingdom"
         ],
         "bot": true
     },
