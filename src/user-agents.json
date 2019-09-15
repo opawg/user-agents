@@ -705,9 +705,17 @@
     },
     {
         "user_agents": [
-            "^Stitcher/"
+            "^Stitcher/Android"
         ],
-        "app": "Stitcher"
+        "app": "Stitcher",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "^Stitcher/iOS"
+        ],
+        "app": "Stitcher",
+        "os": "ios"
     },
     {
         "user_agents": [
