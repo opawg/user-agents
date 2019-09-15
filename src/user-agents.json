@@ -745,7 +745,7 @@
         "user_agents": [
             "^Storiyoh/"
         ],
-        "app": "Storiyoh podcast app"
+        "app": "Storiyoh"
     },
     {
         "user_agents": [
