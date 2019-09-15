@@ -61,6 +61,7 @@
             "^AppleCoreMedia/1\\..*Apple Watch",
             "watchOS/"
         ],
+        "app": "Apple Podcasts",
         "device": "watch",
         "os": "watchos"
     },
@@ -306,9 +307,9 @@
         "user_agents": [
             "^AppleCoreMedia/1\\..*HomePod"
         ],
-        "app": "HomePod",
+        "app": "Apple Podcasts",
         "device": "speaker",
-        "os": "homepod os"
+        "os": "homepod_os"
     },
     {
         "user_agents": [
@@ -328,6 +329,7 @@
         "user_agents": [
             "^AppleCoreMedia/1\\..*iPad"
         ],
+        "app": "Apple Podcasts",
         "device": "tablet",
         "os": "ios"
     },
@@ -335,6 +337,7 @@
         "user_agents": [
             "^AppleCoreMedia/1\\..*iPhone"
         ],
+        "app": "Apple Podcasts",
         "device": "phone",
         "os": "ios"
     },
@@ -342,6 +345,7 @@
         "user_agents": [
             "^AppleCoreMedia/1\\..*iPod"
         ],
+        "app": "Apple Podcasts",
         "device": "mp3_player",
         "os": "ios"
     },
@@ -349,6 +353,7 @@
         "user_agents": [
             "^AppleCoreMedia/1\\..*Apple TV"
         ],
+        "app": "Apple Podcasts",
         "device": "tv",
         "os": "tvos"
     },
@@ -356,6 +361,7 @@
         "user_agents": [
             "^AppleCoreMedia/1\\..*Macintosh"
         ],
+        "app": "Apple Podcasts",
         "device": "pc",
         "os": "macos"
     },
