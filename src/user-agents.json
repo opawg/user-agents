@@ -457,7 +457,6 @@
             "^Overcast/"
         ],
         "app": "Overcast",
-        "device": "phone",
         "os": "ios"
     },
     {
