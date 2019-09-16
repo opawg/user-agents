@@ -359,6 +359,29 @@
     },
     {
         "user_agents": [
+            "Android.*Focus/"
+        ],
+        "app": "Firefox",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "iPhone.*Focus/"
+        ],
+        "app": "Firefox",
+        "device": "phone",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iPad.*Focus/"
+        ],
+        "app": "Firefox",
+        "device": "tablet",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
             "^Lavf/"
         ],
         "app": "ffmpeg"

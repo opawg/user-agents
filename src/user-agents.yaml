@@ -167,6 +167,17 @@
   device: pc
   os: windows
   user_agents: [Windows.*Firefox/]
+- app: Firefox
+  os: android
+  user_agents: [Android.*Focus/]
+- app: Firefox
+  device: phone
+  os: ios
+  user_agents: [iPhone.*Focus/]
+- app: Firefox
+  device: tablet
+  os: ios
+  user_agents: [iPad.*Focus/]
 - app: ffmpeg
   user_agents: [^Lavf/]
 - app: Flash
