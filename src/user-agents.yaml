@@ -188,7 +188,32 @@
   os: android
   user_agents: [Linux; Android.*SM-T350]
 - app: Google Chrome
-  user_agents: [^Mozilla.*Chrome/]
+  os: android
+  user_agents: [Android.*Chrome/]
+- app: Google Chrome
+  device: pc
+  os: chromeos
+  user_agents: [CrOS.*Chrome/]
+- app: Google Chrome
+  device: pc
+  os: linux
+  user_agents: [Linux.*Chrome/]
+- app: Google Chrome
+  device: pc
+  os: macos
+  user_agents: [Mac OS X.*Chrome/]
+- app: Google Chrome
+  device: pc
+  os: windows
+  user_agents: [Windows.*Chrome/]
+- app: Google Chrome
+  device: tablet
+  os: ios
+  user_agents: [iPad.*CriOS/]
+- app: Google Chrome
+  device: phone
+  os: ios
+  user_agents: [iPhone.*CriOS/]
 - app: gPodder
   user_agents: [^gPodder/, ^gpodder\.net]
 - device: radio

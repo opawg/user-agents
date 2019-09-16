@@ -415,9 +415,58 @@
     },
     {
         "user_agents": [
-            "^Mozilla.*Chrome/"
+            "Android.*Chrome/"
         ],
-        "app": "Google Chrome"
+        "app": "Google Chrome",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "CrOS.*Chrome/"
+        ],
+        "app": "Google Chrome",
+        "device": "pc",
+        "os": "chromeos"
+    },
+    {
+        "user_agents": [
+            "Linux.*Chrome/"
+        ],
+        "app": "Google Chrome",
+        "device": "pc",
+        "os": "linux"
+    },
+    {
+        "user_agents": [
+            "Mac OS X.*Chrome/"
+        ],
+        "app": "Google Chrome",
+        "device": "pc",
+        "os": "macos"
+    },
+    {
+        "user_agents": [
+            "Windows.*Chrome/"
+        ],
+        "app": "Google Chrome",
+        "device": "pc",
+        "os": "windows"
+    },
+    {
+        "user_agents": [
+            "iPad.*CriOS/"
+        ],
+        "app": "Google Chrome",
+        "device": "tablet",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iPhone.*CriOS/"
+        ],
+        "app": "Google Chrome",
+        "device": "phone",
+        "os": "ios"
     },
     {
         "user_agents": [
