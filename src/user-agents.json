@@ -335,9 +335,27 @@
     },
     {
         "user_agents": [
-            "^Mozilla.*Firefox/"
+            "Linux.*Firefox/"
         ],
-        "app": "Firefox"
+        "app": "Firefox",
+        "device": "pc",
+        "os": "linux"
+    },
+    {
+        "user_agents": [
+            "Mac OS X.*Firefox/"
+        ],
+        "app": "Firefox",
+        "device": "pc",
+        "os": "macos"
+    },
+    {
+        "user_agents": [
+            "Windows.*Firefox/"
+        ],
+        "app": "Firefox",
+        "device": "pc",
+        "os": "windows"
     },
     {
         "user_agents": [

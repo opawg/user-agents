@@ -156,7 +156,17 @@
 - bot: true
   user_agents: [FacebookBot]
 - app: Firefox
-  user_agents: [^Mozilla.*Firefox/]
+  device: pc
+  os: linux
+  user_agents: [Linux.*Firefox/]
+- app: Firefox
+  device: pc
+  os: macos
+  user_agents: [Mac OS X.*Firefox/]
+- app: Firefox
+  device: pc
+  os: windows
+  user_agents: [Windows.*Firefox/]
 - app: ffmpeg
   user_agents: [^Lavf/]
 - app: Flash
