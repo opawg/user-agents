@@ -584,7 +584,9 @@
         "user_agents": [
             "MSIE "
         ],
-        "app": "Internet Explorer"
+        "app": "Internet Explorer",
+        "device": "pc",
+        "os": "windows"
     },
     {
         "user_agents": [

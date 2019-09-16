@@ -266,6 +266,8 @@
 - app: iHeartRadio
   user_agents: [^iHeartRadio/]
 - app: Internet Explorer
+  device: pc
+  os: windows
   user_agents: ['MSIE ']
 - bot: true
   user_agents: [iTMS, itunesstored]
