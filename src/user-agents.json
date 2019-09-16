@@ -173,6 +173,37 @@
     },
     {
         "user_agents": [
+            "Android.+(?:B|b)rave"
+        ],
+        "app": "Brave",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "Linux.+(?:B|b)rave"
+        ],
+        "app": "Brave",
+        "device": "pc",
+        "os": "linux"
+    },
+    {
+        "user_agents": [
+            "Mac OS X.+(?:B|b)rave"
+        ],
+        "app": "Brave",
+        "device": "pc",
+        "os": "macos"
+    },
+    {
+        "user_agents": [
+            "Windows.+(?:B|b)rave"
+        ],
+        "app": "Brave",
+        "device": "pc",
+        "os": "windows"
+    },
+    {
+        "user_agents": [
             "^Cast(?:b|B)ox/.+Android"
         ],
         "app": "CastBox",
