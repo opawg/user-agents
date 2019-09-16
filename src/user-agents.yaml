@@ -1,0 +1,449 @@
+- app: Acast
+  device: phone
+  os: android
+  user_agents: ['^Acast.+[Aa]ndroid']
+- app: Acast
+  device: phone
+  os: ios
+  user_agents: [^Acast.+iOS]
+- bot: true
+  user_agents: [^AdsBot-Google]
+- bot: true
+  user_agents: [AhrefsBot]
+- app: Alexa-enabled device
+  device: speaker
+  os: alexa
+  svg: amazon.svg
+  user_agents: [^AlexaMediaPlayer/1\., ^AlexaMediaPlayer/16\., ^AlexaMediaPlayer/2\.]
+- app: Amazon Alexa Flash Briefing caching service
+  bot: true
+  description: A service which downloads, caches and normalises audio for the Flash
+    Briefing service on Alexa-enabled devices
+  developer_notes: Stats are available within the Alexa skills dashboard
+  info_url: https://developer.amazon.com/docs/flashbriefing/flash-briefing-skill-api-feed-reference.html#performance-requirements
+  os: alexa
+  svg: amazon.svg
+  user_agents: [^AmazonNewsContentService]
+- app: Amazon Echo Dot
+  device: speaker
+  os: alexa
+  svg: amazon.svg
+  user_agents: [^AlexaMediaPlayer/5\.]
+- app: Amazon Kindle Fire
+  device: tablet
+  os: android
+  user_agents: [Android 5.*ford/]
+- os: android
+  user_agents: [^AndroidDownloadManager]
+- app: AntennaPod
+  os: android
+  user_agents: [^AntennaPod/]
+- bot: true
+  user_agents: [Apache-HttpClient]
+- app: Apple Podcasts
+  device: mp3_player
+  os: ios
+  user_agents: [^AppleCoreMedia/1\..*iPod]
+- app: Apple Podcasts
+  device: pc
+  os: macos
+  user_agents: [^AppleCoreMedia/1\..*Macintosh]
+- app: Apple Podcasts
+  device: phone
+  os: ios
+  user_agents: [^AppleCoreMedia/1\..*iPhone]
+- app: Apple Podcasts
+  device: tablet
+  os: ios
+  user_agents: [^AppleCoreMedia/1\..*iPad]
+- app: Apple Podcasts
+  device: speaker
+  os: homepod_os
+  user_agents: [^AppleCoreMedia/1\..*HomePod]
+- app: Apple Podcasts
+  device: tv
+  os: tvos
+  user_agents: [^AppleCoreMedia/1\..*Apple TV]
+- app: Apple Podcasts
+  device: watch
+  os: watchos
+  user_agents: [^AppleCoreMedia/1\..*Apple Watch, watchOS/]
+- app: Apple Podcasts
+  user_agents: [^Podcasts/]
+- app: BeyondPod
+  device: phone
+  os: android
+  user_agents: [; BeyondPod]
+- app: Bose SoundTouch
+  device: speaker
+  user_agents: [^Bose/]
+- app: Breaker
+  device: phone
+  user_agents: [^Breaker/]
+- app: CastBox
+  device: phone
+  os: android
+  user_agents: ['^Cast(?:b|B)ox/.+Android']
+- app: CastBox
+  device: phone
+  os: ios
+  user_agents: ['^Cast(?:b|B)ox/.+iOS']
+- app: CastBox
+  developer_notes: There are CastBox compatible User Agents that come without Android/iOS
+    platform marker
+  user_agents: ['^Cast(?:b|B)ox']
+- app: Castro
+  device: phone
+  os: ios
+  user_agents: ['Castro ']
+- app: Chromecast device
+  device: speaker
+  os: android
+  user_agents: [\ CrKey/]
+- bot: true
+  user_agents: [^curl]
+- os: android
+  user_agents: [^Dalvik/]
+- bot: true
+  user_agents: [^datagnionbot]
+- app: Deezer
+  device: phone
+  os: android
+  user_agents: [Deezer/.*Android;]
+- app: Deezer
+  user_agents: [^Deezer]
+- app: DoggCatcher
+  device: phone
+  os: android
+  user_agents: [DoggCatcher]
+- bot: true
+  user_agents: [DotBot/1]
+- app: Downcast
+  device: phone
+  os: ios
+  user_agents: [Downcast/]
+- app: Edge
+  user_agents: [Edge/]
+- device: speaker
+  os: alexa
+  svg: amazon.svg
+  user_agents: [^Echo/1\.]
+- bot: true
+  user_agents: [FacebookBot]
+- app: Firefox
+  user_agents: [^Mozilla.*Firefox/]
+- app: ffmpeg
+  user_agents: [^Lavf/]
+- app: Flash
+  device: pc
+  os: macos
+  user_agents: ['^MAC ']
+- app: Flash
+  device: pc
+  os: windows
+  user_agents: ['^WIN\ ']
+- bot: true
+  user_agents: [^fyyd-poll]
+- bot: true
+  user_agents: [^Go-http-client]
+- bot: true
+  user_agents: [^Googlebot]
+- bot: true
+  user_agents: [Google-Podcast]
+- app: Google Home
+  device: speaker
+  os: google_assistant
+  user_agents: [^Google-Speech-Actions]
+- app: Google Podcasts
+  device: speaker
+  os: google_assistant
+  user_agents: [GoogleChirp]
+- app: Google Podcasts
+  device: phone
+  os: ios
+  user_agents: [iPhone;.*GSA/]
+- app: Google Podcasts
+  device: tablet
+  os: ios
+  user_agents: [iPad;.*GSA/]
+- app: Google Podcasts
+  os: android
+  user_agents: ['(?:Android;.+)?GSA/']
+- device: tablet
+  os: android
+  user_agents: [Linux; Android.*SM-T350]
+- app: Google Chrome
+  user_agents: [^Mozilla.*Chrome/]
+- app: gPodder
+  user_agents: [^gPodder/, ^gpodder\.net]
+- device: radio
+  user_agents: [^GStreamer]
+- app: Guardian
+  os: ios
+  user_agents: [^Guardian-iOSLive/]
+- app: Guardian
+  os: android
+  user_agents: [GuardianAndroidApp/]
+- bot: true
+  user_agents: [^gvfs]
+- app: Himalaya
+  user_agents: [^Himalaya/]
+- app: iCatcher
+  device: phone
+  os: ios
+  user_agents: [^iCatcher]
+- app: iHeartRadio
+  user_agents: [^iHeartRadio/]
+- app: Internet Explorer
+  user_agents: ['MSIE ']
+- bot: true
+  user_agents: [iTMS, itunesstored]
+- app: iTunes
+  device: pc
+  os: windows
+  user_agents: [^iTunes/12\.]
+- device: speaker
+  user_agents: [^iTunes/4]
+- app: Laughable
+  device: phone
+  os: ios
+  user_agents: [^Laughable.+iOS]
+- device: phone
+  os: android
+  user_agents: [LG Player]
+- bot: true
+  user_agents: [^libwww-perl]
+- app: Listen5
+  device: phone
+  os: ios
+  user_agents: [Listen5]
+- bot: true
+  user_agents: [LivelapBot]
+- app: Luminary
+  device: phone
+  os: android
+  user_agents: [^Luminary/.+Android]
+- app: Luminary
+  device: phone
+  os: ios
+  user_agents: [^Luminary/.+iOS]
+- app: Majelan
+  user_agents: [^MajelanApp]
+- bot: true
+  user_agents: [^Mechanize]
+- app: MediaMonkey
+  device: pc
+  os: windows
+  user_agents: [^MediaMonkey]
+- bot: true
+  user_agents: [MJ12bot]
+- user_agents: [^OkDownload/]
+- user_agents: [okhttp]
+- app: Opera
+  os: android
+  user_agents: [Opera/.*Android;]
+- app: Opera
+  device: pc
+  os: linux
+  user_agents: [Opera/.*\(Linux]
+- app: Opera
+  device: pc
+  os: macos
+  user_agents: [Opera/.*\(Macintosh]
+- app: Opera
+  device: pc
+  os: windows
+  user_agents: [Opera/.*\(Windows]
+- app: Opera
+  user_agents: ['Opera[/ ]']
+- app: Overcast
+  os: ios
+  user_agents: [^Overcast/]
+- bot: true
+  user_agents: [^PandoraRSSCrawler]
+- app: Pandora
+  device: phone
+  os: android
+  user_agents: [^Pandora.+Android]
+- app: Player FM
+  user_agents: [^Player FM]
+- bot: true
+  user_agents: [^Pingdom]
+- app: Pocket Casts
+  description: A podcast app and web player
+  developer_notes: '''PocketCasts'' is a feed parser; ''Pocket Casts'' is the app.
+    There is also a web player.'
+  device: phone
+  info_url: https://www.pocketcasts.com/
+  svg: pocketcasts.svg
+  user_agents: [^Pocket Casts, ^PocketCasts/]
+- app: PodcastAddict
+  device: phone
+  os: android
+  user_agents: [^Podcast.*Addict/]
+- app: The Podcast App
+  os: ios
+  user_agents: [iOS.*The Podcast App/]
+- app: PodcastRepublic
+  device: phone
+  os: android
+  user_agents: [^PodcastRepublic.+Android]
+- app: PodCloud
+  bot: true
+  description: Le podcast, simplement. A French-language web-based podcast player.
+  developer_notes: 'This useragent is a bot, doing feed updates and downloading media
+    files. It was observed every six hours. User plays will have a standard browser
+    useragent with a referer of https://podcloud.fr/ '
+  info_url: https://podcloud.fr
+  user_agents: [podCloud]
+- app: Podcoin
+  user_agents: [^Podcoin]
+- app: PodCruncher
+  user_agents: [^PodCruncher/]
+- app: Podbean
+  user_agents: [^Podbean/]
+- app: Podkicker Pro
+  os: android
+  user_agents: [^Podkicker]
+- app: Podnews
+  bot: true
+  description: Podnews runs a number of bots to read and test RSS and audio files
+  info_url: http://podnews.net
+  user_agents: [PodnewsBot]
+- bot: true
+  user_agents: [python-requests]
+- app: RadioPlayer
+  description: Radioplayer is a radio and podcast app, with country-specific versions
+    available in selected countries.
+  info_url: http://radioplayer.org
+  os: android
+  user_agents: [^Radioplayer Android app]
+- app: RadioPlayer
+  description: Radioplayer is a radio and podcast app, with country-specific versions
+    available in selected countries.
+  info_url: http://radioplayer.org
+  os: ios
+  user_agents: [^Radioplayer iOS app]
+- app: RadioPublic
+  description: "RadioPublic\u2019s free, easy to use podcast player makes listening\
+    \ to podcasts simple, enjoyable, and fun."
+  info_url: https://radiopublic.com/
+  os: android
+  svg: radiopublic.svg
+  user_agents: [^RadioPublic/android-, ^RadioPublic Android]
+- app: RadioPublic
+  description: "RadioPublic\u2019s free, easy to use podcast player makes listening\
+    \ to podcasts simple, enjoyable, and fun."
+  info_url: https://radiopublic.com/
+  os: ios
+  svg: radiopublic.svg
+  user_agents: [RadioPublic iOS, RadioPublic.+CFNetwork]
+- bot: true
+  user_agents: [request\.js]
+- device: tv
+  os: roku
+  user_agents: [^Roku/DVP-8.*\(04]
+- bot: true
+  user_agents: [^RSSRadio \(]
+- app: RSS Radio
+  device: phone
+  os: ios
+  user_agents: [^RSSRadio/]
+- bot: true
+  user_agents: [^Ruby]
+- bot: true
+  user_agents: [^SEMrushBot]
+- app: Spotify
+  device: pc
+  os: linux
+  user_agents: [^Spotify/.+Linux]
+- app: Spotify
+  device: pc
+  os: macos
+  user_agents: [Macintosh.+Spotify/, ^Spotify/.+OSX]
+- app: Spotify
+  device: pc
+  os: windows
+  user_agents: [Windows.+Spotify/, ^Spotify/.+Win32]
+- app: Spotify
+  device: phone
+  os: android
+  user_agents: [^Spotify/.+Android]
+- app: Spotify
+  device: phone
+  os: ios
+  user_agents: [^Spotify/.*iOS]
+- bot: true
+  user_agents: [^Spotify/\d+]
+- app: Safari
+  device: pc
+  os: macos
+  user_agents: [Macintosh.*AppleWebKit.*Safari/]
+- app: Safari
+  device: pc
+  os: windows
+  user_agents: [Windows.*AppleWebKit.*Safari/]
+- app: Safari
+  device: phone
+  os: ios
+  user_agents: [iPhone.*AppleWebKit.*Safari/]
+- app: Safari
+  device: tablet
+  os: ios
+  user_agents: [iPad.*AppleWebKit.*Safari/]
+- app: Subcast
+  user_agents: [^Subcast]
+- app: Sonos
+  device: speaker
+  os: sonos
+  user_agents: [Sonos]
+- app: Spreaker
+  user_agents: [^Spreaker]
+- bot: true
+  user_agents: [support@dorada.co.uk]
+- app: Stitcher
+  os: android
+  user_agents: [^Stitcher/Android]
+- app: Stitcher
+  device: speaker
+  os: alexa
+  user_agents: [^AlexaMediaPlayer/Stitcher]
+- app: Stitcher
+  os: ios
+  user_agents: [^Stitcher/iOS]
+- bot: true
+  user_agents: [StitcherBot]
+- app: Storiyoh
+  user_agents: [^Storiyoh/]
+- app: Swoot
+  user_agents: [^Swoot/]
+- bot: true
+  user_agents: [^Trackable/]
+- app: TuneIn
+  user_agents: [^TuneIn]
+- bot: true
+  user_agents: [^Twitterbot]
+- bot: true
+  user_agents: [^Typhoeus]
+- app: VictorReader
+  device: speaker
+  os: victorreader
+  user_agents: [^VictorReader Stream]
+- bot: true
+  user_agents: [Wget]
+- app: Winamp
+  device: pc
+  os: windows
+  user_agents: [^Winamp]
+- app: Windows Media Player
+  device: pc
+  os: windows
+  user_agents: [^NSPlayer, ^WMPlayer/]
+- bot: true
+  user_agents: [^WordPress]
+- bot: true
+  user_agents: [YandexBot]
+- app: Yapa
+  user_agents: [^yapa/]
+- os: android
+  user_agents: [stagefright/]
