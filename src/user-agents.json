@@ -13,7 +13,8 @@
         ],
         "app": "Alexa-enabled device",
         "device": "speaker",
-        "os": "alexa"
+        "os": "alexa",
+        "svg": "amazon.svg"
     },
     {
         "user_agents": [
@@ -21,15 +22,19 @@
         ],
         "app": "Amazon Echo Dot",
         "device": "speaker",
-        "os": "alexa"
+        "os": "alexa",
+        "svg": "amazon.svg"
     },
     {
         "user_agents": [
             "^AmazonNewsContentService"
         ],
-        "app": "Amazon Alexa Flash Briefing",
-        "device": "speaker",
-        "os": "alexa"
+        "app": "Amazon Alexa Flash Briefing caching service",
+        "description": "A service which downloads, caches and normalises audio for the Flash Briefing service on Alexa-enabled devices",
+        "infourl": "https://developer.amazon.com/docs/flashbriefing/flash-briefing-skill-api-feed-reference.html#performance-requirements",
+        "developernotes": "Stats are available within the Alexa skills dashboard",
+        "svg": "amazon.svg",
+        "bot": true
     },
     {
         "user_agents": [
