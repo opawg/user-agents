@@ -1,6 +1,28 @@
 [
     {
         "user_agents": [
+            "^Acast.+[Aa]ndroid"
+        ],
+        "app": "Acast",
+        "device": "phone",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "^Acast.+iOS"
+        ],
+        "app": "Acast",
+        "device": "phone",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^AdsBot-Google"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
             "AhrefsBot"
         ],
         "bot": true
@@ -18,6 +40,18 @@
     },
     {
         "user_agents": [
+            "^AmazonNewsContentService"
+        ],
+        "app": "Amazon Alexa Flash Briefing caching service",
+        "description": "A service which downloads, caches and normalises audio for the Flash Briefing service on Alexa-enabled devices",
+        "os": "alexa",
+        "info_url": "https://developer.amazon.com/docs/flashbriefing/flash-briefing-skill-api-feed-reference.html#performance-requirements",
+        "developer_notes": "Stats are available within the Alexa skills dashboard",
+        "svg": "amazon.svg",
+        "bot": true
+    },
+    {
+        "user_agents": [
             "^AlexaMediaPlayer/5\\."
         ],
         "app": "Amazon Echo Dot",
@@ -27,14 +61,11 @@
     },
     {
         "user_agents": [
-            "^AmazonNewsContentService"
+            "Android 5.*ford/"
         ],
-        "app": "Amazon Alexa Flash Briefing caching service",
-        "description": "A service which downloads, caches and normalises audio for the Flash Briefing service on Alexa-enabled devices",
-        "infourl": "https://developer.amazon.com/docs/flashbriefing/flash-briefing-skill-api-feed-reference.html#performance-requirements",
-        "developernotes": "Stats are available within the Alexa skills dashboard",
-        "svg": "amazon.svg",
-        "bot": true
+        "app": "Amazon Kindle Fire",
+        "device": "tablet",
+        "os": "android"
     },
     {
         "user_agents": [
@@ -51,15 +82,57 @@
     },
     {
         "user_agents": [
-            "stagefright/"
-        ],
-        "os": "android"
-    },
-    {
-        "user_agents": [
             "Apache-HttpClient"
         ],
         "bot": true
+    },
+    {
+        "user_agents": [
+            "^AppleCoreMedia/1\\..*iPod"
+        ],
+        "app": "Apple Podcasts",
+        "device": "mp3_player",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^AppleCoreMedia/1\\..*Macintosh"
+        ],
+        "app": "Apple Podcasts",
+        "device": "pc",
+        "os": "macos"
+    },
+    {
+        "user_agents": [
+            "^AppleCoreMedia/1\\..*iPhone"
+        ],
+        "app": "Apple Podcasts",
+        "device": "phone",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^AppleCoreMedia/1\\..*iPad"
+        ],
+        "app": "Apple Podcasts",
+        "device": "tablet",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^AppleCoreMedia/1\\..*HomePod"
+        ],
+        "app": "Apple Podcasts",
+        "device": "speaker",
+        "os": "homepod_os"
+    },
+    {
+        "user_agents": [
+            "^AppleCoreMedia/1\\..*Apple TV"
+        ],
+        "app": "Apple Podcasts",
+        "device": "tv",
+        "os": "tvos"
     },
     {
         "user_agents": [
@@ -72,10 +145,9 @@
     },
     {
         "user_agents": [
-            "^Bose/"
+            "^Podcasts/"
         ],
-        "app": "Bose SoundTouch",
-        "device": "speaker"
+        "app": "Apple Podcasts"
     },
     {
         "user_agents": [
@@ -84,6 +156,13 @@
         "app": "BeyondPod",
         "device": "phone",
         "os": "android"
+    },
+    {
+        "user_agents": [
+            "^Bose/"
+        ],
+        "app": "Bose SoundTouch",
+        "device": "speaker"
     },
     {
         "user_agents": [
@@ -117,22 +196,6 @@
     },
     {
         "user_agents": [
-            "^Luminary/.+Android"
-        ],
-        "app": "Luminary",
-        "device": "phone",
-        "os": "android"
-    },
-    {
-        "user_agents": [
-            "^Luminary/.+iOS"
-        ],
-        "app": "Luminary",
-        "device": "phone",
-        "os": "ios"
-    },
-    {
-        "user_agents": [
             "Castro "
         ],
         "app": "Castro",
@@ -149,9 +212,35 @@
     },
     {
         "user_agents": [
+            "^curl"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
             "^Dalvik/"
         ],
         "os": "android"
+    },
+    {
+        "user_agents": [
+            "^datagnionbot"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "Deezer/.*Android;"
+        ],
+        "app": "Deezer",
+        "device": "phone",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "^Deezer"
+        ],
+        "app": "Deezer"
     },
     {
         "user_agents": [
@@ -183,18 +272,11 @@
     },
     {
         "user_agents": [
-            "^AlexaMediaPlayer/5\\."
-        ],
-        "app": "Amazon Echo Dot",
-        "device": "speaker",
-        "os": "alexa"
-    },
-    {
-        "user_agents": [
             "^Echo/1\\."
         ],
         "device": "speaker",
-        "os": "alexa"
+        "os": "alexa",
+        "svg": "amazon.svg"
     },
     {
         "user_agents": [
@@ -204,8 +286,15 @@
     },
     {
         "user_agents": [
-            "^OkDownload/"
-        ]
+            "^Mozilla.*Firefox/"
+        ],
+        "app": "Firefox"
+    },
+    {
+        "user_agents": [
+            "^Lavf/"
+        ],
+        "app": "ffmpeg"
     },
     {
         "user_agents": [
@@ -217,19 +306,35 @@
     },
     {
         "user_agents": [
-            "^MediaMonkey"
-        ],
-        "app": "MediaMonkey",
-        "device": "pc",
-        "os": "windows"
-    },
-    {
-        "user_agents": [
             "^WIN\\ "
         ],
         "app": "Flash",
         "device": "pc",
         "os": "windows"
+    },
+    {
+        "user_agents": [
+            "^fyyd-poll"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^Go-http-client"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^Googlebot"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "Google-Podcast"
+        ],
+        "bot": true
     },
     {
         "user_agents": [
@@ -246,12 +351,6 @@
         "app": "Google Podcasts",
         "device": "speaker",
         "os": "google_assistant"
-    },
-    {
-        "user_agents": [
-            "Google-Podcast"
-        ],
-        "bot": true
     },
     {
         "user_agents": [
@@ -278,9 +377,16 @@
     },
     {
         "user_agents": [
-            "^Googlebot"
+            "Linux; Android.*SM-T350"
         ],
-        "bot": true
+        "device": "tablet",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "^Mozilla.*Chrome/"
+        ],
+        "app": "Google Chrome"
     },
     {
         "user_agents": [
@@ -311,17 +417,15 @@
     },
     {
         "user_agents": [
-            "^Himalaya/"
+            "^gvfs"
         ],
-        "app": "Himalaya"
+        "bot": true
     },
     {
         "user_agents": [
-            "^AppleCoreMedia/1\\..*HomePod"
+            "^Himalaya/"
         ],
-        "app": "Apple Podcasts",
-        "device": "speaker",
-        "os": "homepod_os"
+        "app": "Himalaya"
     },
     {
         "user_agents": [
@@ -339,43 +443,9 @@
     },
     {
         "user_agents": [
-            "^AppleCoreMedia/1\\..*iPad"
+            "MSIE "
         ],
-        "app": "Apple Podcasts",
-        "device": "tablet",
-        "os": "ios"
-    },
-    {
-        "user_agents": [
-            "^AppleCoreMedia/1\\..*iPhone"
-        ],
-        "app": "Apple Podcasts",
-        "device": "phone",
-        "os": "ios"
-    },
-    {
-        "user_agents": [
-            "^AppleCoreMedia/1\\..*iPod"
-        ],
-        "app": "Apple Podcasts",
-        "device": "mp3_player",
-        "os": "ios"
-    },
-    {
-        "user_agents": [
-            "^AppleCoreMedia/1\\..*Apple TV"
-        ],
-        "app": "Apple Podcasts",
-        "device": "tv",
-        "os": "tvos"
-    },
-    {
-        "user_agents": [
-            "^AppleCoreMedia/1\\..*Macintosh"
-        ],
-        "app": "Apple Podcasts",
-        "device": "pc",
-        "os": "macos"
+        "app": "Internet Explorer"
     },
     {
         "user_agents": [
@@ -383,12 +453,6 @@
             "itunesstored"
         ],
         "bot": true
-    },
-    {
-        "user_agents": [
-            "^iTunes/4"
-        ],
-        "device": "speaker"
     },
     {
         "user_agents": [
@@ -400,17 +464,17 @@
     },
     {
         "user_agents": [
-            "Android 5.*ford/"
+            "^iTunes/4"
         ],
-        "app": "Amazon Kindle Fire",
-        "device": "tablet",
-        "os": "android"
+        "device": "speaker"
     },
     {
         "user_agents": [
-            "^Lavf/"
+            "^Laughable.+iOS"
         ],
-        "app": "ffmpeg"
+        "app": "Laughable",
+        "device": "phone",
+        "os": "ios"
     },
     {
         "user_agents": [
@@ -418,6 +482,12 @@
         ],
         "device": "phone",
         "os": "android"
+    },
+    {
+        "user_agents": [
+            "^libwww-perl"
+        ],
+        "bot": true
     },
     {
         "user_agents": [
@@ -435,9 +505,50 @@
     },
     {
         "user_agents": [
+            "^Luminary/.+Android"
+        ],
+        "app": "Luminary",
+        "device": "phone",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "^Luminary/.+iOS"
+        ],
+        "app": "Luminary",
+        "device": "phone",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^MajelanApp"
+        ],
+        "app": "Majelan"
+    },
+    {
+        "user_agents": [
+            "^Mechanize"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^MediaMonkey"
+        ],
+        "app": "MediaMonkey",
+        "device": "pc",
+        "os": "windows"
+    },
+    {
+        "user_agents": [
             "MJ12bot"
         ],
         "bot": true
+    },
+    {
+        "user_agents": [
+            "^OkDownload/"
+        ]
     },
     {
         "user_agents": [
@@ -490,6 +601,20 @@
     },
     {
         "user_agents": [
+            "^PandoraRSSCrawler"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^Pandora.+Android"
+        ],
+        "app": "Pandora",
+        "device": "phone",
+        "os": "android"
+    },
+    {
+        "user_agents": [
             "^Player FM"
         ],
         "app": "Player FM"
@@ -522,9 +647,34 @@
     },
     {
         "user_agents": [
-            "^Podcasts/"
+            "iOS.*The Podcast App/"
         ],
-        "app": "Apple Podcasts"
+        "app": "The Podcast App",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^PodcastRepublic.+Android"
+        ],
+        "app": "PodcastRepublic",
+        "device": "phone",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "podCloud"
+        ],
+        "app": "PodCloud",
+        "description": "Le podcast, simplement. A French-language web-based podcast player.",
+        "bot": true,
+        "developer_notes": "This useragent is a bot, doing feed updates and downloading media files. It was observed every six hours. User plays will have a standard browser useragent with a referer of https://podcloud.fr/ ",
+        "info_url": "https://podcloud.fr"
+    },
+    {
+        "user_agents": [
+            "^Podcoin"
+        ],
+        "app": "Podcoin"
     },
     {
         "user_agents": [
@@ -602,6 +752,12 @@
     },
     {
         "user_agents": [
+            "request\\.js"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
             "^Roku/DVP-8.*\\(04"
         ],
         "device": "tv",
@@ -623,41 +779,23 @@
     },
     {
         "user_agents": [
-            "Linux; Android.*SM-T350"
+            "^Ruby"
         ],
-        "device": "tablet",
-        "os": "android"
+        "bot": true
     },
     {
         "user_agents": [
-            "^Mozilla.*Chrome/"
+            "^SEMrushBot"
         ],
-        "app": "Google Chrome"
+        "bot": true
     },
     {
         "user_agents": [
-            "^Spotify/.*iOS"
-        ],
-        "app": "Spotify",
-        "device": "phone",
-        "os": "ios"
-    },
-    {
-        "user_agents": [
-            "^Spotify/.+Android"
-        ],
-        "app": "Spotify",
-        "device": "phone",
-        "os": "android"
-    },
-    {
-        "user_agents": [
-            "Windows.+Spotify/",
-            "^Spotify/.+Win32"
+            "^Spotify/.+Linux"
         ],
         "app": "Spotify",
         "device": "pc",
-        "os": "windows"
+        "os": "linux"
     },
     {
         "user_agents": [
@@ -670,27 +808,34 @@
     },
     {
         "user_agents": [
-            "^Spotify/.+Linux"
+            "Windows.+Spotify/",
+            "^Spotify/.+Win32"
         ],
         "app": "Spotify",
         "device": "pc",
-        "os": "linux"
+        "os": "windows"
     },
     {
         "user_agents": [
-            "iPhone.*AppleWebKit.*Safari/"
+            "^Spotify/.+Android"
         ],
-        "app": "Safari",
+        "app": "Spotify",
+        "device": "phone",
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "^Spotify/.*iOS"
+        ],
+        "app": "Spotify",
         "device": "phone",
         "os": "ios"
     },
     {
         "user_agents": [
-            "iPad.*AppleWebKit.*Safari/"
+            "^Spotify/\\d+"
         ],
-        "app": "Safari",
-        "device": "tablet",
-        "os": "ios"
+        "bot": true
     },
     {
         "user_agents": [
@@ -710,9 +855,25 @@
     },
     {
         "user_agents": [
-            "support@dorada.co.uk"
+            "iPhone.*AppleWebKit.*Safari/"
         ],
-        "bot": true
+        "app": "Safari",
+        "device": "phone",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iPad.*AppleWebKit.*Safari/"
+        ],
+        "app": "Safari",
+        "device": "tablet",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^Subcast"
+        ],
+        "app": "Subcast"
     },
     {
         "user_agents": [
@@ -724,15 +885,22 @@
     },
     {
         "user_agents": [
-            "^Spotify/\\d+"
+            "^Spreaker"
+        ],
+        "app": "Spreaker"
+    },
+    {
+        "user_agents": [
+            "support@dorada.co.uk"
         ],
         "bot": true
     },
     {
         "user_agents": [
-            "^Spreaker"
+            "^Stitcher/Android"
         ],
-        "app": "Spreaker"
+        "app": "Stitcher",
+        "os": "android"
     },
     {
         "user_agents": [
@@ -741,13 +909,6 @@
         "app": "Stitcher",
         "device": "speaker",
         "os": "alexa"
-    },
-    {
-        "user_agents": [
-            "^Stitcher/Android"
-        ],
-        "app": "Stitcher",
-        "os": "android"
     },
     {
         "user_agents": [
@@ -761,6 +922,12 @@
             "StitcherBot"
         ],
         "bot": true
+    },
+    {
+        "user_agents": [
+            "^Storiyoh/"
+        ],
+        "app": "Storiyoh"
     },
     {
         "user_agents": [
@@ -782,9 +949,15 @@
     },
     {
         "user_agents": [
-            "^Storiyoh/"
+            "^Twitterbot"
         ],
-        "app": "Storiyoh"
+        "bot": true
+    },
+    {
+        "user_agents": [
+            "^Typhoeus"
+        ],
+        "bot": true
     },
     {
         "user_agents": [
@@ -819,9 +992,9 @@
     },
     {
         "user_agents": [
-            "^yapa/"
+            "^WordPress"
         ],
-        "app": "Yapa"
+        "bot": true
     },
     {
         "user_agents": [
@@ -831,193 +1004,14 @@
     },
     {
         "user_agents": [
-            "request\\.js"
+            "^yapa/"
         ],
-        "bot": true
+        "app": "Yapa"
     },
     {
         "user_agents": [
-            "^gvfs"
+            "stagefright/"
         ],
-        "bot": true
-    },
-    {
-        "user_agents": [
-            "^libwww-perl"
-        ],
-        "bot": true
-    },
-    {
-        "user_agents": [
-            "^fyyd-poll"
-        ],
-        "bot": true
-    },
-    {
-        "user_agents": [
-            "^curl"
-        ],
-        "bot": true
-    },
-    {
-        "user_agents": [
-            "^datagnionbot"
-        ],
-        "bot": true
-    },
-    {
-        "user_agents": [
-            "^PandoraRSSCrawler"
-        ],
-        "bot": true
-    },
-    {
-        "user_agents": [
-            "^SEMrushBot"
-        ],
-        "bot": true
-    },
-    {
-        "user_agents": [
-            "^Go-http-client"
-        ],
-        "bot": true
-    },
-    {
-        "user_agents": [
-            "^Twitterbot"
-        ],
-        "bot": true
-    },
-    {
-        "user_agents": [
-            "^AdsBot-Google"
-        ],
-        "bot": true
-    },
-    {
-        "user_agents": [
-            "^Typhoeus"
-        ],
-        "bot": true
-    },
-    {
-        "user_agents": [
-            "^WordPress"
-        ],
-        "bot": true
-    },
-    {
-        "user_agents": [
-            "^Mechanize"
-        ],
-        "bot": true
-    },
-    {
-        "user_agents": [
-            "^Ruby"
-        ],
-        "bot": true
-    },
-    {
-        "user_agents": [
-            "^PodcastRepublic.+Android"
-        ],
-        "app": "PodcastRepublic",
-        "device": "phone",
         "os": "android"
-    },
-    {
-        "user_agents": [
-            "^Pandora.+Android"
-        ],
-        "app": "Pandora",
-        "device": "phone",
-        "os": "android"
-    },
-    {
-        "user_agents": [
-            "^Acast.+[Aa]ndroid"
-        ],
-        "app": "Acast",
-        "device": "phone",
-        "os": "android"
-    },
-    {
-        "user_agents": [
-            "^Acast.+iOS"
-        ],
-        "app": "Acast",
-        "device": "phone",
-        "os": "ios"
-    },
-    {
-        "user_agents": [
-            "^Podcoin"
-        ],
-        "app": "Podcoin"
-    },
-    {
-        "user_agents": [
-            "^Laughable.+iOS"
-        ],
-        "app": "Laughable",
-        "device": "phone",
-        "os": "ios"
-    },
-    {
-        "user_agents": [
-            "^Subcast"
-        ],
-        "app": "Subcast"
-    },
-    {
-        "user_agents": [
-          "^MajelanApp"
-        ],
-        "app": "Majelan"
-    },
-    {
-        "user_agents": [
-            "Deezer/.*Android;"
-        ],
-        "app": "Deezer",
-        "device": "phone",
-        "os": "android"
-    },
-    {
-        "user_agents": [
-            "^Deezer"
-        ],
-        "app": "Deezer"
-    },
-    {
-        "user_agents": [
-            "podCloud"
-        ],
-        "app": "PodCloud",
-        "description": "Le podcast, simplement. A French-language web-based podcast player.",
-        "bot": true,
-        "developer_notes": "This useragent is a bot, doing feed updates and downloading media files. It was observed every six hours. User plays will have a standard browser useragent with a referer of https://podcloud.fr/ ",
-        "info_url": "https://podcloud.fr"
-    },
-    {
-        "user_agents": [
-            "iOS.*The Podcast App/"
-        ],
-        "app": "The Podcast App",
-        "os": "ios"
-    },
-    {
-        "user_agents": [
-            "^Mozilla.*Firefox/"
-        ],
-        "app": "Firefox"
-    },
-    {
-        "user_agents": [
-            "MSIE "
-        ],
-        "app": "Internet Explorer"
     }
 ]
