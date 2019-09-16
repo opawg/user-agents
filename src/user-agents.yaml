@@ -138,7 +138,17 @@
   os: ios
   user_agents: [Downcast/]
 - app: Edge
-  user_agents: [Edge/]
+  device: games_console
+  os: windows
+  user_agents: [Xbox.+Edge/]
+- app: Edge
+  device: phone
+  os: windows
+  user_agents: [Windows Phone.+Edge/]
+- app: Edge
+  device: pc
+  os: windows
+  user_agents: [Windows.+Edge/]
 - device: speaker
   os: alexa
   svg: amazon.svg

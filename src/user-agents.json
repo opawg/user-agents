@@ -297,9 +297,27 @@
     },
     {
         "user_agents": [
-            "Edge/"
+            "Xbox.+Edge/"
         ],
-        "app": "Edge"
+        "app": "Edge",
+        "device": "games_console",
+        "os": "windows"
+    },
+    {
+        "user_agents": [
+            "Windows Phone.+Edge/"
+        ],
+        "app": "Edge",
+        "device": "phone",
+        "os": "windows"
+    },
+    {
+        "user_agents": [
+            "Windows.+Edge/"
+        ],
+        "app": "Edge",
+        "device": "pc",
+        "os": "windows"
     },
     {
         "user_agents": [
