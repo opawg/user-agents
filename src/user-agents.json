@@ -75,9 +75,14 @@
     },
     {
         "user_agents": [
-            "^AntennaPod/"
+            "^AntennaPod/",
+            "^de.danoeh.antennapod/"
         ],
         "app": "AntennaPod",
+        "examples": [
+            "de.danoeh.antennapod/1.7.3b (Linux;Android 8.0.0) ExoPlayerLib/2.9.3"
+        ],
+        "info_url": "https://github.com/AntennaPod/AntennaPod",
         "os": "android"
     },
     {
