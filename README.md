@@ -10,7 +10,7 @@ bot should have its own entry.
 Each entry _must_ contain the following properties:
 
 * `user_agents` (array of strings): a list of regular expressions against which the requesting user-agent
-should be validated. Backslaches ("\\") should be escaped, so instead of `^Echo\/1\.`, the string should read `^Echo\\/1\\.`.
+should be validated. Backslashes ("\\") should be escaped, so instead of `^Echo\/1\.`, the string should read `^Echo\\/1\\.`.
 
 Each entry _can_ contain one of the following properties:
 
@@ -30,9 +30,9 @@ Each entry _can_ contain one of the following properties:
   * `macos`
   * `windows`
 * `description` (string): intended to be a humanly readable description of the app, bot or other
-* `infourl` (string): a link to the homepage of the app, bot or other, for public consumption
+* `info_url` (string): a link to the homepage of the app, bot or other, for public consumption
 * `svg` (string): a name of a square SVG file, intended for use in app dashboards for identification purposes
-* `developernotes` (string): freeform notes for developers, where it is helpful to leave notes on behaviour of certain useragents or bots.
+* `developer_notes` (string): freeform notes for developers, where it is helpful to leave notes on behaviour of certain useragents or bots.
 
 If `bot` is set to `true`, no other properties need to be specified.
 
