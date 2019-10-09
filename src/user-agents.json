@@ -145,7 +145,7 @@
     },
     {
         "user_agents": [
-            "^Podcasts\/.*\\(.*\\)"
+            "^Podcasts/.*\\(.*\\)"
         ],
         "app": "Apple Podcasts",
         "device": "pc",
@@ -153,7 +153,7 @@
     },
     {
         "user_agents": [
-            "^Podcasts\/.*\\d$"
+            "^Podcasts/.*\\d$"
         ],
         "app": "Apple Podcasts",
         "os": "ios"
