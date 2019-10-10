@@ -7,7 +7,8 @@
     "pre-commit": "^1.2.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "yaml": "json2yaml ./src/user-agents.json > ./src/user-agents.yaml"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/opawg/user-agents/issues"
   },
-  "homepage": "https://podnews.net/article/podcast-app-useragents"
+  "homepage": "https://podnews.net/article/podcast-app-useragents",
+  "pre-commit": [
+    "yaml"
+  ]
 }
