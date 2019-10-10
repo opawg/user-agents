@@ -103,9 +103,14 @@
         "user_agents": [
             "^AppleCoreMedia/1\\..*Macintosh"
         ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19A583 (Macintosh; U; Intel Mac OS X 10_15; en_us)"
+        ],
         "app": "Apple Podcasts",
         "device": "pc",
-        "os": "macos"
+        "os": "macos",
+        "description": "The Apple Podcasts app on MacOS Catalina and above",
+        "developer_notes": "Used when progressively downloading podcasts"
     },
     {
         "user_agents": [
@@ -152,9 +157,14 @@
         "user_agents": [
             "^Podcasts/.*\\(.*\\)"
         ],
+        "examples": [
+            "Podcasts/1410.53 CFNetwork/1111 Darwin/19.0.0 (x86_64)"
+        ],
         "app": "Apple Podcasts",
         "device": "pc",
-        "os": "macos"
+        "os": "macos",
+        "description": "The Apple Podcasts app on MacOS Catalina and above",
+        "developer_notes": "Used when downloading podcasts (not progressive downloads)"
     },
     {
         "user_agents": [
