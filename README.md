@@ -29,12 +29,11 @@ Each entry _can_ contain one of the following properties:
   * `linux`
   * `macos`
   * `windows`
+* `examples` (array of strings): a few different examples of the user-agent as seen in the wild. Caution should be taken to remove any personally identifying information
 * `description` (string): intended to be a humanly readable description of the app, bot or other
 * `info_url` (string): a link to the homepage of the app, bot or other, for public consumption
 * `svg` (string): a name of a square SVG file, intended for use in app dashboards for identification purposes
 * `developer_notes` (string): freeform notes for developers, where it is helpful to leave notes on behaviour of certain useragents or bots.
-
-If `bot` is set to `true`, no other properties need to be specified.
 
 ### Slugs
 
