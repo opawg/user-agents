@@ -36,8 +36,10 @@
 - os: android
   user_agents: [^AndroidDownloadManager]
 - app: AntennaPod
+  examples: [de.danoeh.antennapod/1.7.3b (Linux;Android 8.0.0) ExoPlayerLib/2.9.3]
+  info_url: https://github.com/AntennaPod/AntennaPod
   os: android
-  user_agents: [^AntennaPod/]
+  user_agents: [^AntennaPod/, ^de.danoeh.antennapod/]
 - bot: true
   user_agents: [Apache-HttpClient]
 - app: Apple Podcasts
