@@ -180,7 +180,7 @@
         "device": "pc",
         "os": "macos",
         "description": "The Apple Podcasts app on MacOS Catalina and above",
-        "developer_notes": "Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Korean, Polish, Romanian, Russian, Russian, Serbian, Slovenian, Thai, Turkish."
+        "developer_notes": "Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Thai, Turkish."
     },
     {
         "user_agents": [
@@ -205,7 +205,7 @@
         "app": "Apple Podcasts",
         "os": "ios",
         "description": "The Apple Podcasts app on devices other than MacOS Catalina and above",
-        "developer_notes": "Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Korean, Polish, Romanian, Russian, Russian, Serbian, Slovenian, Thai, Turkish"
+        "developer_notes": "Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Thai, Turkish"
     },
     {
         "user_agents": [
