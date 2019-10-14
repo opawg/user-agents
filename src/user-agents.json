@@ -383,7 +383,7 @@
     },
     {
         "user_agents": [
-            "Android.*Focus/"
+            "Android.*(Focus|Firefox)/"
         ],
         "app": "Firefox",
         "os": "android"
