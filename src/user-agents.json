@@ -1096,6 +1096,18 @@
     },
     {
         "user_agents": [
+            "^Swinsian/"
+        ],
+        "app": "Swinsian",
+        "device": "pc",
+        "examples": [
+            "Swinsian/472 CFNetwork/978.0.7 Darwin/18.7.0 (x86_64)"
+        ],
+        "info_url": "https://swinsian.com/",
+        "os": "macos"
+    },
+    {
+        "user_agents": [
             "^Swoot/"
         ],
         "app": "Swoot"
