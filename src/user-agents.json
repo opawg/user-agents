@@ -1040,10 +1040,14 @@
     },
     {
         "user_agents": [
-            "^RSSRadio/"
+            "^RSSRadio7?/"
         ],
         "app": "RSS Radio",
         "device": "phone",
+        "examples": [
+            "RSSRadio7/9252 CFNetwork/1107.1 Darwin/19.0.0"
+        ],
+        "info_url": "http://rssrad.io",
         "os": "ios"
     },
     {
@@ -1247,6 +1251,17 @@
         "app": "VictorReader",
         "device": "speaker",
         "os": "victorreader"
+    },
+    {
+        "user_agents": [
+            "^VLC/\\d"
+        ],
+        "app": "VLC media player",
+        "device": "pc",
+        "examples": [
+            "VLC/3.0.8 LibVLC/3.0.8"
+        ],
+        "info_url": "https://www.videolan.org/vlc/"
     },
     {
         "user_agents": [
