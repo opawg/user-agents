@@ -175,6 +175,14 @@
     },
     {
         "user_agents": [
+            "^BashPodder"
+        ],
+        "app": "BashPodder",
+        "device": "pc",
+        "info_url": "http://lincgeek.org/bashpodder/"
+    },
+    {
+        "user_agents": [
             "; BeyondPod"
         ],
         "app": "BeyondPod",
@@ -251,6 +259,17 @@
     },
     {
         "user_agents": [
+            "^castget "
+        ],
+        "app": "castget",
+        "examples": [
+            "castget 1.2.4 (castget rss enclosure downloader)"
+        ],
+        "info_url": "https://castget.johndal.com/",
+        "device": "pc"
+    },
+    {
+        "user_agents": [
             "Castro "
         ],
         "app": "Castro",
@@ -264,6 +283,14 @@
         "app": "Chromecast device",
         "device": "speaker",
         "os": "android"
+    },
+    {
+        "user_agents": [
+            "^Clementine "
+        ],
+        "app": "Clementine Music Player",
+        "device": "pc",
+        "info_url": "https://www.clementine-player.org/"
     },
     {
         "user_agents": [
@@ -310,6 +337,18 @@
             "DotBot/1"
         ],
         "bot": true
+    },
+    {
+        "user_agents": [
+            "^doubleTwist CloudPlayer"
+        ],
+        "examples": [
+            "doubleTwist CloudPlayer"
+        ],
+        "app": "doubleTwitch CloudPlayer",
+        "device": "phone",
+        "info_url": "https://www.doubletwist.com/cloudplayer",
+        "os": "android"
     },
     {
         "user_agents": [
