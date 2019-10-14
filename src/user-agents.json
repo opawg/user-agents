@@ -682,7 +682,22 @@
     },
     {
         "user_agents": [
-            "^iTunes/12\\."
+            "^iTunes/.+Mac OS"
+        ],
+        "examples": [
+            "iTunes/10.6.3 (Macintosh; Intel Mac OS X 10.5.8) AppleWebKit/534.50.2"
+        ],
+        "app": "iTunes",
+        "device": "pc",
+        "info_url": "https://www.apple.com/itunes/",
+        "os": "macos"
+    },
+    {
+        "user_agents": [
+            "^iTunes/1[12]\\."
+        ],
+        "examples": [
+            "iTunes/11.4 (Windows; Microsoft Windows 7 x64 Home Premium Edition (Build 7600)) AppleWebKit/7600.1017.0.24"
         ],
         "app": "iTunes",
         "device": "pc",
