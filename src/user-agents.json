@@ -467,6 +467,16 @@
     },
     {
         "user_agents": [
+            "^foobar2000/"
+        ],
+        "app": "foobar2000",
+        "examples": [
+            "foobar2000/1.x"
+        ],
+        "info_url": "https://www.foobar2000.org/"
+    },
+    {
+        "user_agents": [
             "^fyyd-poll"
         ],
         "bot": true
@@ -625,6 +635,18 @@
     },
     {
         "user_agents": [
+            "^\\+hermespod\\.com/"
+        ],
+        "app": "HermesPod",
+        "device": "pc",
+        "examples": [
+            "+hermespod.com/v1.5.x"
+        ],
+        "info_url": "http://hermespod.com/",
+        "os": "windows"
+    },
+    {
+        "user_agents": [
             "^Himalaya/"
         ],
         "app": "Himalaya"
@@ -671,6 +693,18 @@
             "^iTunes/4"
         ],
         "device": "speaker"
+    },
+    {
+        "user_agents": [
+            "J. River Internet Reader"
+        ],
+        "examples": [
+            "Microsoft-Windows-XP/2002, UPnP/1.1, J. River Internet Reader/2.0 (compatible; Windows-Media-Player/10)"
+        ],
+        "app": "JRiver Media Center",
+        "device": "pc",
+        "info_url": "https://www.jriver.com/",
+        "os": "windows"
     },
     {
         "user_agents": [
@@ -745,9 +779,40 @@
     },
     {
         "user_agents": [
+            "^Miro/.+Windows"
+        ],
+        "app": "Miro",
+        "device": "pc",
+        "examples": [
+            "Miro/6.0 (http://www.getmiro.com/; Windows post2008Server x86)"
+        ],
+        "info_url": "http://www.getmiro.com/",
+        "os": "windows"
+    },
+    {
+        "user_agents": [
             "MJ12bot"
         ],
         "bot": true
+    },
+    {
+        "user_agents": [
+            "^mpv 0\\."
+        ],
+        "app": "mpv",
+        "info_url": "https://mpv.io/"
+    },
+    {
+        "user_agents": [
+            "^MusicBee"
+        ],
+        "app": "MusicBee",
+        "device": "pc",
+        "examples": [
+            "MusicBee"
+        ],
+        "info_url": "https://getmusicbee.com/",
+        "os": "windows"
     },
     {
         "user_agents": [
