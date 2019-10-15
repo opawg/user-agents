@@ -155,7 +155,23 @@
     },
     {
         "user_agents": [
-            "^Podcasts/.*\\(.*\\)"
+            "^Podcasts/.*\\(.*\\)",
+
+            "^Balados/.*\\(.*\\)",
+            "^Podcasti/.*\\(.*\\)",
+            "^Podcastit/.*\\(.*\\)",
+            "^Podcasturi/.*\\(.*\\)",
+            "^Podcasty/.*\\(.*\\)",
+            "^Podcast’ler/.*\\(.*\\)",
+            "^Podkaster/.*\\(.*\\)",
+            "^Подкасти/.*\\(.*\\)",
+            "^Подкасты/.*\\(.*\\)",
+            "^פודקאסטים/.*\\(.*\\)",
+            "^البودكاست/.*\\(.*\\)",
+            "^पॉडकास्ट/.*\\(.*\\)",
+            "^พ็อดคาสท์/.*\\(.*\\)",
+            "^播客/.*\\(.*\\)",
+            "^팟캐스트/.*\\(.*\\)"
         ],
         "examples": [
             "Podcasts/1410.53 CFNetwork/1111 Darwin/19.0.0 (x86_64)"
@@ -164,14 +180,32 @@
         "device": "pc",
         "os": "macos",
         "description": "The Apple Podcasts app on MacOS Catalina and above",
-        "developer_notes": "Used when downloading podcasts (not progressive downloads)"
+        "developer_notes": "Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Thai, Turkish."
     },
     {
         "user_agents": [
-            "^Podcasts/.*\\d$"
+            "^Podcasts/.*\\d$",
+
+            "^Balados/.*\\d$",
+            "^Podcasti/.*\\d$",
+            "^Podcastit/.*\\d$",
+            "^Podcasturi/.*\\d$",
+            "^Podcasty/.*\\d$",
+            "^Podcast’ler/.*\\d$",
+            "^Podkaster/.*\\d$",
+            "^Подкасти/.*\\d$",
+            "^Подкасты/.*\\d$",
+            "^פודקאסטים/.*\\d$",
+            "^البودكاست/.*\\d$",
+            "^पॉडकास्ट/.*\\d$",
+            "^พ็อดคาสท์/.*\\d$",
+            "^播客/.*\\d$",
+            "^팟캐스트/.*\\d$"
         ],
         "app": "Apple Podcasts",
-        "os": "ios"
+        "os": "ios",
+        "description": "The Apple Podcasts app on devices other than MacOS Catalina and above",
+        "developer_notes": "Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Thai, Turkish"
     },
     {
         "user_agents": [
