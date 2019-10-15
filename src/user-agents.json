@@ -209,6 +209,14 @@
     },
     {
         "user_agents": [
+            "^BashPodder"
+        ],
+        "app": "BashPodder",
+        "device": "pc",
+        "info_url": "http://lincgeek.org/bashpodder/"
+    },
+    {
+        "user_agents": [
             "; BeyondPod"
         ],
         "app": "BeyondPod",
@@ -285,6 +293,17 @@
     },
     {
         "user_agents": [
+            "^castget "
+        ],
+        "app": "castget",
+        "examples": [
+            "castget 1.2.4 (castget rss enclosure downloader)"
+        ],
+        "info_url": "https://castget.johndal.com/",
+        "device": "pc"
+    },
+    {
+        "user_agents": [
             "Castro "
         ],
         "app": "Castro",
@@ -298,6 +317,14 @@
         "app": "Chromecast device",
         "device": "speaker",
         "os": "android"
+    },
+    {
+        "user_agents": [
+            "^Clementine "
+        ],
+        "app": "Clementine Music Player",
+        "device": "pc",
+        "info_url": "https://www.clementine-player.org/"
     },
     {
         "user_agents": [
@@ -344,6 +371,18 @@
             "DotBot/1"
         ],
         "bot": true
+    },
+    {
+        "user_agents": [
+            "^doubleTwist CloudPlayer"
+        ],
+        "examples": [
+            "doubleTwist CloudPlayer"
+        ],
+        "app": "doubleTwitch CloudPlayer",
+        "device": "phone",
+        "info_url": "https://www.doubletwist.com/cloudplayer",
+        "os": "android"
     },
     {
         "user_agents": [
@@ -459,6 +498,16 @@
         "app": "Flash",
         "device": "pc",
         "os": "windows"
+    },
+    {
+        "user_agents": [
+            "^foobar2000/"
+        ],
+        "app": "foobar2000",
+        "examples": [
+            "foobar2000/1.x"
+        ],
+        "info_url": "https://www.foobar2000.org/"
     },
     {
         "user_agents": [
@@ -620,6 +669,18 @@
     },
     {
         "user_agents": [
+            "^\\+hermespod\\.com/"
+        ],
+        "app": "HermesPod",
+        "device": "pc",
+        "examples": [
+            "+hermespod.com/v1.5.x"
+        ],
+        "info_url": "http://hermespod.com/",
+        "os": "windows"
+    },
+    {
+        "user_agents": [
             "^Himalaya/"
         ],
         "app": "Himalaya"
@@ -655,7 +716,22 @@
     },
     {
         "user_agents": [
-            "^iTunes/12\\."
+            "^iTunes/.+Mac OS"
+        ],
+        "examples": [
+            "iTunes/10.6.3 (Macintosh; Intel Mac OS X 10.5.8) AppleWebKit/534.50.2"
+        ],
+        "app": "iTunes",
+        "device": "pc",
+        "info_url": "https://www.apple.com/itunes/",
+        "os": "macos"
+    },
+    {
+        "user_agents": [
+            "^iTunes/1[12]\\."
+        ],
+        "examples": [
+            "iTunes/11.4 (Windows; Microsoft Windows 7 x64 Home Premium Edition (Build 7600)) AppleWebKit/7600.1017.0.24"
         ],
         "app": "iTunes",
         "device": "pc",
@@ -666,6 +742,18 @@
             "^iTunes/4"
         ],
         "device": "speaker"
+    },
+    {
+        "user_agents": [
+            "J. River Internet Reader"
+        ],
+        "examples": [
+            "Microsoft-Windows-XP/2002, UPnP/1.1, J. River Internet Reader/2.0 (compatible; Windows-Media-Player/10)"
+        ],
+        "app": "JRiver Media Center",
+        "device": "pc",
+        "info_url": "https://www.jriver.com/",
+        "os": "windows"
     },
     {
         "user_agents": [
@@ -740,9 +828,40 @@
     },
     {
         "user_agents": [
+            "^Miro/.+Windows"
+        ],
+        "app": "Miro",
+        "device": "pc",
+        "examples": [
+            "Miro/6.0 (http://www.getmiro.com/; Windows post2008Server x86)"
+        ],
+        "info_url": "http://www.getmiro.com/",
+        "os": "windows"
+    },
+    {
+        "user_agents": [
             "MJ12bot"
         ],
         "bot": true
+    },
+    {
+        "user_agents": [
+            "^mpv 0\\."
+        ],
+        "app": "mpv",
+        "info_url": "https://mpv.io/"
+    },
+    {
+        "user_agents": [
+            "^MusicBee"
+        ],
+        "app": "MusicBee",
+        "device": "pc",
+        "examples": [
+            "MusicBee"
+        ],
+        "info_url": "https://getmusicbee.com/",
+        "os": "windows"
     },
     {
         "user_agents": [
@@ -970,10 +1089,14 @@
     },
     {
         "user_agents": [
-            "^RSSRadio/"
+            "^RSSRadio7?/"
         ],
         "app": "RSS Radio",
         "device": "phone",
+        "examples": [
+            "RSSRadio7/9252 CFNetwork/1107.1 Darwin/19.0.0"
+        ],
+        "info_url": "http://rssrad.io",
         "os": "ios"
     },
     {
@@ -1130,6 +1253,18 @@
     },
     {
         "user_agents": [
+            "^Swinsian/"
+        ],
+        "app": "Swinsian",
+        "device": "pc",
+        "examples": [
+            "Swinsian/472 CFNetwork/978.0.7 Darwin/18.7.0 (x86_64)"
+        ],
+        "info_url": "https://swinsian.com/",
+        "os": "macos"
+    },
+    {
+        "user_agents": [
             "^Swoot/"
         ],
         "app": "Swoot"
@@ -1165,6 +1300,17 @@
         "app": "VictorReader",
         "device": "speaker",
         "os": "victorreader"
+    },
+    {
+        "user_agents": [
+            "^VLC/\\d"
+        ],
+        "app": "VLC media player",
+        "device": "pc",
+        "examples": [
+            "VLC/3.0.8 LibVLC/3.0.8"
+        ],
+        "info_url": "https://www.videolan.org/vlc/"
     },
     {
         "user_agents": [
