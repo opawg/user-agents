@@ -97,6 +97,9 @@
         ],
         "app": "Apple Podcasts",
         "device": "mp3_player",
+        "examples": [
+            "AppleCoreMedia/1.0.0.16G114 (iPod touch; U; CPU OS 12_4_2 like Mac OS X; en_us)"
+        ],
         "os": "ios"
     },
     {
@@ -118,6 +121,9 @@
         ],
         "app": "Apple Podcasts",
         "device": "phone",
+        "examples": [
+            "AppleCoreMedia/1.0.0.15G77 (iPhone; U; CPU OS 11_4_1 like Mac OS X; en_us)"
+        ],
         "os": "ios"
     },
     {
@@ -126,6 +132,9 @@
         ],
         "app": "Apple Podcasts",
         "device": "tablet",
+        "examples": [
+            "AppleCoreMedia/1.0.0.17A860 (iPad; U; CPU OS 13_1_2 like Mac OS X; en_us)"
+        ],
         "os": "ios"
     },
     {
@@ -134,6 +143,9 @@
         ],
         "app": "Apple Podcasts",
         "device": "speaker",
+        "examples": [
+            "AppleCoreMedia/1.0.0.16G78 (HomePod; U; CPU OS 12_4 like Mac OS X; en_us)"
+        ],
         "os": "homepod_os"
     },
     {
@@ -142,6 +154,9 @@
         ],
         "app": "Apple Podcasts",
         "device": "tv",
+        "examples": [
+            "AppleCoreMedia/1.0.0.17J586 (Apple TV; U; CPU OS 13_0 like Mac OS X; en_us)"
+        ],
         "os": "tvos"
     },
     {
@@ -151,6 +166,9 @@
         ],
         "app": "Apple Podcasts",
         "device": "watch",
+        "examples": [
+            "atc/1.0 watchOS/6.0.1 model/Watch4,1 hwp/t8006 build/17R605 (6; dt:190)"
+        ],
         "os": "watchos"
     },
     {
@@ -205,7 +223,10 @@
         "app": "Apple Podcasts",
         "os": "ios",
         "description": "The Apple Podcasts app on devices other than MacOS Catalina and above",
-        "developer_notes": "Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Thai, Turkish"
+        "developer_notes": "Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Thai, Turkish",
+        "examples": [
+            "Podcasts/2.6"
+        ]
     },
     {
         "user_agents": [
@@ -221,6 +242,9 @@
         ],
         "app": "BeyondPod",
         "device": "phone",
+        "examples": [
+            "Mozilla/5.0 (Linux; U; en-us; BeyondPod 4)"
+        ],
         "os": "android"
     },
     {
@@ -274,6 +298,9 @@
         ],
         "app": "CastBox",
         "device": "phone",
+        "examples": [
+            "CastBox/8.2.6-191015245 (Linux;Android 10) ExoPlayerLib/2.10.4"
+        ],
         "os": "android"
     },
     {
@@ -282,6 +309,9 @@
         ],
         "app": "CastBox",
         "device": "phone",
+        "examples": [
+            "CastBox/8.5.1 (fm.castbox.audiobook.radio.podcast; build:11; iOS 13.1.2)"
+        ],
         "os": "ios"
     },
     {
@@ -289,7 +319,10 @@
             "^Cast(?:b|B)ox"
         ],
         "app": "CastBox",
-        "developer_notes": "There are CastBox compatible User Agents that come without Android/iOS platform marker"
+        "developer_notes": "There are CastBox compatible User Agents that come without Android/iOS platform marker",
+        "examples": [
+            "CastBox/5.7.5-190508115.r1a805d3"
+        ]
     },
     {
         "user_agents": [
@@ -308,6 +341,9 @@
         ],
         "app": "Castro",
         "device": "phone",
+        "examples": [
+            "Castro 2019.13/1167"
+        ],
         "os": "ios"
     },
     {
@@ -335,6 +371,9 @@
     {
         "user_agents": [
             "^Dalvik/"
+        ],
+        "examples": [
+            "Dalvik/2.1.0 (Linux; U; Android 9; SM-N950U Build/PPR1.180610.011)"
         ],
         "os": "android"
     },
@@ -364,6 +403,9 @@
         ],
         "app": "DoggCatcher",
         "device": "phone",
+        "examples": [
+            "Mozilla/5.0 (Linux; U; Windows NT 6.1; en-us; dream) DoggCatcher"
+        ],
         "os": "android"
     },
     {
@@ -390,6 +432,9 @@
         ],
         "app": "Downcast",
         "device": "phone",
+        "examples": [
+            "Downcast/2.9.42 (iPhone; iOS 12.4.1; Scale/3.00)"
+        ],
         "os": "ios"
     },
     {
@@ -414,6 +459,9 @@
         ],
         "app": "Edge",
         "device": "pc",
+        "examples": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64; WebView/3.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
+        ],
         "os": "windows"
     },
     {
@@ -452,6 +500,9 @@
         ],
         "app": "Firefox",
         "device": "pc",
+        "examples": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0"
+        ],
         "os": "windows"
     },
     {
@@ -608,6 +659,9 @@
         ],
         "app": "Google Chrome",
         "device": "pc",
+        "examples": [
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
+        ],
         "os": "macos"
     },
     {
@@ -616,6 +670,9 @@
         ],
         "app": "Google Chrome",
         "device": "pc",
+        "examples": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+        ],
         "os": "windows"
     },
     {
@@ -639,7 +696,10 @@
             "^gPodder/",
             "^gpodder\\.net"
         ],
-        "app": "gPodder"
+        "app": "gPodder",
+        "examples": [
+            "gPodder/3.10.8 (+http://gpodder.org/) Windows/10"
+        ]
     },
     {
         "user_agents": [
@@ -705,6 +765,9 @@
         ],
         "app": "Internet Explorer",
         "device": "pc",
+        "examples": [
+            "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)"
+        ],
         "os": "windows"
     },
     {
@@ -871,6 +934,9 @@
     {
         "user_agents": [
             "okhttp"
+        ],
+        "examples": [
+            "okhttp/3.11.0"
         ]
     },
     {
@@ -915,6 +981,9 @@
             "^Overcast/"
         ],
         "app": "Overcast",
+        "examples": [
+            "Overcast/3.0 (+http://overcast.fm/; iOS podcast app)"
+        ],
         "os": "ios"
     },
     {
@@ -950,6 +1019,9 @@
         ],
         "app": "Pocket Casts",
         "device": "phone",
+        "examples": [
+            "Pocket Casts"
+        ],
         "info_url": "https://www.pocketcasts.com/",
         "description": "A podcast app and web player",
         "developer_notes": "'PocketCasts' is a feed parser; 'Pocket Casts' is the app. There is also a web player.",
@@ -961,6 +1033,9 @@
         ],
         "app": "PodcastAddict",
         "device": "phone",
+        "examples": [
+            "PodcastAddict/v2 - Dalvik/2.1.0 (Linux; U; Android 9; SM-N950U Build/PPR1.180610.011)"
+        ],
         "os": "android"
     },
     {
@@ -976,6 +1051,9 @@
         ],
         "app": "PodcastRepublic",
         "device": "phone",
+        "examples": [
+            "PodcastRepublic/18.0 (Linux; U; Android 10;blueline/QP1A.190711.020.C3)"
+        ],
         "os": "android"
     },
     {
@@ -1053,6 +1131,9 @@
         ],
         "app": "RadioPublic",
         "description": "RadioPublic’s free, easy to use podcast player makes listening to podcasts simple, enjoyable, and fun.",
+        "examples": [
+            "RadioPublic/android-2.2"
+        ],
         "info_url": "https://radiopublic.com/",
         "svg": "radiopublic.svg",
         "os": "android"
@@ -1324,6 +1405,9 @@
         ],
         "app": "Winamp",
         "device": "pc",
+        "examples": [
+            "WinampMPEG/2.7"
+        ],
         "os": "windows"
     },
     {
@@ -1333,6 +1417,9 @@
         ],
         "app": "Windows Media Player",
         "device": "pc",
+        "examples": [
+            "NSPlayer/12.00.18362.0418 WMFSDK/12.00.18362.0418"
+        ],
         "os": "windows"
     },
     {
