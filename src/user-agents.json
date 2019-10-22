@@ -182,6 +182,7 @@
             "^Podcasty/.*\\(.*\\)",
             "^Podcast’ler/.*\\(.*\\)",
             "^Podkaster/.*\\(.*\\)",
+            "^Podcaster/.*\\(.*\\)",
             "^Подкасти/.*\\(.*\\)",
             "^Подкасты/.*\\(.*\\)",
             "^פודקאסטים/.*\\(.*\\)",
@@ -192,13 +193,14 @@
             "^팟캐스트/.*\\(.*\\)"
         ],
         "examples": [
-            "Podcasts/1410.53 CFNetwork/1111 Darwin/19.0.0 (x86_64)"
+            "Podcasts/1410.53 CFNetwork/1111 Darwin/19.0.0 (x86_64)",
+            "Podcaster/1410.53 CFNetwork/1111 Darwin/19.0.0 (x86_64)"
         ],
         "app": "Apple Podcasts",
         "device": "pc",
         "os": "macos",
         "description": "The Apple Podcasts app on MacOS Catalina and above",
-        "developer_notes": "Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Thai, Turkish."
+        "developer_notes": "Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Swedish, Thai, Turkish."
     },
     {
         "user_agents": [
@@ -211,6 +213,8 @@
             "^Podcasty/.*\\d$",
             "^Podcast’ler/.*\\d$",
             "^Podkaster/.*\\d$",
+            "^Podcaster/.*\\d$",
+            "^Podcast/.*\\d$",
             "^Подкасти/.*\\d$",
             "^Подкасты/.*\\d$",
             "^פודקאסטים/.*\\d$",
@@ -223,9 +227,10 @@
         "app": "Apple Podcasts",
         "os": "ios",
         "description": "The Apple Podcasts app on devices other than MacOS Catalina and above",
-        "developer_notes": "Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Thai, Turkish",
+        "developer_notes": "Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Swedish, Thai, Turkish",
         "examples": [
-            "Podcasts/2.6"
+            "Podcasts/2.6",
+            "Podcast/1150.47 CFNetwork/811.5.4 Darwin/16.6.0"
         ]
     },
     {
