@@ -243,6 +243,28 @@
     },
     {
         "user_agents": [
+            "BBC%20Sounds/"
+        ],
+        "app": "BBC Sounds",
+        "device": "phone",
+        "examples": [
+            "BBC%20Sounds/1.13.1.7716 CFNetwork/1107.1 Darwin/19.0.0"
+        ],
+        "info_url": "https://www.bbc.co.uk/sounds/help/questions/getting-started-with-bbc-sounds/sounds-intro"
+    },
+    {
+        "user_agents": [
+            "BBCiPlayerRadio/"
+        ],
+        "app": "BBC iPlayer Radio",
+        "device": "phone",
+        "examples": [
+            "BBCiPlayerRadio/2.16.0.8764 CFNetwork/1107.1 Darwin/19.0.0"
+        ],
+        "info_url": "https://www.bbc.co.uk/programmes/p00zh17p"
+    },
+    {
+        "user_agents": [
             "; BeyondPod"
         ],
         "app": "BeyondPod",
