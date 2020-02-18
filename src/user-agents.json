@@ -174,7 +174,6 @@
     {
         "user_agents": [
             "^Podcasts/.*\\(.*\\)",
-
             "^Balados/.*\\(.*\\)",
             "^Podcasti/.*\\(.*\\)",
             "^Podcastit/.*\\(.*\\)",
@@ -207,7 +206,6 @@
     {
         "user_agents": [
             "^Podcasts/.*\\d$",
-
             "^Balados/.*\\d$",
             "^Podcasti/.*\\d$",
             "^Podcastit/.*\\d$",
@@ -1483,8 +1481,8 @@
         "app": "The Podcast App",
         "device": "phone",
         "examples": [
-            "com.evolve.podcast/3.10.1 (iPhone; ) (build 951, iOS 13.3)",
+            "com.evolve.podcast/3.10.1 (iPhone; ) (build 951, iOS 13.3)"
         ],
         "os": "ios"
-    },
+    }
 ]
