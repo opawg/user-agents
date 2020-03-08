@@ -73,6 +73,8 @@
       - "^AppleCoreMedia/1\\..*iPod"
     app: "Apple Podcasts"
     device: "mp3_player"
+    examples: 
+      - "AppleCoreMedia/1.0.0.16G114 (iPod touch; U; CPU OS 12_4_2 like Mac OS X; en_us)"
     os: "ios"
   - 
     user_agents: 
@@ -89,24 +91,32 @@
       - "^AppleCoreMedia/1\\..*iPhone"
     app: "Apple Podcasts"
     device: "phone"
+    examples: 
+      - "AppleCoreMedia/1.0.0.15G77 (iPhone; U; CPU OS 11_4_1 like Mac OS X; en_us)"
     os: "ios"
   - 
     user_agents: 
       - "^AppleCoreMedia/1\\..*iPad"
     app: "Apple Podcasts"
     device: "tablet"
+    examples: 
+      - "AppleCoreMedia/1.0.0.17A860 (iPad; U; CPU OS 13_1_2 like Mac OS X; en_us)"
     os: "ios"
   - 
     user_agents: 
       - "^AppleCoreMedia/1\\..*HomePod"
     app: "Apple Podcasts"
     device: "speaker"
+    examples: 
+      - "AppleCoreMedia/1.0.0.16G78 (HomePod; U; CPU OS 12_4 like Mac OS X; en_us)"
     os: "homepod_os"
   - 
     user_agents: 
       - "^AppleCoreMedia/1\\..*Apple TV"
     app: "Apple Podcasts"
     device: "tv"
+    examples: 
+      - "AppleCoreMedia/1.0.0.17J586 (Apple TV; U; CPU OS 13_0 like Mac OS X; en_us)"
     os: "tvos"
   - 
     user_agents: 
@@ -114,27 +124,95 @@
       - "watchOS/"
     app: "Apple Podcasts"
     device: "watch"
+    examples: 
+      - "atc/1.0 watchOS/6.0.1 model/Watch4,1 hwp/t8006 build/17R605 (6; dt:190)"
     os: "watchos"
   - 
     user_agents: 
       - "^Podcasts/.*\\(.*\\)"
+      - "^Balados/.*\\(.*\\)"
+      - "^Podcasti/.*\\(.*\\)"
+      - "^Podcastit/.*\\(.*\\)"
+      - "^Podcasturi/.*\\(.*\\)"
+      - "^Podcasty/.*\\(.*\\)"
+      - "^Podcast’ler/.*\\(.*\\)"
+      - "^Podkaster/.*\\(.*\\)"
+      - "^Podcaster/.*\\(.*\\)"
+      - "^Podcast/.*\\(.*\\)"
+      - "^Podcastok/.*\\(.*\\)"
+      - "^Подкасти/.*\\(.*\\)"
+      - "^Подкасты/.*\\(.*\\)"
+      - "^פודקאסטים/.*\\(.*\\)"
+      - "^البودكاست/.*\\(.*\\)"
+      - "^पॉडकास्ट/.*\\(.*\\)"
+      - "^พ็อดคาสท์/.*\\(.*\\)"
+      - "^播客/.*\\(.*\\)"
+      - "^팟캐스트/.*\\(.*\\)"
     examples: 
       - "Podcasts/1410.53 CFNetwork/1111 Darwin/19.0.0 (x86_64)"
+      - "Podcaster/1410.53 CFNetwork/1111 Darwin/19.0.0 (x86_64)"
     app: "Apple Podcasts"
     device: "pc"
     os: "macos"
     description: "The Apple Podcasts app on MacOS Catalina and above"
-    developer_notes: "Used when downloading podcasts (not progressive downloads)"
+    developer_notes: "Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Hungarian, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Swedish, Thai, Turkish."
   - 
     user_agents: 
       - "^Podcasts/.*\\d$"
+      - "^Balados/.*\\d$"
+      - "^Podcasti/.*\\d$"
+      - "^Podcastit/.*\\d$"
+      - "^Podcasturi/.*\\d$"
+      - "^Podcasty/.*\\d$"
+      - "^Podcast’ler/.*\\d$"
+      - "^Podkaster/.*\\d$"
+      - "^Podcaster/.*\\d$"
+      - "^Podcast/.*\\d$"
+      - "^Podcastok/.*\\d$"
+      - "^Подкасти/.*\\d$"
+      - "^Подкасты/.*\\d$"
+      - "^פודקאסטים/.*\\d$"
+      - "^البودكاست/.*\\d$"
+      - "^पॉडकास्ट/.*\\d$"
+      - "^พ็อดคาสท์/.*\\d$"
+      - "^播客/.*\\d$"
+      - "^팟캐스트/.*\\d$"
     app: "Apple Podcasts"
     os: "ios"
+    description: "The Apple Podcasts app on devices other than MacOS Catalina and above"
+    developer_notes: "Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Hungarian, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Swedish, Thai, Turkish"
+    examples: 
+      - "Podcasts/2.6"
+      - "Podcast/1150.47 CFNetwork/811.5.4 Darwin/16.6.0"
+  - 
+    user_agents: 
+      - "^BashPodder"
+    app: "BashPodder"
+    device: "pc"
+    info_url: "http://lincgeek.org/bashpodder/"
+  - 
+    user_agents: 
+      - "BBC%20Sounds/"
+    app: "BBC Sounds"
+    device: "phone"
+    examples: 
+      - "BBC%20Sounds/1.13.1.7716 CFNetwork/1107.1 Darwin/19.0.0"
+    info_url: "https://www.bbc.co.uk/sounds/help/questions/getting-started-with-bbc-sounds/sounds-intro"
+  - 
+    user_agents: 
+      - "BBCiPlayerRadio/"
+    app: "BBC iPlayer Radio"
+    device: "phone"
+    examples: 
+      - "BBCiPlayerRadio/2.16.0.8764 CFNetwork/1107.1 Darwin/19.0.0"
+    info_url: "https://www.bbc.co.uk/programmes/p00zh17p"
   - 
     user_agents: 
       - "; BeyondPod"
     app: "BeyondPod"
     device: "phone"
+    examples: 
+      - "Mozilla/5.0 (Linux; U; en-us; BeyondPod 4)"
     os: "android"
   - 
     user_agents: 
@@ -174,23 +252,39 @@
       - "^Cast(?:b|B)ox/.+Android"
     app: "CastBox"
     device: "phone"
+    examples: 
+      - "CastBox/8.2.6-191015245 (Linux;Android 10) ExoPlayerLib/2.10.4"
     os: "android"
   - 
     user_agents: 
       - "^Cast(?:b|B)ox/.+iOS"
     app: "CastBox"
     device: "phone"
+    examples: 
+      - "CastBox/8.5.1 (fm.castbox.audiobook.radio.podcast; build:11; iOS 13.1.2)"
     os: "ios"
   - 
     user_agents: 
       - "^Cast(?:b|B)ox"
     app: "CastBox"
     developer_notes: "There are CastBox compatible User Agents that come without Android/iOS platform marker"
+    examples: 
+      - "CastBox/5.7.5-190508115.r1a805d3"
+  - 
+    user_agents: 
+      - "^castget "
+    app: "castget"
+    examples: 
+      - "castget 1.2.4 (castget rss enclosure downloader)"
+    info_url: "https://castget.johndal.com/"
+    device: "pc"
   - 
     user_agents: 
       - "Castro "
     app: "Castro"
     device: "phone"
+    examples: 
+      - "Castro 2019.13/1167"
     os: "ios"
   - 
     user_agents: 
@@ -200,11 +294,19 @@
     os: "android"
   - 
     user_agents: 
+      - "^Clementine "
+    app: "Clementine Music Player"
+    device: "pc"
+    info_url: "https://www.clementine-player.org/"
+  - 
+    user_agents: 
       - "^curl"
     bot: true
   - 
     user_agents: 
       - "^Dalvik/"
+    examples: 
+      - "Dalvik/2.1.0 (Linux; U; Android 9; SM-N950U Build/PPR1.180610.011)"
     os: "android"
   - 
     user_agents: 
@@ -225,6 +327,8 @@
       - "DoggCatcher"
     app: "DoggCatcher"
     device: "phone"
+    examples: 
+      - "Mozilla/5.0 (Linux; U; Windows NT 6.1; en-us; dream) DoggCatcher"
     os: "android"
   - 
     user_agents: 
@@ -232,9 +336,20 @@
     bot: true
   - 
     user_agents: 
+      - "^doubleTwist CloudPlayer"
+    examples: 
+      - "doubleTwist CloudPlayer"
+    app: "doubleTwitch CloudPlayer"
+    device: "phone"
+    info_url: "https://www.doubletwist.com/cloudplayer"
+    os: "android"
+  - 
+    user_agents: 
       - "Downcast/"
     app: "Downcast"
     device: "phone"
+    examples: 
+      - "Downcast/2.9.42 (iPhone; iOS 12.4.1; Scale/3.00)"
     os: "ios"
   - 
     user_agents: 
@@ -253,6 +368,8 @@
       - "Windows.+Edge/"
     app: "Edge"
     device: "pc"
+    examples: 
+      - "Mozilla/5.0 (Windows NT 10.0; Win64; x64; WebView/3.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299"
     os: "windows"
   - 
     user_agents: 
@@ -281,10 +398,12 @@
       - "Windows.*Firefox/"
     app: "Firefox"
     device: "pc"
+    examples: 
+      - "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0"
     os: "windows"
   - 
     user_agents: 
-      - "Android.*Focus/"
+      - "Android.*(Focus|Firefox)/"
     app: "Firefox"
     os: "android"
   - 
@@ -315,6 +434,13 @@
     app: "Flash"
     device: "pc"
     os: "windows"
+  - 
+    user_agents: 
+      - "^foobar2000/"
+    app: "foobar2000"
+    examples: 
+      - "foobar2000/1.x"
+    info_url: "https://www.foobar2000.org/"
   - 
     user_agents: 
       - "^fyyd-poll"
@@ -387,12 +513,16 @@
       - "Mac OS X.*Chrome/"
     app: "Google Chrome"
     device: "pc"
+    examples: 
+      - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
     os: "macos"
   - 
     user_agents: 
       - "Windows.*Chrome/"
     app: "Google Chrome"
     device: "pc"
+    examples: 
+      - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
     os: "windows"
   - 
     user_agents: 
@@ -411,6 +541,8 @@
       - "^gPodder/"
       - "^gpodder\\.net"
     app: "gPodder"
+    examples: 
+      - "gPodder/3.10.8 (+http://gpodder.org/) Windows/10"
   - 
     user_agents: 
       - "^GStreamer"
@@ -431,6 +563,15 @@
     bot: true
   - 
     user_agents: 
+      - "^\\+hermespod\\.com/"
+    app: "HermesPod"
+    device: "pc"
+    examples: 
+      - "+hermespod.com/v1.5.x"
+    info_url: "http://hermespod.com/"
+    os: "windows"
+  - 
+    user_agents: 
       - "^Himalaya/"
     app: "Himalaya"
   - 
@@ -448,6 +589,8 @@
       - "MSIE "
     app: "Internet Explorer"
     device: "pc"
+    examples: 
+      - "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)"
     os: "windows"
   - 
     user_agents: 
@@ -456,7 +599,18 @@
     bot: true
   - 
     user_agents: 
-      - "^iTunes/12\\."
+      - "^iTunes/.+Mac OS"
+    examples: 
+      - "iTunes/10.6.3 (Macintosh; Intel Mac OS X 10.5.8) AppleWebKit/534.50.2"
+    app: "iTunes"
+    device: "pc"
+    info_url: "https://www.apple.com/itunes/"
+    os: "macos"
+  - 
+    user_agents: 
+      - "^iTunes/1[12]\\."
+    examples: 
+      - "iTunes/11.4 (Windows; Microsoft Windows 7 x64 Home Premium Edition (Build 7600)) AppleWebKit/7600.1017.0.24"
     app: "iTunes"
     device: "pc"
     os: "windows"
@@ -464,6 +618,15 @@
     user_agents: 
       - "^iTunes/4"
     device: "speaker"
+  - 
+    user_agents: 
+      - "J. River Internet Reader"
+    examples: 
+      - "Microsoft-Windows-XP/2002, UPnP/1.1, J. River Internet Reader/2.0 (compatible; Windows-Media-Player/10)"
+    app: "JRiver Media Center"
+    device: "pc"
+    info_url: "https://www.jriver.com/"
+    os: "windows"
   - 
     user_agents: 
       - "^Laughable.+iOS"
@@ -517,14 +680,39 @@
     os: "windows"
   - 
     user_agents: 
+      - "^Miro/.+Windows"
+    app: "Miro"
+    device: "pc"
+    examples: 
+      - "Miro/6.0 (http://www.getmiro.com/; Windows post2008Server x86)"
+    info_url: "http://www.getmiro.com/"
+    os: "windows"
+  - 
+    user_agents: 
       - "MJ12bot"
     bot: true
+  - 
+    user_agents: 
+      - "^mpv 0\\."
+    app: "mpv"
+    info_url: "https://mpv.io/"
+  - 
+    user_agents: 
+      - "^MusicBee"
+    app: "MusicBee"
+    device: "pc"
+    examples: 
+      - "MusicBee"
+    info_url: "https://getmusicbee.com/"
+    os: "windows"
   - 
     user_agents: 
       - "^OkDownload/"
   - 
     user_agents: 
       - "okhttp"
+    examples: 
+      - "okhttp/3.11.0"
   - 
     user_agents: 
       - "Opera/.*Android;"
@@ -556,6 +744,8 @@
     user_agents: 
       - "^Overcast/"
     app: "Overcast"
+    examples: 
+      - "Overcast/3.0 (+http://overcast.fm/; iOS podcast app)"
     os: "ios"
   - 
     user_agents: 
@@ -581,6 +771,8 @@
       - "^PocketCasts/"
     app: "Pocket Casts"
     device: "phone"
+    examples: 
+      - "Pocket Casts"
     info_url: "https://www.pocketcasts.com/"
     description: "A podcast app and web player"
     developer_notes: "'PocketCasts' is a feed parser; 'Pocket Casts' is the app. There is also a web player."
@@ -590,6 +782,8 @@
       - "^Podcast.*Addict/"
     app: "PodcastAddict"
     device: "phone"
+    examples: 
+      - "PodcastAddict/v2 - Dalvik/2.1.0 (Linux; U; Android 9; SM-N950U Build/PPR1.180610.011)"
     os: "android"
   - 
     user_agents: 
@@ -601,6 +795,8 @@
       - "^PodcastRepublic.+Android"
     app: "PodcastRepublic"
     device: "phone"
+    examples: 
+      - "PodcastRepublic/18.0 (Linux; U; Android 10;blueline/QP1A.190711.020.C3)"
     os: "android"
   - 
     user_agents: 
@@ -658,6 +854,8 @@
       - "^RadioPublic Android"
     app: "RadioPublic"
     description: "RadioPublic’s free, easy to use podcast player makes listening to podcasts simple, enjoyable, and fun."
+    examples: 
+      - "RadioPublic/android-2.2"
     info_url: "https://radiopublic.com/"
     svg: "radiopublic.svg"
     os: "android"
@@ -685,9 +883,12 @@
     bot: true
   - 
     user_agents: 
-      - "^RSSRadio/"
+      - "^RSSRadio7?/"
     app: "RSS Radio"
     device: "phone"
+    examples: 
+      - "RSSRadio7/9252 CFNetwork/1107.1 Darwin/19.0.0"
+    info_url: "http://rssrad.io"
     os: "ios"
   - 
     user_agents: 
@@ -801,6 +1002,15 @@
     app: "Storiyoh"
   - 
     user_agents: 
+      - "^Swinsian/"
+    app: "Swinsian"
+    device: "pc"
+    examples: 
+      - "Swinsian/472 CFNetwork/978.0.7 Darwin/18.7.0 (x86_64)"
+    info_url: "https://swinsian.com/"
+    os: "macos"
+  - 
+    user_agents: 
       - "^Swoot/"
     app: "Swoot"
   - 
@@ -827,6 +1037,14 @@
     os: "victorreader"
   - 
     user_agents: 
+      - "^VLC/\\d"
+    app: "VLC media player"
+    device: "pc"
+    examples: 
+      - "VLC/3.0.8 LibVLC/3.0.8"
+    info_url: "https://www.videolan.org/vlc/"
+  - 
+    user_agents: 
       - "Wget"
     bot: true
   - 
@@ -834,6 +1052,8 @@
       - "^Winamp"
     app: "Winamp"
     device: "pc"
+    examples: 
+      - "WinampMPEG/2.7"
     os: "windows"
   - 
     user_agents: 
@@ -841,6 +1061,8 @@
       - "^WMPlayer/"
     app: "Windows Media Player"
     device: "pc"
+    examples: 
+      - "NSPlayer/12.00.18362.0418 WMFSDK/12.00.18362.0418"
     os: "windows"
   - 
     user_agents: 
@@ -858,4 +1080,12 @@
     user_agents: 
       - "stagefright/"
     os: "android"
+  - 
+    user_agents: 
+      - "^^com\\.evolve\\.podcast/"
+    app: "The Podcast App"
+    device: "phone"
+    examples: 
+      - "com.evolve.podcast/3.10.1 (iPhone; ) (build 951, iOS 13.3)"
+    os: "ios"
 
