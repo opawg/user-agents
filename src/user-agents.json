@@ -1484,5 +1484,27 @@
             "com.evolve.podcast/3.10.1 (iPhone; ) (build 951, iOS 13.3)"
         ],
         "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^lamarr-iOS"
+        ],
+        "app": "The Economist",
+        "device": "phone",
+        "os": "ios",
+        "examples": [
+            "lamarr-iOS-2.20.3-116"
+        ]
+    },
+    {
+        "user_agents": [
+            "^lamarr-android"
+        ],
+        "app": "The Economist",
+        "device": "phone",
+        "os": "android",
+        "examples": [
+            "lamarr-android-2.18.1-21810"
+        ]
     }
 ]
