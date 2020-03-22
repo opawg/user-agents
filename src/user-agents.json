@@ -1169,10 +1169,14 @@
     {
         "user_agents": [
             "RadioPublic iOS",
-            "RadioPublic.+CFNetwork"
+            "RadioPublic.+CFNetwork",
+            "^RadioPublic/iOS"
         ],
         "app": "RadioPublic",
         "description": "RadioPublic’s free, easy to use podcast player makes listening to podcasts simple, enjoyable, and fun.",
+        "examples": [
+            "RadioPublic/iOS-2.0"
+        ],
         "info_url": "https://radiopublic.com/",
         "svg": "radiopublic.svg",
         "os": "ios"
