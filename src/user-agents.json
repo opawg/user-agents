@@ -1484,5 +1484,29 @@
             "com.evolve.podcast/3.10.1 (iPhone; ) (build 951, iOS 13.3)"
         ],
         "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^Podimo/.*iOS"
+        ],
+        "app": "Podimo",
+        "device": "phone",
+        "os": "ios",
+        "examples": [
+            "Podimo/1.11.3 build 121/iOS 13.3"
+        ],
+        "info_url": "https://apps.apple.com/dk/app/podimo-a-world-of-podcasts/id1476538730"
+    },
+    {
+        "user_agents": [
+            "^Podimo/.*Android"
+        ],
+        "app": "Podimo",
+        "device": "phone",
+        "os": "android",
+        "examples": [
+            "Podimo/1.11.3 build 91/Android 28"
+        ],
+        "info_url": "https://play.google.com/store/apps/details?id=com.podimo&hl=en_US"
     }
 ]
