@@ -638,7 +638,7 @@
         "app": "Google Podcasts",
         "device": "phone",
         "description": "Google Podcasts on iOS",
-        "developer_notes": "'Podcasts' is the iOS app, while *GSA/ is used in the Google app when searching and playing podcasts. CAUTION: 'Podcasts' is Google; 'Podcasts/' is Apple.",
+        "developer_notes": "'Podcasts' is the iOS app, while *GSA/ is used in the Google app when searching and playing podcasts",
         "os": "ios"
     },
     {
@@ -649,7 +649,7 @@
         "app": "Google Podcasts",
         "device": "tablet",
         "description": "Google Podcasts on iOS",
-        "developer_notes": "'Podcasts' is the iOS app, while *GSA/ is used in the Google app when searching and playing podcasts. CAUTION: 'Podcasts' is Google; 'Podcasts/' is Apple.",
+        "developer_notes": "'Podcasts' is the iOS app, while *GSA/ is used in the Google app when searching and playing podcasts",
         "os": "ios"
     },
     {
@@ -659,7 +659,9 @@
         "app": "Google Podcasts",
         "os": "android",
         "description": "Google Podcasts on Android (the app or player)",
-        "examples": ["Mozilla/5.0%20(Linux;%20Android%2010;%20Pixel%203a%20Build/QQ2A.200305.002;%20wv)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Version/4.0%20Chrome/80.0.3987.149%20Mobile%20Safari/537.36%20GSA/11.2.7.21.arm64	"],
+        "examples": [
+          "Mozilla/5.0 (Linux; Android 10; Pixel 3a Build/QQ2A.200305.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.149 Mobile Safari/537.36 GSA/11.2.7.21.arm64"
+          ],
         "developer_notes": "*GSA/ is used in the Google app when searching and playing podcasts, and in the Google Podcasts app"
     },
     {
