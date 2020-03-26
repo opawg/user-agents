@@ -830,6 +830,14 @@
     bot: true
     description: "Podnews runs a number of bots to read and test RSS and audio files"
     info_url: "http://podnews.net"
+  -  
+    user_agents: 
+      - "Podyssey App"
+      - "com.toysinboxes.Echo"
+      - "fm.podyssey.podcasts"
+    app: "Podyssey"
+    description: "Podyssey is a community for people that love podcasts. It's like Goodreads, but for podcasts"
+    info_url: "https://podyssey.fm"
   - 
     user_agents: 
       - "python-requests"
