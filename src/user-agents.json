@@ -869,6 +869,19 @@
     },
     {
         "user_agents": [
+            "^com.jio.media.jiobeats.jiosaavn",
+            "^com.jio.media.jiobeats",
+            "^com.saavn.android",
+            "^saavn"
+        ],
+        "app": "JioSaavn",
+        "device": "phone",
+        "info_url": "https://www.jiosaavn.com/",
+        "description": "A music streaming and podcast app from India. Earn Your Happy!",
+        "developer_notes": "The user-agent will start with one of the above strings followed by the app version and player version."
+    },
+    {
+        "user_agents": [
             "^lamarr-iOS"
         ],
         "app": "The Economist",
