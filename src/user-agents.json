@@ -1178,6 +1178,32 @@
     },
     {
         "user_agents": [
+            "Podyssey App"
+        ],
+        "app": "Podyssey",
+        "description": "Podyssey is a community for people that love podcasts. It's like Goodreads, but for podcasts.",
+        "info_url": "https://podyssey.fm"
+    },
+    {
+        "user_agents": [
+            "com.toysinboxes.Echo"
+        ],
+        "app": "Podyssey",
+        "description": "Podyssey is a community for people that love podcasts. It's like Goodreads, but for podcasts.",
+        "info_url": "https://podyssey.fm",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "fm.podyssey.podcasts"
+        ],
+        "app": "Podyssey",
+        "description": "Podyssey is a community for people that love podcasts. It's like Goodreads, but for podcasts.",
+        "info_url": "https://podyssey.fm",
+        "os": "android"
+    },
+    {
+        "user_agents": [
             "python-requests"
         ],
         "bot": true
