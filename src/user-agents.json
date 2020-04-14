@@ -1342,7 +1342,7 @@
     },
     {
         "user_agents": [
-            "^Spotify/\\d+"
+            "^Spotify/\\d+\.\\d+$"
         ],
         "bot": true
     },
