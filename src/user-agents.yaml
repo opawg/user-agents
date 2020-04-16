@@ -952,7 +952,7 @@
     os: "ios"
   - 
     user_agents: 
-      - "^Spotify/\\d+\.\\d+$"
+      - "^Spotify/\\d+\\.\\d+$"
     bot: true
   - 
     user_agents: 
