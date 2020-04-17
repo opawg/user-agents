@@ -1342,7 +1342,7 @@
     },
     {
         "user_agents": [
-            "^Spotify/\\d+\.\\d+$"
+            "^Spotify/1.0$"
         ],
         "bot": true,
         "developer_notes": "This useragent, currently simply Spotify/1.0, is used when retrieving the RSS and audio for Spotify's catalogue. It isn't used for passthru."
