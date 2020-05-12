@@ -1599,5 +1599,11 @@
             "^msnbot/"
         ],
         "bot": true
+    },
+    {
+        "user_agents": [
+            "INA dlweb"
+        ],
+        "bot": true
     }
 ]
