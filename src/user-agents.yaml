@@ -1110,5 +1110,5 @@
     os: "ios"
   -
     user_agents:
-      - "^Deezer Podcasters\/1\.0"
+      - "^Deezer Podcasters\/1\\.0"
     bot: true
