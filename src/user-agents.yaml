@@ -1108,4 +1108,7 @@
     examples: 
       - "com.evolve.podcast/3.10.1 (iPhone; ) (build 951, iOS 13.3)"
     os: "ios"
-
+  -
+    user_agents:
+      - "^got/"
+    bot: true
