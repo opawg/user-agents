@@ -1605,5 +1605,20 @@
             "^Deezer Podcasters\/1\\.0"
         ],
         "bot": true
+    },
+    {
+        "user_agents": [
+            "^got/"
+        ],
+        "bot": true,
+        "info_url": "https://play.google.com/store/apps/details?id=com.podimo&hl=en_US",
+        "developer_notes": "Got is a HTTP library for NodeJs"
+    },
+    {
+         "user_agents": [
+            "INA dlweb"
+        ],
+        "bot": true,
+        "developer_notes": "Institut National de l'Audiovisuel is a repository of all French radio and television audiovisual archives."
     }
 ]
