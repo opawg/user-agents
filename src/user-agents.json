@@ -561,7 +561,7 @@
             "^Lavf/"
         ],
         "app": "ffmpeg",
-        "developer_notes": "This is a library used within TuneIn, VLC, ffmpeg and other programs. This is the default useragent for the ffmpeg library. TuneIn apparently still uses Lavf for their Android app."
+        "developer_notes": "This is a library used within TuneIn, VLC, ffmpeg and other programs. This is the default useragent for the ffmpeg library."
     },
     {
         "user_agents": [
@@ -1468,7 +1468,15 @@
         "user_agents": [
             "^TuneIn"
         ],
-        "app": "TuneIn"
+        "examples": [
+            "TuneIn Radio/24.2 (Linux;Android 10) ExoPlayerLib/2.11.4",
+            "TuneIn Radio/1366 CFNetwork/1121.2.2 Darwin/19.3.0",
+            "TuneIn Radio/18.1; iPhone12,8; iOS/13.4.1",
+            "TuneIn Radio Pro/1361 CFNetwork/1121.2.2 Darwin/19.3.0"
+        ],
+        "app": "TuneIn Radio",
+        "info_url": "https://tunein.com/",
+        "developer_notes": "Legacy versions of this app appear to use other user agents."
     },
     {
         "user_agents": [
