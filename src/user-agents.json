@@ -560,7 +560,8 @@
         "user_agents": [
             "^Lavf/"
         ],
-        "app": "ffmpeg"
+        "app": "ffmpeg",
+        "developer_notes": "This is a library used within TuneIn, VLC, ffmpeg and other programs. This is the default useragent for the ffmpeg library. TuneIn apparently still uses Lavf for their Android app."
     },
     {
         "user_agents": [
