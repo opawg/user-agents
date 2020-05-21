@@ -1602,7 +1602,7 @@
         "bot": true
     },
     {
-        "user-agents": [
+        "user_agents": [
             "^Deezer Podcasters\/1\\.0"
         ],
         "bot": true
