@@ -633,16 +633,18 @@
     },
     {
         "user_agents": [
-            "*GSA/",
+            "(?:(?:iPhone|iPad|iPod touch);.+)?GSA/",
             "^Podcasts$",
             "^GooglePodcasts/"
         ],
         "app": "Google Podcasts",
         "description": "Google Podcasts on iOS",
         "examples": [
-          "GooglePodcasts/2.0.2%20iPod_touch/13.4.1%20hw/iPod9_1"
+          "GooglePodcasts/2.0.2%20iPod_touch/13.4.1%20hw/iPod9_1",
+          "Mozilla/5.0 (iPhone; CPU iPhone OS 13_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/107.0.310639584 Mobile/15E148 Safari/604.1",
+          "Mozilla/5.0 (iPod touch; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/107.0.310639584 Mobile/15E148 Safari/601.1"
           ],
-        "developer_notes": "'GooglePodcasts' is the iOS app, while *GSA/ is used in the Google app when searching and playing podcasts. The first useragent was simply 'Podcasts'.",
+        "developer_notes": "'GooglePodcasts' is the iOS app, while (?:(?:iPhone|iPad|iPod touch);.+)?GSA/ is used in the Google app when searching and playing podcasts. The first useragent was simply 'Podcasts'.",
         "os": "ios"
     },
     {
