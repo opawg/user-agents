@@ -633,24 +633,16 @@
     },
     {
         "user_agents": [
-            "iPhone;.*GSA/",
-            "^Podcasts$"
+            "*GSA/",
+            "^Podcasts$",
+            "^GooglePodcasts/"
         ],
         "app": "Google Podcasts",
-        "device": "phone",
         "description": "Google Podcasts on iOS",
-        "developer_notes": "'Podcasts' is the iOS app, while *GSA/ is used in the Google app when searching and playing podcasts",
-        "os": "ios"
-    },
-    {
-        "user_agents": [
-            "iPad;.*GSA/",
-            "^Podcasts$"
-        ],
-        "app": "Google Podcasts",
-        "device": "tablet",
-        "description": "Google Podcasts on iOS",
-        "developer_notes": "'Podcasts' is the iOS app, while *GSA/ is used in the Google app when searching and playing podcasts",
+        "examples": [
+          "GooglePodcasts/2.0.2%20iPod_touch/13.4.1%20hw/iPod9_1"
+          ],
+        "developer_notes": "'GooglePodcasts' is the iOS app, while *GSA/ is used in the Google app when searching and playing podcasts. The first useragent was simply 'Podcasts'.",
         "os": "ios"
     },
     {
@@ -1476,7 +1468,7 @@
         ],
         "app": "TuneIn Radio",
         "info_url": "https://tunein.com/",
-        "developer_notes": "Legacy versions of this app appear to use other user agents."
+        "developer_notes": "Other versions of this app use many other user agents."
     },
     {
         "user_agents": [
