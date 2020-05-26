@@ -1623,5 +1623,39 @@
         ],
         "bot": true,
         "developer_notes": "Institut National de l'Audiovisuel is a repository of all French radio and television audiovisual archives."
+    },
+    {
+        "user_agents": [
+            "^SoundOn/[\\d\\.]+\\s+\\(Linux;Android",
+            "^SoundOn\/[^12]\\.\\d+\\.\\d+$",
+            "^SoundOn\/1\\.[^1][^0-2]?\\.\\d+$"
+        ],
+        "app": "SoundOn",
+        "device": "phone",
+        "examples": [
+            "SoundOn/1.9.17 (Linux;Android 10) ExoPlayerLib/2.9.4"
+        ],
+        "os": "android"
+    },
+    {
+        "user_agents": [
+            "^SoundOn/1\\.1[0-2]\\.\\d+$",
+            "^SoundOn/2\\.\\d+\\.\\d+$",
+            "^SoundOn/[\\d\\.]+\\s+\\(iOS"
+        ],
+        "app": "SoundOn",
+        "device": "phone",
+        "examples": [
+            "SoundOn/1.10.1",
+            "SoundOn/2.2.0",
+            "SoundOn/2.2.2 (iOS)"
+        ],
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^SoundOn/[\\d\\.]+\\s+\\(bot"
+        ],
+        "bot": true
     }
 ]
