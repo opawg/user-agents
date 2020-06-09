@@ -1157,6 +1157,23 @@
     },
     {
         "user_agents": [
+            "^Podhero/"
+        ],
+        "app": "Podhero",
+        "bot": true,
+        "info_url": "https://podhero.com",
+        "description": "Podhero feed crawler. Supports websub."
+    },
+    {
+        "user_agents": [
+            "^Podhero/"
+        ],
+        "app": "Podhero",
+        "info_url": "https://podhero.com",
+        "description": "Podhero app on iOS and Android."
+    },
+    {
+        "user_agents": [
             "^Podkicker"
         ],
         "app": "Podkicker Pro",
@@ -1450,7 +1467,8 @@
         "user_agents": [
             "^Swoot/"
         ],
-        "app": "Swoot"
+        "app": "Swoot",
+        "description": "Renamed to Podhero in June 2020"
     },
     {
         "user_agents": [
