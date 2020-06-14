@@ -323,6 +323,18 @@
     },
     {
         "user_agents": [
+          "BroadwayPodcastNetwork/iOS"
+        ],
+        "app": "Broadway Podcast Network",
+        "description": "The Broadway Podcast Network iOS App",
+        "device": "phone",
+        "examples": [
+          "BroadwayPodcastNetwork/iOS"
+        ],
+        "os": "ios"
+    },
+    {
+        "user_agents": [
             "^Cast(?:b|B)ox/.+Android"
         ],
         "app": "CastBox",
