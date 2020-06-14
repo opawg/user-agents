@@ -83,7 +83,8 @@
             "de.danoeh.antennapod/1.7.3b (Linux;Android 8.0.0) ExoPlayerLib/2.9.3"
         ],
         "info_url": "https://github.com/AntennaPod/AntennaPod",
-        "os": "android"
+        "os": "android",
+        "developer_notes": "The de.danoeh version was used when streaming only, and will been phased out as of v2"
     },
     {
         "user_agents": [
