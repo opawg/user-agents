@@ -1572,7 +1572,7 @@
         "examples": [
             "TuneIn Radio Pro/23.3.2 (Linux;Android 5.1.1) ExoPlayerLib/2.10.7"
         ],
-        "app": "TuneIn Radio",
+        "app": "TuneIn Pro",
         "os": "android",
         "info_url": "https://play.google.com/store/apps/details?id=radiotime.player"
     },
@@ -1597,7 +1597,7 @@
             "TuneIn Radio Pro/1361 CFNetwork/1121.2.2 Darwin/19.3.0",
             "TuneIn%20Radio%20Pro/1383 CFNetwork/1125.2 Darwin/19.4.0"
         ],
-        "app": "TuneIn Radio",
+        "app": "TuneIn Pro",
         "os": "ios",
         "info_url": "https://apps.apple.com/us/app/tunein-pro-radio-sports/id319295332"
     },
