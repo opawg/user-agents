@@ -837,8 +837,8 @@
     {
         "user_agents": [
             "^iHeartRadio/.* CFNetwork/",
-            "^iHeartRadio/.* (iPhone;",
-            "^iHeartRadio/.* (iPad;"
+            "^iHeartRadio/.* iPhone;",
+            "^iHeartRadio/.* iPad;"
         ],
         "app": "iHeartRadio",
         "os": "ios",
