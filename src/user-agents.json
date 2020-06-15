@@ -824,9 +824,30 @@
     },
     {
         "user_agents": [
-            "^iHeartRadio/"
+            "^iHeartRadio/.*Android"
         ],
-        "app": "iHeartRadio"
+        "app": "iHeartRadio",
+        "os": "android",
+        "examples": [
+            "iHeartRadio/9.19.0 (Android 10; SM-G960U Build/QP1A.190711.020)",
+            "iHeartRadio/9.19.0 (Android 9; SM-G950U Build/PPR1.180610.011)"
+        ],
+        "info_url": "https://play.google.com/store/apps/details?id=com.clearchannel.iheartradio.controller"
+    },
+    {
+        "user_agents": [
+            "^iHeartRadio/.* CFNetwork/",
+            "^iHeartRadio/.* (iPhone;",
+            "^iHeartRadio/.* (iPad;"
+        ],
+        "app": "iHeartRadio",
+        "os": "ios",
+        "examples": [
+            "iHeartRadio/2020052002 CFNetwork/1125.2 Darwin/19.4.0",
+            "iHeartRadio/9.20.0 (iPhone; iOS 13.4.1; iPhone11,8)",
+            "iHeartRadio/9.20.0 (iPad; iOS 13.4.1; iPad6,12)"
+        ],
+        "info_url": "https://apps.apple.com/us/app/iheart-radio-music-podcasts/id290638154"
     },
     {
         "user_agents": [
