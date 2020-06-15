@@ -1527,13 +1527,57 @@
     },
     {
         "user_agents": [
+            "^TuneIn Radio/.*;Android"
+        ],
+        "examples": [
+            "TuneIn Radio/24.2 (Linux;Android 10) ExoPlayerLib/2.11.4"
+        ],
+        "app": "TuneIn Radio",
+        "os": "android",
+        "info_url": "https://play.google.com/store/apps/details?id=tunein.player"
+    },
+    {
+        "user_agents": [
+            "^TuneIn Radio Pro/.*;Android"
+        ],
+        "examples": [
+            "TuneIn Radio Pro/23.3.2 (Linux;Android 5.1.1) ExoPlayerLib/2.10.7"
+        ],
+        "app": "TuneIn Radio",
+        "os": "android",
+        "info_url": "https://play.google.com/store/apps/details?id=radiotime.player"
+    },
+    {
+        "user_agents": [
+            "^TuneIn(%20| )Radio/.*(CFNetwork/|iPhone)"
+        ],
+        "examples": [
+            "TuneIn Radio/1366 CFNetwork/1121.2.2 Darwin/19.3.0",
+            "TuneIn Radio/18.1; iPhone12,8; iOS/13.4.1",
+            "TuneIn%20Radio/1383 CFNetwork/1125.2 Darwin/19.4.0"
+        ],
+        "app": "TuneIn Radio",
+        "os": "ios",
+        "info_url": "https://apps.apple.com/us/app/tunein-radio-live-news-music/id418987775"
+    },
+    {
+        "user_agents": [
+            "^TuneIn(%20| )Radio(%20| )Pro/.*CFNetwork/"
+        ],
+        "examples": [
+            "TuneIn Radio Pro/1361 CFNetwork/1121.2.2 Darwin/19.3.0",
+            "TuneIn%20Radio%20Pro/1383 CFNetwork/1125.2 Darwin/19.4.0"
+        ],
+        "app": "TuneIn Radio",
+        "os": "ios",
+        "info_url": "https://apps.apple.com/us/app/tunein-pro-radio-sports/id319295332"
+    },
+    {
+        "user_agents": [
             "^TuneIn"
         ],
         "examples": [
-            "TuneIn Radio/24.2 (Linux;Android 10) ExoPlayerLib/2.11.4",
-            "TuneIn Radio/1366 CFNetwork/1121.2.2 Darwin/19.3.0",
-            "TuneIn Radio/18.1; iPhone12,8; iOS/13.4.1",
-            "TuneIn Radio Pro/1361 CFNetwork/1121.2.2 Darwin/19.3.0"
+            "TuneIn Radio"
         ],
         "app": "TuneIn Radio",
         "info_url": "https://tunein.com/",
