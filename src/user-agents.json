@@ -837,15 +837,15 @@
     {
         "user_agents": [
             "^iHeartRadio/.* CFNetwork/",
-            "^iHeartRadio/.* iPhone;",
-            "^iHeartRadio/.* iPad;"
+            "^iHeartRadio/.* iOS"
         ],
         "app": "iHeartRadio",
         "os": "ios",
         "examples": [
             "iHeartRadio/2020052002 CFNetwork/1125.2 Darwin/19.4.0",
             "iHeartRadio/9.20.0 (iPhone; iOS 13.4.1; iPhone11,8)",
-            "iHeartRadio/9.20.0 (iPad; iOS 13.4.1; iPad6,12)"
+            "iHeartRadio/9.20.0 (iPad; iOS 13.4.1; iPad6,12)",
+            "iHeartRadio/9.7.0 (iPod touch; iOS 12.4.5; iPod7,1)"
         ],
         "info_url": "https://apps.apple.com/us/app/iheart-radio-music-podcasts/id290638154"
     },
@@ -1211,12 +1211,14 @@
     },
     {
         "user_agents": [
-            "^Podbean/Android App"
+            "^Podbean/Android App",
+            "^Podbean/Android generic"
         ],
         "app": "Podbean",
         "os": "android",
         "examples": [
-            "Podbean/Android App 7.6.4 (http://podbean.com),1927526fe23b5acf535b3e91b64cee95"
+            "Podbean/Android App 7.6.4 (http://podbean.com),1927526fe23b5acf535b3e91b64cee95",
+            "Podbean/Android generic 1.1.2 (http://podbean.com),9376c517335ded9a716022cc1f15c884"
         ],
         "info_url": "https://play.google.com/store/apps/details?id=com.podbean.app.podcast"
     },
