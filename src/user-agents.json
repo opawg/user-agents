@@ -1422,6 +1422,16 @@
 	},
 	{
 		"user_agents": [
+			"Sonnet"
+		],
+		"app": "Sonnet",
+		"description": "Sonnet is a simple, easy to use podcast app aimed at new listeners",
+		"os": "android",
+		"info_url": "https://sonnet.fm",
+		"svg": "sonnet.svg"
+	},
+	{
+		"user_agents": [
 			"Sonos"
 		],
 		"app": "Sonos",
