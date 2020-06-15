@@ -1199,9 +1199,15 @@
     },
     {
         "user_agents": [
-            "^PodCruncher/"
+            "^PodCruncher/.* CFNetwork/"
         ],
-        "app": "PodCruncher"
+        "app": "PodCruncher",
+        "os": "ios",
+        "examples": [
+            "PodCruncher/3.7.1 CFNetwork/1125.2 Darwin/19.4.0",
+            "PodCruncher/3.7.1 CFNetwork/978.0.7 Darwin/18.7.0"
+        ],
+        "info_url": "https://apps.apple.com/us/app/podcruncher-podcast-player/id421894356"
     },
     {
         "user_agents": [
