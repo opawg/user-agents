@@ -430,13 +430,33 @@
         ],
         "app": "Deezer",
         "device": "phone",
-        "os": "android"
+        "os": "android",
+        "examples": [
+            "Deezer/6.2.2.80 (Android; 9; Mobile; fr) samsung SM-G950F",
+            "Deezer/6.2.3.96 (Android; 10; Mobile; fr) samsung SM-A405FN"
+        ],
+        "info_url": "https://play.google.com/store/apps/details?id=deezer.android.app"
+    },
+    {
+        "user_agents": [
+            "^Deezer/.*CFNetwork/"
+        ],
+        "app": "Deezer",
+        "os": "ios",
+        "examples": [
+            "Deezer/8.13.0.4 CFNetwork/1125.2 Darwin/19.4.0"
+        ],
+        "info_url": "https://apps.apple.com/us/app/deezer-music-podcast-player/id292738169"
     },
     {
         "user_agents": [
             "^Deezer"
         ],
-        "app": "Deezer"
+        "app": "Deezer",
+        "examples": [
+            "Deezer/4.20.0 (Electron; windows/10.0.18362; Desktop; fr)",
+            "Deezer/4.20.0 (Electron; osx/10.14.6; Desktop; fr)"
+        ]
     },
     {
         "user_agents": [
