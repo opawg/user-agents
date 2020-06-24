@@ -931,24 +931,28 @@
     },
     {
         "user_agents": [
-            "^lamarr-iOS"
+            "^lamarr-iOS",
+            "^TheEconomist-Lamarr-ios"
         ],
         "app": "The Economist",
         "device": "phone",
         "os": "ios",
         "examples": [
-            "lamarr-iOS-2.20.3-116"
+            "lamarr-iOS-2.20.3-116",
+            "TheEconomist-Lamarr-ios-2.22.2-12002"
         ]
     },
     {
         "user_agents": [
-            "^lamarr-android"
+            "^lamarr-android",
+            "^TheEconomist-Lamarr-android"
         ],
         "app": "The Economist",
         "device": "phone",
         "os": "android",
         "examples": [
-            "lamarr-android-2.18.1-21810"
+            "lamarr-android-2.18.1-21810",
+            "TheEconomist-Lamarr-android-2.22.2-12002"
         ]
     },
     {
