@@ -1169,10 +1169,16 @@
     },
     {
         "user_agents": [
-            "iOS.*The Podcast App/"
+            "iOS.*The Podcast App/",
+            "com.evolve.podcast/"
         ],
         "app": "The Podcast App",
-        "os": "ios"
+        "os": "ios", 
+        "examples": [
+            "podcast/2358 iOS/Version 13.5.1 (Build 017F80) The Podcast App/3.22.1",
+            "com.evolve.podcast/3.22.1 (iPhone; ) (build 2358, iOS 13.5.1)"
+        ],
+        "developer_notes": "The com.evolve version of the useragent is an error, and has been reported to the developers as a bug. Caution: the beginning of their main useragent is similar to Google Podcasts."
     },
     {
         "user_agents": [
