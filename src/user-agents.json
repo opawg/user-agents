@@ -910,6 +910,18 @@
     },
     {
         "user_agents": [
+            ".*KAIOS/"
+        ],
+        "app": "KAIOS podcast app",
+        "device": "phone",
+        "os": "kaios",
+        "examples": [
+            "Mozilla/5.0 (Mobile; LYF/F271i/LYF_F271i-000-01-20-101019; Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5"
+        ],
+        "developer_notes": "This is a standard useragent for KaiOS, the cut-down operating system for mobile phones in developing countries. There is no way of setting an app-specific useragent. Watch out - it also contains Android."
+    },
+    {
+        "user_agents": [
             "^Laughable.+iOS"
         ],
         "app": "Laughable",
