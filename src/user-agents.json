@@ -1281,6 +1281,13 @@
     },
     {
         "user_agents": [
+            "PodLink"
+        ],
+        "app": "PodLink",
+        "info_url": "https://pod.link/faq/crawler"
+    },
+    {
+        "user_agents": [
             "PodnewsBot"
         ],
         "app": "Podnews",
