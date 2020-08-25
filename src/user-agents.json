@@ -915,10 +915,25 @@
         "app": "KAIOS podcast app",
         "device": "phone",
         "os": "kaios",
+        "info_url": "https://kaiostech.com",
         "examples": [
             "Mozilla/5.0 (Mobile; LYF/F271i/LYF_F271i-000-01-20-101019; Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5"
         ],
-        "developer_notes": "This is a standard useragent for KaiOS, the cut-down operating system for mobile phones in developing countries. There is no way of setting an app-specific useragent. Watch out - it also contains Android."
+        "developer_notes": "This is a standard useragent for KaiOS, the cut-down operating system for mobile phones in developing countries. Watch out - it may also contain Android."
+    },
+    {
+        "user_agents": [
+            ".*PodLP/"
+        ],
+        "app": "PodLP podcast app for KaiOS",
+        "device": "phone",
+        "os": "kaios",
+        "info_url": "https://podlp.com",
+        "examples": [
+            "Mozilla/5.0 (Mobile; LYF/F271i/LYF_F271i-000-01-20-101019; Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5 PodLP/1.3.2.0"
+        ],
+        "description": "PodLP is the first podcast app available for KaiOS smart feature phones on the KaiStore.",
+        "developer_notes": "Introduced in version v1.2.0.0 for limited content (downloads); available for all content after v1.3.0.0"
     },
     {
         "user_agents": [
