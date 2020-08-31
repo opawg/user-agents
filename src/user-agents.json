@@ -1851,5 +1851,39 @@
             "^SoundOn/[\\d\\.]+\\s+\\(bot"
         ],
         "bot": true
+    },
+    {
+      "user_agents": [
+        "^Podverse/Android Mobile App/"
+      ],
+      "app": "Podverse Android Mobile App",
+      "device": "phone",
+      "os": "android",
+      "info_url": "https://play.google.com/store/apps/details?id=com.podverse&hl=en_US",
+      "description": "Open source podcast catcher for Android, with clip-sharing, playlists, device syncing and more.",
+      "developer_notes": "The standard device user agent is concatenated to the end of the Podverse/Android Mobile App/ user agent."
+    },
+    {
+      "user_agents": [
+        "^Podverse/iOS Mobile App/"
+      ],
+      "app": "Podverse iOS Mobile App",
+      "device": "phone",
+      "os": "ios",
+      "examples": [
+        "Podverse/iOS Mobile App/Mozilla/5.0 (iPhone; CPU iPhone OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/1234"
+      ],
+      "description": "Open source podcast catcher for iOS, with clip-sharing, playlists, device syncing and more.",
+      "info_url": "https://apps.apple.com/us/app/podverse/id1390888454",
+      "developer_notes": "The standard device user agent is concatenated to the end of the Podverse/iOS Mobile App/ user agent."
+    },
+    {
+      "user_agents": [
+        "^Podverse/Feed Parser"
+      ],
+      "bot": true,
+      "app": "Podverse Server-Side Feed Parser",
+      "info_url": "https://podverse.fm",
+      "description": "The Podverse feed parser. This service parses publicly-accessible RSS feeds on a timer, then stores parsed data in the Podverse database."
     }
 ]
