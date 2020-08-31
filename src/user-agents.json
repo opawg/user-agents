@@ -1884,6 +1884,7 @@
       "bot": true,
       "app": "Podverse Server-Side Feed Parser",
       "info_url": "https://podverse.fm",
-      "description": "The Podverse feed parser. This service parses publicly-accessible RSS feeds on a timer, then stores parsed data in the Podverse database."
+      "description": "The Podverse feed parser.",
+      "developer_notes": "This service parses publicly-accessible RSS feeds on a timer, then stores parsed data in the Podverse database."
     }
 ]
