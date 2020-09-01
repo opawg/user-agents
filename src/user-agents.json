@@ -1303,6 +1303,34 @@
     },
     {
         "user_agents": [
+            "^PodMN/Android"
+        ],
+        "description": "Minnesota Podcasts Live Here",
+        "examples": [
+            "PodMN/Android 1.2.6 (Android 7.1.1; SM-J510FN Build/NMF26X)"
+        ],
+        "info_url": "https://play.google.com/store/apps/details?id=com.podmn.app",
+        "app": "PodMN",
+        "device": "phone",
+        "os": "android",
+        "svg": "podmn.svg"
+    },
+    {
+        "user_agents": [
+            "^PodMN/iOS"
+        ],
+        "description": "Minnesota Podcasts Live Here",
+        "examples": [
+            "PodMN/iOS 1.2.6 (iPhone XR/13.6.1)"
+        ],
+        "info_url": "https://apps.apple.com/us/app/podmn/id1464935818",
+        "app": "PodMN",
+        "device": "phone",
+        "os": "ios",
+        "svg": "podmn.svg"
+    },
+    {
+        "user_agents": [
             "PodnewsBot"
         ],
         "app": "Podnews",

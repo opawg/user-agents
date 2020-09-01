@@ -848,6 +848,11 @@
     info_url: "https://pod.link/faq/crawler"
   - 
     user_agents: 
+      - "^PodMN/"
+    app: "PodMN"
+    svg: "podmn.svg"
+  - 
+    user_agents: 
       - "PodnewsBot"
     app: "Podnews"
     bot: true
