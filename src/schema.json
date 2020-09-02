@@ -1,0 +1,47 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "user_agents"
+    ],
+    "properties": {
+      "user_agents": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "bot": {
+        "type": "boolean"
+      },
+      "app": {
+        "type": "string"
+      },
+      "device": {
+        "type": "string"
+      },
+      "os": {
+        "type": "string"
+      },
+      "examples": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "description": {
+        "type": "string"
+      },
+      "info_url": {
+        "type": "string"
+      },
+      "svg": {
+        "type": "string"
+      },
+      "developer_notes": {
+        "type": "string"
+      }
+    }
+  }
+}
