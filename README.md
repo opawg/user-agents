@@ -1,6 +1,6 @@
 # User agent list
 
-A list of apps, services and bots that consume podcast data. (A human view is [over here](https://podnews.net/article/podcast-app-useragents)); and this data is used by a number of podcast hosts to assist with their analytics.
+A list of apps, services and bots that consume podcast **audio**. (A human view is [over here](https://podnews.net/article/podcast-app-useragents)); and this data is used by a number of podcast hosts to assist with their analytics.
 
 ## Contributing to the list
 
