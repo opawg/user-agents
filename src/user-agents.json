@@ -96,12 +96,13 @@
         "user_agents": [
             "^AppleCoreMedia/1\\..*iPod"
         ],
-        "app": "Apple Podcasts",
         "device": "mp3_player",
         "examples": [
             "AppleCoreMedia/1.0.0.16G114 (iPod touch; U; CPU OS 12_4_2 like Mac OS X; en_us)"
         ],
-        "os": "ios"
+        "os": "ios",
+        "description": "AppleCoreMedia library",
+        "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
         "user_agents": [
@@ -110,67 +111,67 @@
         "examples": [
             "AppleCoreMedia/1.0.0.19A583 (Macintosh; U; Intel Mac OS X 10_15; en_us)"
         ],
-        "app": "Apple Podcasts",
         "device": "pc",
         "os": "macos",
-        "description": "The Apple Podcasts app on MacOS Catalina and above",
-        "developer_notes": "Used when progressively downloading podcasts"
+        "description": "AppleCoreMedia library",
+        "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
         "user_agents": [
             "^AppleCoreMedia/1\\..*iPhone"
         ],
-        "app": "Apple Podcasts",
         "device": "phone",
         "examples": [
             "AppleCoreMedia/1.0.0.15G77 (iPhone; U; CPU OS 11_4_1 like Mac OS X; en_us)"
         ],
-        "os": "ios"
+        "os": "ios",
+        "description": "AppleCoreMedia library",
+        "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"        
     },
     {
         "user_agents": [
             "^AppleCoreMedia/1\\..*iPad"
         ],
-        "app": "Apple Podcasts",
         "device": "tablet",
         "examples": [
             "AppleCoreMedia/1.0.0.17A860 (iPad; U; CPU OS 13_1_2 like Mac OS X; en_us)"
         ],
-        "os": "ios"
+        "os": "ios",
+        "description": "AppleCoreMedia library",
+        "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"        
     },
     {
         "user_agents": [
             "^AppleCoreMedia/1\\..*HomePod"
         ],
-        "app": "Apple Podcasts",
         "device": "speaker",
         "examples": [
             "AppleCoreMedia/1.0.0.16G78 (HomePod; U; CPU OS 12_4 like Mac OS X; en_us)"
         ],
-        "os": "homepod_os"
+        "os": "homepod_os",
+        "description": "AppleCoreMedia library",
+        "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"        
     },
     {
         "user_agents": [
             "^AppleCoreMedia/1\\..*Apple TV"
         ],
-        "app": "Apple Podcasts",
         "device": "tv",
         "examples": [
             "AppleCoreMedia/1.0.0.17J586 (Apple TV; U; CPU OS 13_0 like Mac OS X; en_us)"
         ],
-        "os": "tvos"
+        "os": "tvos",
+        "description": "AppleCoreMedia library",
+        "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
         "user_agents": [
-            "^AppleCoreMedia/1\\..*Apple Watch",
-            "watchOS/"
+            "^AppleCoreMedia/1\\..*Apple Watch"
         ],
-        "app": "Apple Podcasts",
         "device": "watch",
-        "examples": [
-            "atc/1.0 watchOS/6.0.1 model/Watch4,1 hwp/t8006 build/17R605 (6; dt:190)"
-        ],
-        "os": "watchos"
+        "os": "watchos",
+        "description": "AppleCoreMedia library",
+        "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
         "user_agents": [
