@@ -63,11 +63,12 @@
     },
     {
         "user_agents": [
-            "^Amazon Music Podcast"
+            "^Amazon Music Podcast",
+            "^Amazon Music"
         ],
         "app": "Amazon Music Podcasts",
         "description": "A music and podcasts streaming app",
-        "developer_notes": "Seeing this once per episode. Could be a bot or caching service?",
+        "developer_notes": "Seeing these once per episode. Could be a bot or caching service?",
         "svg": "amazon.svg",
     },
     {
