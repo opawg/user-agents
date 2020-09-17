@@ -54,21 +54,35 @@
         "user_agents": [
             "^AmazonMusic/\\..*iPhone"
         ],
+        "examples": [
+            "AmazonMusic/9.15.2 iPhone7,2 CFNetwork/978.0.7 Darwin/18.7.0"
+        ],
         "app": "Amazon Music Podcasts",
         "description": "A music and podcasts streaming app",
         "os": "ios",
         "device": "phone",        
-        "developer_notes": "Stats are available within the Alexa skills dashboard",
         "svg": "amazon.svg",
     },
     {
         "user_agents": [
-            "^Amazon Music Podcast",
-            "^Amazon Music"
+            "^AmazonMusic$"
+        ],
+        "examples": [
+            "AmazonMusic"
         ],
         "app": "Amazon Music Podcasts",
         "description": "A music and podcasts streaming app",
-        "developer_notes": "Seeing these once per episode. Could be a bot or caching service?",
+        "os": "android",
+        "developer_notes": "This appears to be the Android UA, by testing",
+        "svg": "amazon.svg",
+    },
+    {
+        "user_agents": [
+            "^Amazon Music Podcast"
+        ],
+        "app": "Amazon Music Podcasts",
+        "description": "A music and podcasts streaming app",
+        "developer_notes": "Seeing these once per episode, from an Oregon-based IP. Could be a bot or caching service?",
         "svg": "amazon.svg",
     },
     {
