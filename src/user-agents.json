@@ -219,7 +219,6 @@
             "^Podcast’ler/.*\\(.*\\)",
             "^Podkaster/.*\\(.*\\)",
             "^Podcaster/.*\\(.*\\)",
-            "^Podcast/.*\\(.*\\)",
             "^Podcastok/.*\\(.*\\)",
             "^Подкасти/.*\\(.*\\)",
             "^Подкасты/.*\\(.*\\)",
@@ -251,7 +250,6 @@
             "^Podcast’ler/.*\\d$",
             "^Podkaster/.*\\d$",
             "^Podcaster/.*\\d$",
-            "^Podcast/.*\\d$",
             "^Podcastok/.*\\d$",
             "^Подкасти/.*\\d$",
             "^Подкасты/.*\\d$",
@@ -267,8 +265,7 @@
         "description": "The Apple Podcasts app on devices other than MacOS Catalina and above",
         "developer_notes": "Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Hungarian, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Swedish, Thai, Turkish",
         "examples": [
-            "Podcasts/2.6",
-            "Podcast/1150.47 CFNetwork/811.5.4 Darwin/16.6.0"
+            "Podcasts/2.6"
         ]
     },
     {
