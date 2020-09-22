@@ -61,7 +61,7 @@
         "description": "A music and podcasts streaming app",
         "os": "ios",
         "device": "phone",        
-        "svg": "amazon.svg",
+        "svg": "amazon.svg"
     },
     {
         "user_agents": [
@@ -74,7 +74,7 @@
         "description": "A music and podcasts streaming app",
         "os": "android",
         "developer_notes": "This appears to be the Android UA, by testing",
-        "svg": "amazon.svg",
+        "svg": "amazon.svg"
     },
     {
         "user_agents": [
@@ -83,7 +83,7 @@
         "app": "Amazon Music Podcasts",
         "description": "A music and podcasts streaming app",
         "developer_notes": "Seeing these once per episode, from an Oregon-based IP. Could be a bot or caching service?",
-        "svg": "amazon.svg",
+        "svg": "amazon.svg"
     },
     {
         "user_agents": [
