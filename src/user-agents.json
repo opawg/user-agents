@@ -29,6 +29,16 @@
     },
     {
         "user_agents": [
+            "^Airr/"
+        ],
+        "app": "Airr",
+        "info_url": "https://www.airr.io/",
+        "examples": [
+            "Airr/3787 CFNetwork/1128.0.1 Darwin/19.6.0"
+        ]
+    },
+    {
+        "user_agents": [
             "^AlexaMediaPlayer/1\\.",
             "^AlexaMediaPlayer/16\\.",
             "^AlexaMediaPlayer/2\\."
@@ -269,11 +279,10 @@
             "^팟캐스트/.*\\d$"
         ],
         "app": "Apple Podcasts",
-        "os": "ios",
-        "description": "The Apple Podcasts app on devices other than MacOS Catalina and above",
-        "developer_notes": "Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Hungarian, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Swedish, Thai, Turkish",
+        "description": "The Apple Podcasts app",
+        "developer_notes": "Used when downloading podcasts (not progressive downloads). This could be on iOS or iPadOS.",
         "examples": [
-            "Podcasts/2.6"
+            "Podcasts/1440.4 CFNetwork/1128.0.1 Darwin/19.6.0"
         ]
     },
     {
@@ -283,6 +292,14 @@
         "app": "BashPodder",
         "device": "pc",
         "info_url": "http://lincgeek.org/bashpodder/"
+    },
+    {
+        "user_agents": [
+            "Barkrowler\/"
+        ],
+        "app": "Babbar",
+        "bot": true,
+        "info_url": "https://beta.babbar.tech/crawler"
     },
     {
         "user_agents": [
@@ -316,6 +333,13 @@
             "Mozilla/5.0 (Linux; U; en-us; BeyondPod 4)"
         ],
         "os": "android"
+    },
+    {
+        "user_agents": [
+            "bingbot\/"
+        ],
+        "app": "Bingbot",
+        "bot": true
     },
     {
         "user_agents": [
@@ -515,6 +539,10 @@
         "user_agents": [
             "DotBot/1"
         ],
+        "app": "DotBot",
+        "examples": [
+            "Mozilla/5.0 (compatible; DotBot/1.1; http://www.opensiteexplorer.org/dotbot, help@moz.com)"
+        ],
         "bot": true
     },
     {
@@ -577,9 +605,15 @@
     },
     {
         "user_agents": [
-            "FacebookBot"
+            "FacebookBot",
+            "facebookexternalhit/"
         ],
-        "bot": true
+        "bot": true,
+        "app": "Facebook",
+        "info_url": "https://www.facebook.com/externalhit_uatext.php",
+        "examples": [
+            "facebookexternalhit/1.1 ( http://www.facebook.com/externalhit_uatext.php)"
+        ]
     },
     {
         "user_agents": [
@@ -635,8 +669,7 @@
         "user_agents": [
             "^Lavf/"
         ],
-        "app": "ffmpeg",
-        "developer_notes": "This is a library used within TuneIn, VLC, ffmpeg and other programs. This is the default useragent for the ffmpeg library."
+        "developer_notes": "ffmpeg is a library used within TuneIn, VLC, ffmpeg and other programs. This is the default useragent for the ffmpeg library. Since it's a library, not an app by itself, we don't add its name here."
     },
     {
         "user_agents": [
@@ -685,13 +718,15 @@
             "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; http://www.google.com/bot.html)"
         ],
         "description": "Google's search bot",
+        "app": "Googlebot",
         "bot": true
     },
     {
         "user_agents": [
             "Google-Podcast"
         ],
-        "bot": true
+        "bot": true,
+        "app": "Google Podcasts Manager"
     },
     {
         "user_agents": [
@@ -749,11 +784,11 @@
     },
     {
         "user_agents": [
-            "Android.*Chrome/(?!.*(CrKey|GSA/))"
+            "Android.*Chrome/(?!.*(Googlebot|CrKey|GSA/))"
         ],
         "app": "Google Chrome",
         "os": "android",
-        "developer_notes": "This won't match a Chromecast device, Google speaker or Google app"
+        "developer_notes": "This won't match Googlebot, a Chromecast device, Google speaker or Google app"
     },
     {
         "user_agents": [
@@ -874,12 +909,6 @@
     },
     {
         "user_agents": [
-            "^Himalaya/"
-        ],
-        "app": "Himalaya"
-    },
-    {
-        "user_agents": [
             "^iCatcher"
         ],
         "app": "iCatcher",
@@ -946,10 +975,11 @@
     },
     {
         "user_agents": [
-            "^iTunes/1[12]\\.(?!.*(OS X|Mac OS\/)))"
+            "^iTunes/.+Windows"
         ],
         "examples": [
-            "iTunes/11.4 (Windows; Microsoft Windows 7 x64 Home Premium Edition (Build 7600)) AppleWebKit/7600.1017.0.24"
+            "iTunes/11.4 (Windows; Microsoft Windows 7 x64 Home Premium Edition (Build 7600)) AppleWebKit/7600.1017.0.24",
+            "iTunes/12.10.9 (Windows; Microsoft Windows 10 x64 Home Premium Edition (Build 19041); x64) AppleWebKit/7609.3005.1003.3"
         ],
         "app": "iTunes",
         "device": "pc",
@@ -1229,6 +1259,17 @@
     },
     {
         "user_agents": [
+            "^Overcast.*Apple Watch"
+        ],
+        "app": "Overcast",
+        "examples": [
+            "Overcast ( http://overcast.fm/; Apple Watch podcast app)"
+        ],
+        "os": "watchos",
+        "device": "watch"
+    },
+    {
+        "user_agents": [
             "^Overcast/1.0 Podcast Sync"
         ],
         "app": "Overcast feed parser",
@@ -1252,6 +1293,17 @@
         "app": "Pandora",
         "device": "phone",
         "os": "android"
+    },
+    {
+        "user_agents": [
+            "iPhone.+Pandora\/"
+        ],
+        "app": "Pandora",
+        "device": "phone",
+        "os": "ios",
+        "example": [
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Pandora/2009.2"
+        ]
     },
     {
         "user_agents": [
@@ -1564,11 +1616,15 @@
         "user_agents": [
             "^Ruby"
         ],
-        "bot": true
+        "developer_notes": "The generic Ruby user-agent."
     },
     {
         "user_agents": [
-            "^SEMrushBot"
+            "SemrushBot\/"
+        ],
+        "app": "SEMrushBot",
+        "examples": [
+            "Mozilla/5.0 (compatible; SemrushBot/6~bl; http://www.semrush.com/bot.html)"
         ],
         "bot": true
     },
@@ -1618,20 +1674,27 @@
         "user_agents": [
             "^Spotify/1.0$"
         ],
+        "app": "Spotify cache service",
         "bot": true,
+        "examples": [
+            "Spotify/1.0"
+        ],
         "developer_notes": "This useragent, currently simply Spotify/1.0, is used when retrieving the RSS and audio for Spotify's catalogue. It isn't used for passthru."
     },
     {
         "user_agents": [
-            "Macintosh.*AppleWebKit.*Safari/"
+            "Macintosh.*AppleWebKit(?!.*(Chrome\/)).*Safari/"
         ],
         "app": "Safari",
         "device": "pc",
-        "os": "macos"
+        "os": "macos",
+        "examples": [
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15"
+        ]
     },
     {
         "user_agents": [
-            "Windows.*AppleWebKit.*Safari/"
+            "Windows.*AppleWebKit(?!.*(Chrome\/)).*Safari/"
         ],
         "app": "Safari",
         "device": "pc",
@@ -1652,12 +1715,6 @@
         "app": "Safari",
         "device": "tablet",
         "os": "ios"
-    },
-    {
-        "user_agents": [
-            "SemrushBot/"
-        ],
-        "bot": true
     },
     {
         "user_agents": [
@@ -1703,7 +1760,12 @@
     },
     {
         "user_agents": [
-            "^Stitcher/Android"
+            "^Stitcher\/Android",
+            "^Stitcher Demo\/"
+        ],
+        "examples": [
+            "Stitcher Demo/4.8.0 (Linux;Android 11) ExoPlayerLib/2.10.7",
+            "Stitcher/Android"
         ],
         "app": "Stitcher",
         "os": "android"
@@ -1759,6 +1821,7 @@
         "user_agents": [
             "^Trackable/"
         ],
+        "app": "Chartable",
         "bot": true
     },
     {
@@ -1887,8 +1950,9 @@
     },
     {
         "user_agents": [
-            "YandexBot"
+            "YandexBot\/"
         ],
+        "app": "YandexBot",
         "bot": true
     },
     {
@@ -1954,7 +2018,8 @@
         "user_agents": [
             "^Deezer Podcasters\/1\\.0"
         ],
-        "bot": true
+        "bot": true,
+        "app": "Deezer Podcasters"
     },
     {
         "user_agents": [
