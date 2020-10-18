@@ -16,7 +16,7 @@ should be validated. Backslashes ("\\") should be escaped, so instead of `^Echo\
 Each entry _can_ contain one of the following properties:
 
 * `bot` (boolean): set to `true` when the requesting agent is a bot (no need to set to `false` otherwise).
-* `app` (string): set to the human-readable name of the app or service.
+* `app` (string): set to the human-readable name of the app or service. We do not set this string if it's just a library or framework.
 * `device` (string): set to a slug of the device type, usually one of
   * `pc` (meaning a desktop or laptop computer running Linux, macOS or Windows)
   * `phone`
