@@ -1495,6 +1495,24 @@
     },
     {
         "user_agents": [
+            "podnods-crawler",
+            "podnods"
+        ],
+        "app": "Podnods",
+        "bot": true,
+        "description": "Podnods is a podcast discovery site. This user agent is for crawling podcast data.",
+        "info_url": "https://podnods.com/about"
+    },
+    {
+        "user_agents": [
+            "podnods-player"
+        ],
+        "app": "Podnods",
+        "description": "Podnods is a podcast discovery site. This user agent is for users to sample and play podcasts.",
+        "info_url": "https://podnods.com/about"
+    },
+    {
+        "user_agents": [
             "Podyssey App"
         ],
         "app": "Podyssey",
