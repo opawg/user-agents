@@ -1168,7 +1168,7 @@
     {
         "user_agents": [
             "^Overcast/2",
-            "^Overcast/3",
+            "^Overcast/3"
         ],
         "app": "Overcast",
         "examples": [
