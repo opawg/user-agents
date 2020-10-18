@@ -1,11 +1,12 @@
 # User agent list
 
-A list of apps, services and bots that consume podcast **audio**. (A human view is [over here](https://podnews.net/article/podcast-app-useragents)); and this data is used by a number of podcast hosts to assist with their analytics.
+A list of apps, services and bots that consume podcast **audio**. This data is used by a number of podcast hosts to assist with their analytics.
 
 ## Contributing to the list
 
-For now, the simplest way is to add to the file at `src/user-agents.json`. Each app, service or
-bot should have its own entry.
+The simplest way is to add to the file at `src/user-agents.json`.
+
+Each app, service or bot should have its own entry. The user_agents should be as exclusive as possible, to avoid multiple matches.
 
 Each entry _must_ contain the following properties:
 
@@ -49,17 +50,4 @@ Android tablets are rarer, almost all requests will be via Android phones, but w
 
 ## Parsing order
 
-Right now, there isn't a great deal of thought put into the order... it's sort-of alphabetical depending on
-circumstance. It might be worth ordering based on the accuracy of each set of regexes.
-
-## Future plans
-
-To stop the list becoming unwieldy, in the future it may be possible to separate out the apps into separate
-files, that are then combined together automatically. That makes it harder to make a static list available
-via Github, but it's possible to run a static site and use a CI script -- a script that is called when code
-is committed to this repository -- to combine the files and generate the static file.
-
-Happy to accept advice or actual code to make this happen :)
-
-Also, if we do use multiple files, it will become necessary to have some sort of `priority` or `accuracy`
-property for each agent, so that they can be combined in parsing order.
+Multiple matches should ideally not happen for anything that has an app name; so parsing order shouldn't matter. For devices and OS, you mat discover that multiple matches will give you more accurate data, but you should hopefully only see one app name.
