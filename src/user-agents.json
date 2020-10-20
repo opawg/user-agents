@@ -62,10 +62,12 @@
     },
     {
         "user_agents": [
-            "^AmazonMusic/\\..*iPhone"
+            "^AmazonMusic.*iPhone"
         ],
         "examples": [
-            "AmazonMusic/9.15.2 iPhone7,2 CFNetwork/978.0.7 Darwin/18.7.0"
+            "AmazonMusic/9.15.2 iPhone7,2 CFNetwork/978.0.7 Darwin/18.7.0",
+            "AmazonMusic/9.16.1 iPhone9,1 CFNetwork/1128.0.1 Darwin/19.6.0",
+            "AmazonMusic/9.16.0 iPhone12,1 CFNetwork/1128.0.1 Darwin/19.6.0"
         ],
         "app": "Amazon Music Podcasts",
         "description": "A music and podcasts streaming app",
@@ -441,6 +443,16 @@
         ],
         "info_url": "https://castget.johndal.com/",
         "device": "pc"
+    },
+    {
+        "user_agents": [
+            "Castopod/1.0"
+        ],
+        "app": "Castopod",
+        "examples": [
+            "Castopod/1.0"
+        ],
+        "bot": true
     },
     {
         "user_agents": [
@@ -1291,7 +1303,6 @@
             "^Pandora.+Android"
         ],
         "app": "Pandora",
-        "device": "phone",
         "os": "android"
     },
     {
@@ -1355,6 +1366,15 @@
             "com.evolve.podcast/3.22.1 (iPhone; ) (build 2358, iOS 13.5.1)"
         ],
         "developer_notes": "The com.evolve version of the useragent is an error, and has been reported to the developers as a bug. Caution: the beginning of their main useragent is similar to Google Podcasts."
+    },
+    {
+        "user_agents": [
+            "^PodcastGuru "
+        ],
+        "app": "Podcast Guru",
+        "os": "android",
+        "info_url": "https://podcastguru.io/",
+        "description": "Podcast Guru is the simple and free podcast player"
     },
     {
         "user_agents": [
