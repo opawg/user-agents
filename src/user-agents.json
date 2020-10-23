@@ -1911,7 +1911,7 @@
     },
     {
         "user_agents": [
-            "^TuneIn(?!.*(CFNetwork|Android)))"
+            "^TuneIn(?!.*(CFNetwork|Android))"
         ],
         "examples": [
             "TuneIn Radio"
