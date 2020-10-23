@@ -195,7 +195,7 @@
         "examples": [
             "AppleCoreMedia/1.0.0.16G78 (HomePod; U; CPU OS 12_4 like Mac OS X; en_us)"
         ],
-        "os": "homepod_os",
+        "os": "homepodos",
         "description": "AppleCoreMedia library",
         "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
