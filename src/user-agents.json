@@ -2165,8 +2165,9 @@
         "user_agents": [
             "^Xiaoyuzhou/"
         ],
-        "app": "Xiaoyuzhou",
-        "description": "Xiaoyuzhou, a podcast app",
+        "app": "Xiao Yu Zhou",
+        "description": "Xiao Yu Zhou, a podcast app",
+        "info_url": "https://apps.apple.com/cn/app/%E5%B0%8F%E5%AE%87%E5%AE%99-%E4%B8%80%E8%B5%B7%E5%90%AC%E6%92%AD%E5%AE%A2/id1488894313",
         "examples": [
             "Xiaoyuzhou/1.9.0"
         ]
