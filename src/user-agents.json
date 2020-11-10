@@ -17,9 +17,11 @@
     },
     {
         "user_agents": [
-            "^AdsBot-Google"
+            "AdsBot-Google"
         ],
-        "bot": true
+        "app": "Google AdsBot",
+        "bot": true,
+        "info_url": "http://www.google.com/adsbot.html"
     },
     {
         "user_agents": [
@@ -52,7 +54,7 @@
         "user_agents": [
             "^AmazonNewsContentService"
         ],
-        "app": "Amazon Alexa Flash Briefing caching service",
+        "app": "Alexa Flash Briefing cache",
         "description": "A service which downloads, caches and normalises audio for the Flash Briefing service on Alexa-enabled devices",
         "os": "alexa",
         "info_url": "https://developer.amazon.com/docs/flashbriefing/flash-briefing-skill-api-feed-reference.html#performance-requirements",
@@ -338,13 +340,6 @@
     },
     {
         "user_agents": [
-            "bingbot\/"
-        ],
-        "app": "Bingbot",
-        "bot": true
-    },
-    {
-        "user_agents": [
             "^Bose/"
         ],
         "app": "Bose SoundTouch",
@@ -352,10 +347,10 @@
     },
     {
         "user_agents": [
-            "^Breaker/"
+            "^Breaker/iOS"
         ],
         "app": "Breaker",
-        "device": "phone"
+        "os": "ios"
     },
     {
         "user_agents": [
@@ -582,12 +577,23 @@
     },
     {
         "user_agents": [
-            "Downcast/"
+            "Downcast/.*iPhone"
         ],
         "app": "Downcast",
         "device": "phone",
         "examples": [
             "Downcast/2.9.42 (iPhone; iOS 12.4.1; Scale/3.00)"
+        ],
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "Downcast/.*iPad"
+        ],
+        "app": "Downcast",
+        "device": "tablet",
+        "examples": [
+            "Downcast/2.9.57 (iPad; iOS 14.2; Scale/2.00)"
         ],
         "os": "ios"
     },
@@ -742,6 +748,7 @@
         ],
         "description": "Google's search bot",
         "app": "Googlebot",
+        "info_url": "http://www.google.com/bot.html",
         "bot": true
     },
     {
@@ -832,18 +839,19 @@
     },
     {
         "user_agents": [
-            "Mac OS X.*Chrome/"
+            "Mac OS X.*Chrome/(?!.*(Spreaker/)"
         ],
         "app": "Google Chrome",
         "device": "pc",
         "examples": [
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
         ],
-        "os": "macos"
+        "os": "macos",
+        "developer_notes": "This won't match the Spreaker app"
     },
     {
         "user_agents": [
-            "Windows.*Chrome/"
+            "Windows.*Chrome/(?!.*(OPR/)"
         ],
         "app": "Google Chrome",
         "device": "pc",
@@ -975,6 +983,13 @@
             "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)"
         ],
         "os": "windows"
+    },
+    {
+        "user_agents": [
+            "iVoox"
+        ],
+        "app": "iVoox",
+        "info_url": "https://www.ivoox.com/"
     },
     {
         "user_agents": [
@@ -1256,11 +1271,23 @@
     },
     {
         "user_agents": [
-            "Opera/.*\\(Windows"
+            "Opera/.*\\(Windows",
+            "Windows.*OPR/"
         ],
         "app": "Opera",
         "device": "pc",
         "os": "windows"
+    },
+    {
+        "user_agents": [
+            "Macintosh.*OPR/"
+        ],
+        "app": "Opera",
+        "os": "macos",
+        "device": "pc",
+        "examples": [
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 OPR/72.0.3815.186"
+        ]
     },
     {
         "user_agents": [
@@ -1306,7 +1333,7 @@
             "^PandoraRSSCrawler"
         ],
         "bot": true,
-        "app": "Pandora's RSS crawler"
+        "app": "Pandora RSS crawler"
     },
     {
         "user_agents": [
@@ -1344,7 +1371,6 @@
             "^PocketCasts/"
         ],
         "app": "Pocket Casts",
-        "device": "phone",
         "examples": [
             "Pocket Casts"
         ],
@@ -1463,7 +1489,8 @@
     },
     {
         "user_agents": [
-            "^Podhero"
+            "^Podhero",
+            "^Swoot/"
         ],
         "app": "Podhero",
         "examples": [
@@ -1731,7 +1758,7 @@
     },
     {
         "user_agents": [
-            "Macintosh.*AppleWebKit(?!.*(Chrome\/)).*Safari/"
+            "Macintosh.*AppleWebKit(?!.*(Chrome\/)).*Safari/(?!.*(AdsBot/)"
         ],
         "app": "Safari",
         "device": "pc",
@@ -1750,7 +1777,7 @@
     },
     {
         "user_agents": [
-            "iPhone.*AppleWebKit.*Safari/"
+            "iPhone.*AppleWebKit.*Safari/(?!.*(AdsBot/)"
         ],
         "app": "Safari",
         "device": "phone",
@@ -1796,7 +1823,14 @@
     },
     {
         "user_agents": [
-            "^Spreaker"
+            "^Spreaker for Android"
+        ],
+        "app": "Spreaker",
+        "os": "Android"
+    },
+    {
+        "user_agents": [
+            "Spreaker/"
         ],
         "app": "Spreaker"
     },
@@ -1836,8 +1870,9 @@
     },
     {
         "user_agents": [
-            "StitcherBot"
+            "^StitcherBot"
         ],
+        "app": "Stitcher",
         "bot": true
     },
     {
@@ -1860,16 +1895,10 @@
     },
     {
         "user_agents": [
-            "^Swoot/"
-        ],
-        "app": "Swoot",
-        "description": "Renamed to Podhero in June 2020"
-    },
-    {
-        "user_agents": [
             "^Trackable/"
         ],
         "app": "Chartable",
+        "info_url": "https://chartable.com/",
         "bot": true
     },
     {
@@ -2052,9 +2081,16 @@
     },
     {
         "user_agents": [
-            "BingPreview/"
+            "BingPreview/",
+            "adidxbot/",
+            "bingbot/"
         ],
-        "bot": true
+        "app": "Microsoft Bing",
+        "bot": true,
+        "info_url": "https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0",
+        "examples": [
+            "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534 (KHTML, like Gecko) BingPreview/1.0b"
+        ]
     },
     {
         "user_agents": [
@@ -2181,6 +2217,31 @@
         "bot": true,
         "examples": [
             "Podcast-CriticalMention/1.0"
+        ]
+    },
+    {
+        "user_agents": [
+            "^RSSOwl.*Windows"
+        ],
+        "app": "RSSOwl",
+        "description": "A Mac and Windows app, to help organize, search, and read feeds",
+        "device": "pc",
+        "os": "windows",
+        "info_url": "http://www.rssowl.org/",
+        "examples": [
+            "RSSOwl/2.2.1.201312301314 (Windows; U; en)"
+        ]
+    },
+    {
+        "user_agents": [
+            "^ltx71 "
+        ],
+        "app": "LTX71",
+        "info_url": "http://ltx71.com/",
+        "description": "We continuously scan the internet for security research purposes.",
+        "bot": true,
+        "examples": [
+            "ltx71 - (http://ltx71.com/)"
         ]
     }
 ]
