@@ -1266,8 +1266,7 @@
         "examples": [
             "Overcast/3.0 (+http://overcast.fm/; iOS podcast app)"
         ],
-        "os": "ios",
-        "device": "phone"
+        "os": "ios"
     },
     {
         "user_agents": [
