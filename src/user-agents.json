@@ -839,7 +839,7 @@
     },
     {
         "user_agents": [
-            "Mac OS X.*Chrome/(?!.*(Spreaker/)"
+            "Mac OS X.*Chrome/(?!.*(Spreaker/))"
         ],
         "app": "Google Chrome",
         "device": "pc",
@@ -851,7 +851,7 @@
     },
     {
         "user_agents": [
-            "Windows.*Chrome/(?!.*(OPR/)"
+            "Windows.*Chrome/(?!.*(OPR/))"
         ],
         "app": "Google Chrome",
         "device": "pc",
@@ -1758,7 +1758,7 @@
     },
     {
         "user_agents": [
-            "Macintosh.*AppleWebKit(?!.*(Chrome\/)).*Safari/(?!.*(AdsBot/)"
+            "Macintosh.*AppleWebKit(?!.*(Chrome\/)).*Safari/(?!.*(AdsBot/))"
         ],
         "app": "Safari",
         "device": "pc",
@@ -1777,7 +1777,7 @@
     },
     {
         "user_agents": [
-            "iPhone.*AppleWebKit.*Safari/(?!.*(AdsBot/)"
+            "iPhone.*AppleWebKit.*Safari/(?!.*(AdsBot/))"
         ],
         "app": "Safari",
         "device": "phone",
