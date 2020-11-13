@@ -51,3 +51,14 @@ Android tablets are rarer, almost all requests will be via Android phones, but w
 ## Parsing order
 
 Multiple matches should ideally not happen for anything that has an app name; so parsing order shouldn't matter. For devices and OS, you mat discover that multiple matches will give you more accurate data, but you should hopefully only see one app name.
+
+## Testing
+
+The ```/src``` folder contains a subfolder ```/tests``` with unit tests per programming languages. Unit tests should try to compile all the regular expressions. In case of failure, the problematic regular expressions should be fixed before pushing the changes.
+
+### python
+
+```bash
+# Running tests with pytest
+pytest
+```
