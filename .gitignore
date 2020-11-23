@@ -1,1 +1,6 @@
 node_modules/
+**/__pycache__
+
+# Ignoring IDE extensions
+.vscode
+.idea
