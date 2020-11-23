@@ -75,19 +75,20 @@
         "description": "A music and podcasts streaming app",
         "os": "ios",
         "device": "phone",
+        "developer_notes": "Examples are from an Amazon contact",
         "svg": "amazon.svg"
     },
     {
         "user_agents": [
-            "^AmazonMusic$"
+            "^AmazonMusic.*Android"
         ],
         "examples": [
-            "AmazonMusic"
+            "AmazonMusic/16.17.0 Dalvik/2.1.0 (Linux; U; Android 6.0.1; vivo 1610 Build/MMB29M)"
         ],
         "app": "Amazon Music Podcasts",
         "description": "A music and podcasts streaming app",
         "os": "android",
-        "developer_notes": "This appears to be the Android UA, by testing",
+        "developer_notes": "Examples are from an Amazon contact",
         "svg": "amazon.svg"
     },
     {
@@ -96,8 +97,9 @@
         ],
         "app": "Amazon Music Podcasts",
         "description": "A music and podcasts streaming app",
-        "developer_notes": "Seeing these once per episode, from an Oregon-based IP. Could be a bot or caching service?",
-        "svg": "amazon.svg"
+        "developer_notes": "Backend ingestion service",
+        "svg": "amazon.svg",
+        "bot": true
     },
     {
         "user_agents": [
@@ -110,11 +112,18 @@
     },
     {
         "user_agents": [
-            "Android 5.*ford/"
+            "^com.audible.playersdk.player",
+            "^Audible,"
         ],
-        "app": "Amazon Kindle Fire",
-        "device": "tablet",
+        "app": "Audible",
         "os": "android"
+    },
+    {
+        "user_agents": [
+            "^Audible.*Darwin"
+        ],
+        "app": "Audible",
+        "os": "ios"
     },
     {
         "user_agents": [
@@ -279,6 +288,7 @@
             "^البودكاست/.*\\d$",
             "^पॉडकास्ट/.*\\d$",
             "^พ็อดคาสท์/.*\\d$",
+            "^%E6%92%AD%E5%AE%A2/.*\\d$",
             "^播客/.*\\d$",
             "^팟캐스트/.*\\d$"
         ],
@@ -339,6 +349,17 @@
         "os": "android"
     },
     {
+        "user_agents": [
+            "^Bitcast/"
+        ],
+        "app": "Bitcast",
+        "os": "ios",
+        "info_url": "https://bitcast.fm/",
+        "examples": [
+            "Bitcast/336 CFNetwork/1197 Darwin/20.0.0"
+        ]
+    },
+        {
         "user_agents": [
             "^Bose/"
         ],
@@ -646,6 +667,16 @@
     },
     {
         "user_agents": [
+            "^feedly/"
+        ],
+        "app": "Feedly",
+        "examples": [
+            "feedly/81.0.1 CFNetwork/1206 Darwin/20.1.0"
+        ],
+        "description": "An RSS reader"
+    },
+    {
+        "user_agents": [
             "Linux.*Firefox/"
         ],
         "app": "Firefox",
@@ -730,13 +761,17 @@
         "user_agents": [
             "^fyyd-poll"
         ],
+        "app": "Fyyd",
         "bot": true
     },
     {
         "user_agents": [
             "^Go-http-client"
         ],
-        "bot": true
+        "developer_notes": "This has been seen being used by a TuneIn client, and may be within WinAMP code.",
+        "examples": [
+            "Go-http-client/2.0"
+        ]
     },
     {
         "user_agents": [
@@ -839,7 +874,7 @@
     },
     {
         "user_agents": [
-            "Mac OS X.*Chrome/(?!.*(Spreaker/))"
+            "Mac OS X.*Chrome/(?!.*(Spreaker\/|OPR\/))"
         ],
         "app": "Google Chrome",
         "device": "pc",
@@ -893,6 +928,16 @@
             "^GStreamer"
         ],
         "device": "radio"
+    },
+    {
+        "user_agents": [
+            "^GaanaAndroid-"
+        ],
+        "app": "Gaana",
+        "os": "android",
+        "examples": [
+            "GaanaAndroid-8.13.0/Dalvik/2.1.0 (Linux; U; Android 9; vivo 1906 Build/PKQ1.190616.001)"
+        ]
     },
     {
         "user_agents": [
@@ -1191,7 +1236,11 @@
     },
     {
         "user_agents": [
-            "MJ12bot"
+            ".*MJ12bot"
+        ],
+        "app": "MJ12bot",
+        "examples": [
+            "Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)"
         ],
         "bot": true
     },
@@ -1287,6 +1336,16 @@
         "device": "pc",
         "examples": [
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 OPR/72.0.3815.186"
+        ]
+    },
+    {
+        "user_agents": [
+            "^MauiBot"
+        ],
+        "app": "MauiBot",
+        "bot": true,
+        "examples": [
+            "MauiBot (crawler.feedback dc@gmail.com)"
         ]
     },
     {
@@ -1777,7 +1836,7 @@
     },
     {
         "user_agents": [
-            "iPhone.*AppleWebKit.*Safari/(?!.*(AdsBot/))"
+            "iPhone.*AppleWebKit(?!.*(AdsBot|CriOS)).*Safari/"
         ],
         "app": "Safari",
         "device": "phone",
@@ -2122,6 +2181,15 @@
     },
     {
         "user_agents": [
+            "^Instagram\/"
+        ],
+        "app": "Instagram",
+        "examples": [
+            "Instagram/252729634 CFNetwork/1126 Darwin/19.5.0"
+        ]
+    },
+    {
+        "user_agents": [
             "^SoundOn/[\\d\\.]+\\s+\\(Linux;Android",
             "^SoundOn\/[^12]\\.\\d+\\.\\d+$",
             "^SoundOn\/1\\.[^1][^0-2]?\\.\\d+$"
@@ -2206,6 +2274,18 @@
         "info_url": "https://apps.apple.com/cn/app/%E5%B0%8F%E5%AE%87%E5%AE%99-%E4%B8%80%E8%B5%B7%E5%90%AC%E6%92%AD%E5%AE%A2/id1488894313",
         "examples": [
             "Xiaoyuzhou/1.9.0"
+        ]
+    },
+    {
+        "user_agents": [
+            "^yacybot"
+        ],
+        "app": "YaCy",
+        "bot": true,
+        "description": "Decentralized Web Search",
+        "info_url": "http://yacy.net/bot.html",
+        "examples": [
+            "yacybot (/global; amd64 Linux 5.9.8-zen1-1-zen; java 1.8.0_265; Europe/de) http://yacy.net/bot.html"
         ]
     },
     {
