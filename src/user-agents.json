@@ -25,9 +25,14 @@
     },
     {
         "user_agents": [
-            "AhrefsBot"
+            "AhrefsBot\/"
         ],
-        "bot": true
+        "app": "AhrefsBot",
+        "bot": true,
+        "info_url": "http://ahrefs.com/robot/",
+        "examples": [
+            "Mozilla/5.0 (compatible; AhrefsBot/7.0; http://ahrefs.com/robot/)"
+        ]
     },
     {
         "user_agents": [
@@ -36,7 +41,8 @@
         "app": "Airr",
         "info_url": "https://www.airr.io/",
         "examples": [
-            "Airr/3787 CFNetwork/1128.0.1 Darwin/19.6.0"
+            "Airr/3787 CFNetwork/1128.0.1 Darwin/19.6.0",
+            "Airr/4070 CFNetwork/1206 Darwin/20.1.0"
         ]
     },
     {
@@ -233,11 +239,27 @@
     },
     {
         "user_agents": [
-            " watchOS/"
+            "^atc\/.* watchOS\/.* model\/Watch"
         ],
+        "app": "Apple Podcasts",
         "device": "watch",
         "os": "watchos",
-        "developer_notes": "This device uses Apple WatchOS."
+        "bot": true,
+        "developer_notes": "All of these examples given are verified (via stamping the audio URL with the RSS useragent) as being sourced from Apple Podcasts; and accordingly this is marked as a bot since these downloads are duplicated with the phone.",
+        "examples": [
+            "atc/1.0 watchOS/6.2 model/Watch3,3 hwp/t8004 build/17T529 (6; dt:155)",
+            "atc/1.0 watchOS/6.2.8 model/Watch2,3 hwp/t8002 build/17U63 (6; dt:133)",
+            "atc/1.0 watchOS/6.2.8 model/Watch3,3 hwp/t8004 build/17U63 (6; dt:155)",
+            "atc/1.0 watchOS/6.2.8 model/Watch4,2 hwp/t8006 build/17U63 (6; dt:191)",
+            "atc/1.0 watchOS/7.0.2 model/Watch5,10 hwp/t8006 build/18R402 (6; dt:233)",
+            "atc/1.0 watchOS/7.0.2 model/Watch5,11 hwp/t8006 build/18R402 (6; dt:234)",
+            "atc/1.0 watchOS/7.1 model/Watch4,2 hwp/t8006 build/18R590 (6; dt:191)",
+            "atc/1.0 watchOS/7.1 model/Watch4,3 hwp/t8006 build/18R590 (6; dt:192)",
+            "atc/1.0 watchOS/7.1 model/Watch4,4 hwp/t8006 build/18R590 (6; dt:193)",
+            "atc/1.0 watchOS/7.1 model/Watch5,1 hwp/t8006 build/18R590 (6; dt:201)",
+            "atc/1.0 watchOS/7.1 model/Watch5,3 hwp/t8006 build/18R590 (6; dt:202)",
+            "atc/1.0 watchOS/7.1 model/Watch5,4 hwp/t8006 build/18R590 (6; dt:202)"
+        ]
     },
     {
         "user_agents": [
@@ -424,7 +446,8 @@
         "device": "phone",
         "examples": [
             "CastBox/8.2.6-191015245 (Linux;Android 10) ExoPlayerLib/2.10.4",
-            "CastBox/8.19.0-200927161 (Linux;Android 10) ExoPlayerLib/2.10.4"
+            "CastBox/8.19.0-200927161 (Linux;Android 10) ExoPlayerLib/2.10.4",
+            "CastBox/8.18.1-200917153 (Linux;Android 8.0.0) ExoPlayerLib/2.10.4"
         ],
         "os": "android"
     },
@@ -477,7 +500,8 @@
         "app": "Castro",
         "device": "phone",
         "examples": [
-            "Castro 2019.13/1167"
+            "Castro 2019.13/1167",
+            "Castro 2020.14/1287"
         ],
         "os": "ios"
     },
@@ -619,6 +643,17 @@
         "os": "ios"
     },
     {
+        "user_agents": [
+            "Downcast/.*Mac OS X"
+        ],
+        "app": "Downcast",
+        "examples": [
+            "Downcast/2.9.57 (Mac OS X Version 10.15.7 (Build 19H15))"
+        ],
+        "os": "macos",
+        "device": "pc"
+    },
+        {
         "user_agents": [
             "Xbox.+Edge/"
         ],
@@ -936,7 +971,8 @@
         "app": "Gaana",
         "os": "android",
         "examples": [
-            "GaanaAndroid-8.13.0/Dalvik/2.1.0 (Linux; U; Android 9; vivo 1906 Build/PKQ1.190616.001)"
+            "GaanaAndroid-8.13.0/Dalvik/2.1.0 (Linux; U; Android 9; vivo 1906 Build/PKQ1.190616.001)",
+            "GaanaAndroid-8.13.0/Dalvik/2.1.0 (Linux; U; Android 5.1; Micromax P701 Build/LMY47D)"
         ]
     },
     {
@@ -978,7 +1014,8 @@
         "app": "Himalaya",
         "device": "phone",
         "examples": [
-            "Himalaya/2.4.41 (iPhone; iOS 14.0.1; Scale/3.00; CFNetwork; iPhone9,4)"
+            "Himalaya/2.4.41 (iPhone; iOS 14.0.1; Scale/3.00; CFNetwork; iPhone9,4)",
+            "Himalaya/2.4.42 (iPhone; iOS 14.2; Scale/2.00; CFNetwork; iPhone8,1)"
         ],
         "os": "ios",
         "description": "Himalaya is a podcast app"
@@ -1131,7 +1168,10 @@
         "os": "android",
         "info_url": "https://www.jiosaavn.com/",
         "description": "A music streaming and podcast app from India. Earn Your Happy!",
-        "developer_notes": "The user-agent will start with one of the above strings followed by the app version and player version."
+        "developer_notes": "The user-agent will start with one of the above strings followed by the app version and player version.",
+        "examples": [
+            "com.jio.media.jiobeats/7.3.1 (Linux;Android 8.1.0) ExoPlayerLib/2.11.4"
+        ]
     },
     {
         "user_agents": [
@@ -1399,7 +1439,10 @@
             "^Pandora.+Android"
         ],
         "app": "Pandora",
-        "os": "android"
+        "os": "android",
+        "examples": [
+            "Pandora/2009.2 Android/7.1.1 gteslteatt (ExoPlayerLib1.5.14.1)"
+        ]
     },
     {
         "user_agents": [
@@ -1408,9 +1451,19 @@
         "app": "Pandora",
         "device": "phone",
         "os": "ios",
-        "example": [
+        "examples": [
             "Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Pandora/2009.2"
         ]
+    },
+    {
+        "user_agents": [
+            "PaperLiBot\/"
+        ],
+        "app": "PaperLi",
+        "examples": [
+            "Mozilla/5.0 (compatible; PaperLiBot/2.1; https://support.paper.li/entries/20023257-what-is-paper-li)"
+        ],
+        "bot": true
     },
     {
         "user_agents": [
@@ -1445,7 +1498,8 @@
         "app": "PodcastAddict",
         "device": "phone",
         "examples": [
-            "PodcastAddict/v2 - Dalvik/2.1.0 (Linux; U; Android 9; SM-N950U Build/PPR1.180610.011)"
+            "PodcastAddict/v2 - Dalvik/2.1.0 (Linux; U; Android 9; SM-N950U Build/PPR1.180610.011)",
+            "PodcastAddict/v5 ( https://podcastaddict.com/; Android podcast app)"
         ],
         "os": "android"
     },
@@ -1519,6 +1573,7 @@
         "os": "android",
         "examples": [
             "Podbean/Android App 7.6.4 (http://podbean.com),1927526fe23b5acf535b3e91b64cee95",
+            "Podbean/Android App 8.1.5 (http://podbean.com),4f6852f59091d32475ef75a53325a4fe",
             "Podbean/Android generic 1.1.2 (http://podbean.com),9376c517335ded9a716022cc1f15c884"
         ],
         "info_url": "https://play.google.com/store/apps/details?id=com.podbean.app.podcast"
@@ -1736,12 +1791,13 @@
     },
     {
         "user_agents": [
-            "^RSSRadio7?/"
+            "^RSSRadio"
         ],
         "app": "RSS Radio",
         "device": "phone",
         "examples": [
-            "RSSRadio7/9252 CFNetwork/1107.1 Darwin/19.0.0"
+            "RSSRadio7/9252 CFNetwork/1107.1 Darwin/19.0.0",
+            "RSSRadio/9710"
         ],
         "info_url": "http://rssrad.io",
         "os": "ios"
@@ -1761,6 +1817,17 @@
             "Mozilla/5.0 (compatible; SemrushBot/6~bl; http://www.semrush.com/bot.html)"
         ],
         "bot": true
+    },
+    {
+        "user_agents": [
+            "SerendeputyBot\/"
+        ],
+        "app": "Serendeputy",
+        "examples": [
+            "SerendeputyBot/0.8.6 (http://serendeputy.com/about/serendeputy-bot)"
+        ],
+        "bot": true,
+        "info_url": "https://serendeputy.com/about/serendeputy-bot"
     },
     {
         "user_agents": [
@@ -1954,13 +2021,20 @@
     },
     {
         "user_agents": [
+            "TrendsmapResolver\/"
+        ],
+        "app": "Trendsmap Resolver",
+        "bot": true
+    },
+    {
+        "user_agents": [
             "^Trackable/"
         ],
         "app": "Chartable",
         "info_url": "https://chartable.com/",
         "bot": true
     },
-    {
+        {
         "user_agents": [
             "^TuneIn Radio/.*;Android"
         ],
@@ -2053,6 +2127,7 @@
         "user_agents": [
             "Wget"
         ],
+        "app": "Wget",
         "bot": true
     },
     {
@@ -2177,6 +2252,8 @@
             "INA dlweb"
         ],
         "bot": true,
+        "app": "l'Institut national de l'audiovisuel",
+        "info_url": "https://institut.ina.fr/collecte-du-depot-legal-web",
         "developer_notes": "Institut National de l'Audiovisuel is a repository of all French radio and television audiovisual archives."
     },
     {
@@ -2267,16 +2344,29 @@
     },
     {
         "user_agents": [
-            "^Xiaoyuzhou/"
+            "^Xiaoyuzhou\/.*Android\/"
+        ],
+        "app": "Xiao Yu Zhou",
+        "description": "Xiao Yu Zhou, a podcast app",
+        "os": "android",
+        "examples": [
+            "Xiaoyuzhou/1.9.6 Android/10"
+        ]
+    },
+    {
+        "user_agents": [
+            "^Xiaoyuzhou/(?!.*(Android\/))"
         ],
         "app": "Xiao Yu Zhou",
         "description": "Xiao Yu Zhou, a podcast app",
         "info_url": "https://apps.apple.com/cn/app/%E5%B0%8F%E5%AE%87%E5%AE%99-%E4%B8%80%E8%B5%B7%E5%90%AC%E6%92%AD%E5%AE%A2/id1488894313",
+        "os": "ios",
         "examples": [
-            "Xiaoyuzhou/1.9.0"
+            "Xiaoyuzhou/1.9.0",
+            "Xiaoyuzhou/1.5.1"
         ]
     },
-    {
+        {
         "user_agents": [
             "^yacybot"
         ],
