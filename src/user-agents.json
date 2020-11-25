@@ -1952,7 +1952,7 @@
             "^Spreaker for Android"
         ],
         "app": "Spreaker",
-        "os": "Android"
+        "os": "android"
     },
     {
         "user_agents": [
@@ -2238,6 +2238,18 @@
         ],
         "bot": true,
         "app": "Deezer Podcasters"
+    },
+    {
+        "user_agents": [
+            "^devcasts\/.*CFNetwork"
+        ],
+        "app": "DevCasts",
+        "os": "ios",
+        "description": "Our Devcasts app is a new kind of podcast listening app. It is simply the best way for developers to enjoy all of the excellent podcast content created for developers.",
+        "examples": [
+            "devcasts/1.0.1.00 CFNetwork/1197 Darwin/20.0.0"
+        ],
+        "info_url": "http://devcasts.co/"
     },
     {
         "user_agents": [
