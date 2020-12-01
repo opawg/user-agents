@@ -832,10 +832,11 @@
         "user_agents": [
             "^Google-Speech-Actions"
         ],
-        "app": "Google Home",
+        "app": "Google Assistant",
         "device": "speaker",
-        "description": "Google Podcasts on smart speakers",
-        "os": "google_assistant"
+        "developer_notes": "This is audio downloaded as a result of a Google Assistant voice action. It's unlikely to appear in podcast host logs, since voice actions can only use up to 120 seconds of audio.",
+        "os": "google_assistant",
+        "info_url": "https://cloud.google.com/text-to-speech/docs/ssml"
     },
     {
         "user_agents": [
