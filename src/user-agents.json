@@ -1922,7 +1922,7 @@
     },
     {
         "user_agents": [
-            "iPhone.*AppleWebKit(?!.*(AdsBot|CriOS)).*Safari/"
+            "iPhone.*AppleWebKit(?!.*(AdsBot|bingbot|CriOS)).*Safari/"
         ],
         "app": "Safari",
         "device": "phone",
@@ -2227,7 +2227,7 @@
             "adidxbot/",
             "bingbot/"
         ],
-        "app": "Microsoft Bing",
+        "app": "Microsoft Bingbot",
         "bot": true,
         "info_url": "https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0",
         "examples": [
@@ -2444,6 +2444,42 @@
         "bot": true,
         "examples": [
             "bl.uk_ldfc_bot/3.4.0-20200518 ( http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/index.html)"
+        ]
+    },
+    {
+        "user_agents": [
+            "Archive-It;"
+        ],
+        "app": "Internet Archive",
+        "info_url": "https://archive-it.org/files/site-owners-special.html",
+        "description": "Archive-It is a web archiving service that allows institutions to build and preserve collections of born digital content saving this content for future generations.",
+        "bot": true,
+        "examples": [
+            "Mozilla/5.0 (compatible; special_archiver; Archive-It; http://archive-it.org/files/site-owners-special.html)"
+        ]
+    },
+    {
+        "user_agents": [
+            "VurblBot"
+        ],
+        "app": "Vurbl",
+        "info_url": "https://vurbl.com/about-us/",
+        "description": "An audio streaming destination",
+        "bot": true,
+        "examples": [
+            "Mozilla/5.0 https://vurbl.com VurblBot/1.0"
+        ]
+    },
+    {
+        "user_agents": [
+            "PetalBot"
+        ],
+        "app": "PetalBot",
+        "info_url": "https://aspiegel.com/petalbot",
+        "description": "PetalBot is an automatic program of the Petal search engine.",
+        "bot": true,
+        "examples": [
+            "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot; https://aspiegel.com/petalbot)"
         ]
     }
 ]
