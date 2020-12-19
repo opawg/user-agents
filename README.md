@@ -2,6 +2,8 @@
 
 A list of apps, services and bots that consume podcast **audio**. This data is used by a number of podcast hosts to assist with their analytics.
 
+One public example is [this page at Podnews](https://podnews.net/article/podnews-podcast-stats) which uses this data alongside the RSS UA.
+
 ## Contributing to the list
 
 The simplest way is to add to the file at `src/user-agents.json`.
