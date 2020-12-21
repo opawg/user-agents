@@ -681,6 +681,14 @@
     },
     {
         "user_agents": [
+            "Android.+EdgA/"
+        ],
+        "app": "Microsoft Edge",
+        "os": "android",
+        "info_url": "https://play.google.com/store/apps/details?id=com.microsoft.emmx&hl=en_AU&gl=US"
+    },
+    {
+        "user_agents": [
             "Windows Phone.+Edge/"
         ],
         "app": "Edge",
@@ -903,7 +911,7 @@
     },
     {
         "user_agents": [
-            "Android.*Chrome/(?!.*(Googlebot|CrKey|GSA/))"
+            "Android.*Chrome/(?!.*(Googlebot|CrKey|GSA|EdgA/))"
         ],
         "app": "Google Chrome",
         "os": "android",
@@ -2060,7 +2068,7 @@
         "examples": [
             "TuneIn Radio/24.2 (Linux;Android 10) ExoPlayerLib/2.11.4"
         ],
-        "app": "TuneIn Radio",
+        "app": "TuneIn",
         "os": "android",
         "info_url": "https://play.google.com/store/apps/details?id=tunein.player"
     },
@@ -2071,7 +2079,7 @@
         "examples": [
             "TuneIn Radio Pro/23.3.2 (Linux;Android 5.1.1) ExoPlayerLib/2.10.7"
         ],
-        "app": "TuneIn Pro",
+        "app": "TuneIn",
         "os": "android",
         "info_url": "https://play.google.com/store/apps/details?id=radiotime.player"
     },
@@ -2084,7 +2092,7 @@
             "TuneIn Radio/18.1; iPhone12,8; iOS/13.4.1",
             "TuneIn%20Radio/1383 CFNetwork/1125.2 Darwin/19.4.0"
         ],
-        "app": "TuneIn Radio",
+        "app": "TuneIn",
         "os": "ios",
         "info_url": "https://apps.apple.com/us/app/tunein-radio-live-news-music/id418987775"
     },
@@ -2096,7 +2104,7 @@
             "TuneIn Radio Pro/1361 CFNetwork/1121.2.2 Darwin/19.3.0",
             "TuneIn%20Radio%20Pro/1383 CFNetwork/1125.2 Darwin/19.4.0"
         ],
-        "app": "TuneIn Pro",
+        "app": "TuneIn",
         "os": "ios",
         "info_url": "https://apps.apple.com/us/app/tunein-pro-radio-sports/id319295332"
     },
@@ -2107,7 +2115,7 @@
         "examples": [
             "TuneIn Radio"
         ],
-        "app": "TuneIn Radio",
+        "app": "TuneIn",
         "info_url": "https://tunein.com/",
         "developer_notes": "Other versions of this app use many other user agents."
     },
@@ -2481,5 +2489,30 @@
         "examples": [
             "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot; https://aspiegel.com/petalbot)"
         ]
+    },
+    {
+        "user_agents": [
+            "PodhoundBeta"
+        ],
+        "app": "Podhound",
+        "info_url": "http://podhound.co",
+        "description": "AI-powered podcast discovery",
+        "bot": true,
+        "examples": [
+            "PodhoundBeta"
+        ],
+        "developer_notes": "'It grabs it once to get the audio file length.', says the developer."
+    },
+    {
+        "user_agents": [
+            "^gvfs/"
+        ],
+        "app": "Rhythmbox",
+        "info_url": "https://gitlab.gnome.org/GNOME/rhythmbox",
+        "description": "Rhythmbox is your one-stop multimedia application, supporting a music library, multiple playlists, internet radio, and more.",
+        "examples": [
+            "gvfs/1.46.1"
+        ],
+        "developer_notes": "Reported here to hopefully make more descriptive: https://gitlab.gnome.org/GNOME/rhythmbox/-/issues/1855"
     }
 ]
