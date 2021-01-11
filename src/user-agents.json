@@ -2505,7 +2505,20 @@
     },
     {
         "user_agents": [
-            "^gvfs/"
+            "hermespod.com/"
+        ],
+        "app": "HermesPod",
+        "info_url": "http://hermespod.com/",
+        "description": "HermesPod is the easiest way to subscribe, download and listen to podcasts. It's a Windows app.",
+        "examples": [
+            "hermespod.com/v1.5.x"
+        ],
+        "developer_notes": "HermesPod is no longer supported by its author."
+    },
+    {
+        "user_agents": [
+            "^gvfs/",
+            "^rhythmbox/"
         ],
         "app": "Rhythmbox",
         "info_url": "https://gitlab.gnome.org/GNOME/rhythmbox",
@@ -2513,6 +2526,18 @@
         "examples": [
             "gvfs/1.46.1"
         ],
-        "developer_notes": "Reported here to hopefully make more descriptive: https://gitlab.gnome.org/GNOME/rhythmbox/-/issues/1855"
+        "developer_notes": "The new UA is Rhythmbox: https://gitlab.gnome.org/GNOME/rhythmbox/-/issues/1855"
+    },
+    {
+        "user_agents": [
+            "archive.org_bot"
+        ],
+        "app": "Archive.org",
+        "info_url": "https://archive.org/details/archive.org_bot",
+        "description": "The Internet Archive is a nonprofit digital library that preserves web data and makes it available for research purposes through the Wayback Machine.",
+        "bot": true,
+        "examples": [
+            "Mozilla/5.0 (compatible; archive.org_bot http://archive.org/details/archive.org_bot)"
+        ]
     }
 ]
