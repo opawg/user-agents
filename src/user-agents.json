@@ -2539,5 +2539,15 @@
         "examples": [
             "Mozilla/5.0 (compatible; archive.org_bot http://archive.org/details/archive.org_bot)"
         ]
+    },
+    {
+        "user_agents": [
+            "AAABot"
+        ],
+        "app": "AAABot - unknown bot",
+        "bot": true,
+        "examples": [
+            "AAABot"
+        ]
     }
 ]
