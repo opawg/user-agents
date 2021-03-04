@@ -163,6 +163,14 @@
     },
     {
         "user_agents": [
+            "^Anytime.+[aA]ndroid"
+        ],
+        "app": "Anytime Podcast Player",
+        "device": "phone",
+        "os": "android"
+    },
+    {
+        "user_agents": [
             "Apache-HttpClient"
         ],
         "bot": true
