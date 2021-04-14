@@ -2564,8 +2564,8 @@
     },
     {
         "user_agents": [
-        "^MixerBox\\/.*iOS",
-       ],
+            "^MixerBox\\/.*iOS"
+        ],
         "name": "MixerBox",
         "os": "ios",
         "examples": [
