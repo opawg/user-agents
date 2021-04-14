@@ -163,14 +163,6 @@
     },
     {
         "user_agents": [
-            "^Anytime.+[aA]ndroid"
-        ],
-        "app": "Anytime Podcast Player",
-        "device": "phone",
-        "os": "android"
-    },
-    {
-        "user_agents": [
             "Apache-HttpClient"
         ],
         "bot": true
@@ -2558,6 +2550,26 @@
         "bot": true,
         "examples": [
             "AAABot"
+        ]
+    },
+    {
+        "user_agents": [
+            "^MixerBox\\/.*Android"
+        ],
+        "app": "MixerBox",
+        "os": "android",
+        "examples": [
+            "MixerBox/12.33 (Linux;Android 11) ExoPlayerLib/2.11.1"
+        ]
+    },
+    {
+        "user_agents": [
+        "^MixerBox\\/.*iOS",
+       ],
+        "name": "MixerBox",
+        "os": "ios",
+        "examples": [
+            "MixerBox/807.iOS (iPhone; iOS 14.4; en_US)"
         ]
     }
 ]
