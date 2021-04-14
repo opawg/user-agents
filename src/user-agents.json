@@ -2574,7 +2574,7 @@
     },
     {
         "user_agents": [
-            "^Podcastindex\\.org/",
+            "^Podcastindex\\.org/"
         ],
         "app": "Podcastindex.org",
         "bot": true,
