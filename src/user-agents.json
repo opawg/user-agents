@@ -2571,5 +2571,17 @@
         "examples": [
             "MixerBox/807.iOS (iPhone; iOS 14.4; en_US)"
         ]
+    },
+    {
+        "user_agents": [
+            "^Podcastindex\\.org/"
+        ],
+        "app": "Podcastindex.org",
+        "bot": true,
+        "svg": "podcast-index.svg",
+        "info_url": "https://podcastindex.org/",
+        "examples": [
+            "Podcastindex.org/v0.3.3 (Aggrivate)"
+        ]
     }
 ]
