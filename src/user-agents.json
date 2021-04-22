@@ -1231,21 +1231,6 @@
     },
     {
         "user_agents": [
-            "^com.jio.media.jiobeats",
-            "^com.saavn.android",
-            "^saavn"
-        ],
-        "app": "JioSaavn",
-        "os": "android",
-        "info_url": "https://www.jiosaavn.com/",
-        "description": "A music streaming and podcast app from India. Earn Your Happy!",
-        "developer_notes": "The user-agent will start with one of the above strings followed by the app version and player version.",
-        "examples": [
-            "com.jio.media.jiobeats/7.3.1 (Linux;Android 8.1.0) ExoPlayerLib/2.11.4"
-        ]
-    },
-    {
-        "user_agents": [
             "^lamarr-iOS",
             "^TheEconomist-Lamarr-ios"
         ],
