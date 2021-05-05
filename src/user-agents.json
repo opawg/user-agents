@@ -177,6 +177,7 @@
         ],
         "os": "ios",
         "description": "AppleCoreMedia library",
+        "info_url": "https://podnews.net/article/applecoremedia-user-agent",
         "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
@@ -189,6 +190,7 @@
         "device": "pc",
         "os": "macos",
         "description": "AppleCoreMedia library",
+        "info_url": "https://podnews.net/article/applecoremedia-user-agent",
         "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
@@ -201,6 +203,7 @@
         ],
         "os": "ios",
         "description": "AppleCoreMedia library",
+        "info_url": "https://podnews.net/article/applecoremedia-user-agent",
         "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
@@ -213,6 +216,7 @@
         ],
         "os": "ios",
         "description": "AppleCoreMedia library",
+        "info_url": "https://podnews.net/article/applecoremedia-user-agent",
         "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
@@ -225,6 +229,7 @@
         ],
         "os": "homepodos",
         "description": "AppleCoreMedia library",
+        "info_url": "https://podnews.net/article/applecoremedia-user-agent",
         "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
@@ -237,6 +242,7 @@
         ],
         "os": "tvos",
         "description": "AppleCoreMedia library",
+        "info_url": "https://podnews.net/article/applecoremedia-user-agent",
         "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
@@ -246,6 +252,7 @@
         "device": "watch",
         "os": "watchos",
         "description": "AppleCoreMedia library",
+        "info_url": "https://podnews.net/article/applecoremedia-user-agent",
         "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
@@ -633,7 +640,7 @@
         "examples": [
             "doubleTwist CloudPlayer"
         ],
-        "app": "doubleTwitch CloudPlayer",
+        "app": "doubleTwist CloudPlayer",
         "device": "phone",
         "info_url": "https://www.doubletwist.com/cloudplayer",
         "os": "android"
