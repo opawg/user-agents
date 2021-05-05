@@ -1189,6 +1189,33 @@
     },
     {
         "user_agents": [
+            "^lesindesradios$"
+        ],
+        "app": "Les Indés Radios",
+        "os": "ios",
+        "device": "phone",
+        "description": "Les Indés Radios is a radio app, available on multiple devices and OSs",
+        "info_url": "https://www.lesindesradios.fr/",
+        "examples": [
+            "lesindesradios"
+        ]
+    },
+    {
+        "user_agents": [
+            "^lesindesradios/.*\\(Linux;Android"
+        ],
+        "app": "Les Indés Radios",
+        "os": "android",
+        "device": "phone",
+        "description": "Les Indés Radios is a radio app, available on multiple devices and OSs",
+        "info_url": "https://www.lesindesradios.fr/",
+        "examples": [
+            "lesindesradios/9.1.0 (Linux;Android 8.0.0) ExoPlayerLib/2.9.2",
+            "lesindesradios/9.1.0 (Linux;Android 11) ExoPlayerLib/2.9.2"
+        ]
+    },
+    {
+        "user_agents": [
             "^com.jio.media.jiobeats",
             "^com.saavn.android",
             "^saavn"
