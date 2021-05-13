@@ -678,7 +678,17 @@
         "os": "macos",
         "device": "pc"
     },
-        {
+    {
+        "user_agents": [
+            "downcast feed consumer/"
+        ],
+        "app": "Downcast",
+        "examples": [
+            "downcast feed consumer/0.0.175; (mode=dev; id=u2NgjBSPM6; downcast.fm)"
+        ],
+        "bot": true
+    },
+    {
         "user_agents": [
             "Xbox.+Edge/"
         ],
