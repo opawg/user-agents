@@ -2598,7 +2598,7 @@
     },
     {
         "user_agents": [
-            "^MixerBox\\/.*Android"
+            "^MixerBox\/.*Android"
         ],
         "app": "MixerBox",
         "os": "android",
@@ -2608,7 +2608,7 @@
     },
     {
         "user_agents": [
-        "^MixerBox\\/.*iOS"
+        "^MixerBox\/.*iOS"
        ],
         "name": "MixerBox",
         "os": "ios",
