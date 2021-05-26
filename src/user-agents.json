@@ -1,5 +1,6 @@
 [
     {
+        "id":1,
         "user_agents": [
             "^Acast.+[Aa]ndroid"
         ],
@@ -8,6 +9,7 @@
         "os": "android"
     },
     {
+        "id":2,
         "user_agents": [
             "^Acast.+iOS"
         ],
@@ -16,6 +18,7 @@
         "os": "ios"
     },
     {
+        "id":3,
         "user_agents": [
             "AdsBot-Google"
         ],
@@ -24,6 +27,7 @@
         "info_url": "http://www.google.com/adsbot.html"
     },
     {
+        "id":4,
         "user_agents": [
             "AhrefsBot\/"
         ],
@@ -35,6 +39,7 @@
         ]
     },
     {
+        "id":5,
         "user_agents": [
             "^Airr/"
         ],
@@ -46,6 +51,7 @@
         ]
     },
     {
+        "id":6,
         "user_agents": [
             "^AlexaMediaPlayer/1\\.",
             "^AlexaMediaPlayer/16\\.",
@@ -57,6 +63,7 @@
         "svg": "amazon.svg"
     },
     {
+        "id":7,
         "user_agents": [
             "^AmazonNewsContentService"
         ],
@@ -69,6 +76,7 @@
         "bot": true
     },
     {
+        "id":8,
         "user_agents": [
             "^AmazonMusic(?!.iPhone|Android)"
         ],
@@ -80,6 +88,7 @@
         "svg": "amazon.svg"
     },
     {
+        "id":9,
         "user_agents": [
             "^AmazonMusic.*iPhone"
         ],
@@ -96,6 +105,7 @@
         "svg": "amazon.svg"
     },
     {
+        "id":10,
         "user_agents": [
             "^AmazonMusic.*Android"
         ],
@@ -109,6 +119,7 @@
         "svg": "amazon.svg"
     },
     {
+        "id":11,
         "user_agents": [
             "^Amazon Music Podcast"
         ],
@@ -119,6 +130,7 @@
         "bot": true
     },
     {
+        "id":12,
         "user_agents": [
             "^AlexaMediaPlayer/5\\."
         ],
@@ -128,6 +140,7 @@
         "svg": "amazon.svg"
     },
     {
+        "id":13,
         "user_agents": [
             "^com.audible.playersdk.player",
             "^Audible,"
@@ -136,6 +149,7 @@
         "os": "android"
     },
     {
+        "id":14,
         "user_agents": [
             "^Audible.*Darwin"
         ],
@@ -143,12 +157,14 @@
         "os": "ios"
     },
     {
+        "id":15,
         "user_agents": [
             "^AndroidDownloadManager"
         ],
         "os": "android"
     },
     {
+        "id":16,
         "user_agents": [
             "^AntennaPod/",
             "^de.danoeh.antennapod/"
@@ -162,12 +178,14 @@
         "developer_notes": "The de.danoeh version was used when streaming only, and will been phased out as of v2"
     },
     {
+        "id":17,
         "user_agents": [
             "Apache-HttpClient"
         ],
         "bot": true
     },
     {
+        "id":18,
         "user_agents": [
             "^AppleCoreMedia/1\\..*iPod"
         ],
@@ -181,6 +199,7 @@
         "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
+        "id":19,
         "user_agents": [
             "^AppleCoreMedia/1\\..*Macintosh"
         ],
@@ -194,6 +213,7 @@
         "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
+        "id":20,
         "user_agents": [
             "^AppleCoreMedia/1\\..*iPhone"
         ],
@@ -207,6 +227,7 @@
         "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
+        "id":21,
         "user_agents": [
             "^AppleCoreMedia/1\\..*iPad"
         ],
@@ -220,6 +241,7 @@
         "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
+        "id":22,
         "user_agents": [
             "^AppleCoreMedia/1\\..*HomePod"
         ],
@@ -233,6 +255,7 @@
         "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
+        "id":23,
         "user_agents": [
             "^AppleCoreMedia/1\\..*Apple TV"
         ],
@@ -246,6 +269,7 @@
         "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
+        "id":24,
         "user_agents": [
             "^AppleCoreMedia/1\\..*Apple Watch"
         ],
@@ -256,6 +280,7 @@
         "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
+        "id":25,
         "user_agents": [
             "^atc\/.* watchOS\/.* model\/Watch"
         ],
@@ -280,6 +305,7 @@
         ]
     },
     {
+        "id":26,
         "user_agents": [
             "^Podcasts/.*\\(.*\\)",
             "^Balados/.*\\(.*\\)",
@@ -311,6 +337,7 @@
         "developer_notes": "Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Hungarian, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Swedish, Thai, Turkish."
     },
     {
+        "id":27,
         "user_agents": [
             "^Podcasts/.*\\d$",
             "^Balados/.*\\d$",
@@ -340,6 +367,7 @@
         ]
     },
     {
+        "id":28,
         "user_agents": [
             "^BashPodder"
         ],
@@ -348,6 +376,7 @@
         "info_url": "http://lincgeek.org/bashpodder/"
     },
     {
+        "id":29,
         "user_agents": [
             "Barkrowler\/"
         ],
@@ -356,6 +385,7 @@
         "info_url": "https://beta.babbar.tech/crawler"
     },
     {
+        "id":30,
         "user_agents": [
             "BBC%20Sounds/"
         ],
@@ -367,6 +397,7 @@
         "info_url": "https://www.bbc.co.uk/sounds/help/questions/getting-started-with-bbc-sounds/sounds-intro"
     },
     {
+        "id":31,
         "user_agents": [
             "BBCiPlayerRadio/"
         ],
@@ -378,6 +409,7 @@
         "info_url": "https://www.bbc.co.uk/programmes/p00zh17p"
     },
     {
+        "id":32,
         "user_agents": [
             "; BeyondPod"
         ],
@@ -389,6 +421,7 @@
         "os": "android"
     },
     {
+        "id":33,
         "user_agents": [
             "^Bitcast/"
         ],
@@ -400,6 +433,7 @@
         ]
     },
         {
+        "id":34,
         "user_agents": [
             "^Bose/"
         ],
@@ -407,6 +441,7 @@
         "device": "speaker"
     },
     {
+        "id":35,
         "user_agents": [
             "^Breaker/Android"
         ],
@@ -414,6 +449,7 @@
         "os": "android"
     },
         {
+        "id":36,
         "user_agents": [
             "^Breaker/iOS"
         ],
@@ -421,6 +457,7 @@
         "os": "ios"
     },
     {
+        "id":37,
         "user_agents": [
             "Android.+(?:B|b)rave"
         ],
@@ -428,6 +465,7 @@
         "os": "android"
     },
     {
+        "id":38,
         "user_agents": [
             "Linux.+(?:B|b)rave"
         ],
@@ -436,6 +474,7 @@
         "os": "linux"
     },
     {
+        "id":39,
         "user_agents": [
             "Mac OS X.+(?:B|b)rave"
         ],
@@ -444,6 +483,7 @@
         "os": "macos"
     },
     {
+        "id":40,
         "user_agents": [
             "Windows.+(?:B|b)rave"
         ],
@@ -452,6 +492,7 @@
         "os": "windows"
     },
     {
+        "id":41,
         "user_agents": [
             "BroadwayPodcastNetwork/iOS"
         ],
@@ -464,9 +505,10 @@
         "os": "ios"
     },
     {
+        "id":42,
         "user_agents": [
             "^Cast(?:b|B)ox/.+Android"
-        ],
+       ],
         "app": "CastBox",
         "device": "phone",
         "examples": [
@@ -477,6 +519,7 @@
         "os": "android"
     },
     {
+        "id":43,
         "user_agents": [
             "^Cast(?:b|B)ox/.+iOS"
         ],
@@ -488,6 +531,7 @@
         "os": "ios"
     },
     {
+        "id":44,
         "user_agents": [
             "^Cast(?:b|B)ox(?!.*(Android|iOS))"
         ],
@@ -498,6 +542,7 @@
         ]
     },
     {
+        "id":45,
         "user_agents": [
             "^castget "
         ],
@@ -509,6 +554,7 @@
         "device": "pc"
     },
     {
+        "id":46,
         "user_agents": [
             "Castopod/1.0"
         ],
@@ -519,6 +565,7 @@
         "bot": true
     },
     {
+        "id":47,
         "user_agents": [
             "Castro "
         ],
@@ -531,6 +578,7 @@
         "os": "ios"
     },
     {
+        "id":48,
         "user_agents": [
             "\\ CrKey/"
         ],
@@ -539,6 +587,7 @@
         "os": "android"
     },
     {
+        "id":49,
         "user_agents": [
             "^Clementine "
         ],
@@ -547,12 +596,14 @@
         "info_url": "https://www.clementine-player.org/"
     },
     {
+        "id":50,
         "user_agents": [
             "^curl"
         ],
         "bot": true
     },
     {
+        "id":51,
         "user_agents": [
             "^Dalvik/"
         ],
@@ -562,12 +613,14 @@
         "os": "android"
     },
     {
+        "id":52,
         "user_agents": [
             "^datagnionbot"
         ],
         "bot": true
     },
     {
+        "id":53,
         "user_agents": [
             "Deezer/.*Android;"
         ],
@@ -580,6 +633,7 @@
         "info_url": "https://play.google.com/store/apps/details?id=deezer.android.app"
     },
     {
+        "id":54,
         "user_agents": [
             "^Deezer/.*CFNetwork/"
         ],
@@ -591,6 +645,7 @@
         "info_url": "https://apps.apple.com/us/app/deezer-music-podcast-player/id292738169"
     },
     {
+        "id":55,
         "user_agents": [
             "^Deezer.*Electron; windows"
         ],
@@ -602,6 +657,7 @@
         "os": "windows"
     },
     {
+        "id":56,
         "user_agents": [
             "^Deezer.*Electron; osx"
         ],
@@ -613,6 +669,7 @@
         "os": "macos"
     },
     {
+        "id":57,
         "user_agents": [
             "DoggCatcher"
         ],
@@ -624,6 +681,7 @@
         "os": "android"
     },
     {
+        "id":58,
         "user_agents": [
             "DotBot/1"
         ],
@@ -634,6 +692,7 @@
         "bot": true
     },
     {
+        "id":59,
         "user_agents": [
             "^doubleTwist CloudPlayer"
         ],
@@ -646,6 +705,7 @@
         "os": "android"
     },
     {
+        "id":60,
         "user_agents": [
             "Downcast/.*iPhone"
         ],
@@ -657,6 +717,7 @@
         "os": "ios"
     },
     {
+        "id":61,
         "user_agents": [
             "Downcast/.*iPad"
         ],
@@ -668,6 +729,7 @@
         "os": "ios"
     },
     {
+        "id":62,
         "user_agents": [
             "Downcast/.*Mac OS X"
         ],
@@ -679,6 +741,7 @@
         "device": "pc"
     },
     {
+        "id":63,
         "user_agents": [
             "downcast feed consumer/"
         ],
@@ -689,6 +752,7 @@
         "bot": true
     },
     {
+        "id":64,
         "user_agents": [
             "Xbox.+Edge/"
         ],
@@ -697,6 +761,7 @@
         "os": "windows"
     },
     {
+        "id":65,
         "user_agents": [
             "Android.+EdgA/"
         ],
@@ -705,6 +770,7 @@
         "info_url": "https://play.google.com/store/apps/details?id=com.microsoft.emmx&hl=en_AU&gl=US"
     },
     {
+        "id":66,
         "user_agents": [
             "Windows Phone.+Edge/"
         ],
@@ -713,6 +779,7 @@
         "os": "windows"
     },
     {
+        "id":67,
         "user_agents": [
             "Windows.+Edge/"
         ],
@@ -724,6 +791,7 @@
         "os": "windows"
     },
     {
+        "id":68,
         "user_agents": [
             "^Echo/1\\."
         ],
@@ -732,6 +800,7 @@
         "svg": "amazon.svg"
     },
     {
+        "id":69,
         "user_agents": [
             "FacebookBot",
             "facebookexternalhit/"
@@ -744,6 +813,7 @@
         ]
     },
     {
+        "id":70,
         "user_agents": [
             "^feedly/"
         ],
@@ -754,6 +824,7 @@
         "description": "An RSS reader"
     },
     {
+        "id":71,
         "user_agents": [
             "Linux.*Firefox/"
         ],
@@ -762,6 +833,7 @@
         "os": "linux"
     },
     {
+        "id":72,
         "user_agents": [
             "Mac OS X.*Firefox/"
         ],
@@ -770,6 +842,7 @@
         "os": "macos"
     },
     {
+        "id":73,
         "user_agents": [
             "Windows.*Firefox/"
         ],
@@ -781,6 +854,7 @@
         "os": "windows"
     },
     {
+        "id":74,
         "user_agents": [
             "Android.*(Focus|Firefox)/"
         ],
@@ -788,6 +862,7 @@
         "os": "android"
     },
     {
+        "id":75,
         "user_agents": [
             "iPhone.*Focus/"
         ],
@@ -796,6 +871,7 @@
         "os": "ios"
     },
     {
+        "id":76,
         "user_agents": [
             "iPad.*Focus/"
         ],
@@ -804,12 +880,14 @@
         "os": "ios"
     },
     {
+        "id":77,
         "user_agents": [
             "^Lavf/"
         ],
         "developer_notes": "ffmpeg is a library used within TuneIn, VLC, ffmpeg and other programs. This is the default useragent for the ffmpeg library. Since it's a library, not an app by itself, we don't add its name here."
     },
     {
+        "id":78,
         "user_agents": [
             "^MAC "
         ],
@@ -818,6 +896,7 @@
         "os": "macos"
     },
     {
+        "id":79,
         "user_agents": [
             "^WIN\\ "
         ],
@@ -826,6 +905,7 @@
         "os": "windows"
     },
     {
+        "id":80,
         "user_agents": [
             "^foobar2000/"
         ],
@@ -836,6 +916,7 @@
         "info_url": "https://www.foobar2000.org/"
     },
     {
+        "id":81,
         "user_agents": [
             "^fyyd-poll"
         ],
@@ -843,6 +924,7 @@
         "bot": true
     },
     {
+        "id":82,
         "user_agents": [
             "^Go-http-client"
         ],
@@ -852,6 +934,7 @@
         ]
     },
     {
+        "id":83,
         "user_agents": [
             "Googlebot/",
             "Googlebot-Video/",
@@ -867,6 +950,7 @@
         "bot": true
     },
     {
+        "id":84,
         "user_agents": [
             "Google-Podcast"
         ],
@@ -874,6 +958,7 @@
         "app": "Google Podcasts Manager"
     },
     {
+        "id":85,
         "user_agents": [
             "^Google-Speech-Actions"
         ],
@@ -884,6 +969,7 @@
         "info_url": "https://cloud.google.com/text-to-speech/docs/ssml"
     },
     {
+        "id":86,
         "user_agents": [
             "GoogleChirp"
         ],
@@ -893,6 +979,7 @@
         "os": "google_assistant"
     },
     {
+        "id":87,
         "user_agents": [
             "(iPhone|iPad|iPod touch).*GSA/",
             "^Podcasts$",
@@ -909,6 +996,7 @@
         "os": "ios"
     },
     {
+        "id":88,
         "user_agents": [
             "(?:Android;.+)?GSA/"
         ],
@@ -922,6 +1010,7 @@
         "developer_notes": "*GSA/ is used in the Google app when searching and playing podcasts, and in the Google Podcasts app"
     },
     {
+        "id":89,
         "user_agents": [
             "Linux; Android.*SM-T350"
         ],
@@ -929,6 +1018,7 @@
         "os": "android"
     },
     {
+        "id":90,
         "user_agents": [
             "Android.*Chrome/(?!.*(Googlebot|CrKey|GSA|EdgA/))"
         ],
@@ -937,6 +1027,7 @@
         "developer_notes": "This won't match Googlebot, a Chromecast device, Google speaker or Google app"
     },
     {
+        "id":91,
         "user_agents": [
             "CrOS.*Chrome/"
         ],
@@ -945,6 +1036,7 @@
         "os": "chromeos"
     },
     {
+        "id":92,
         "user_agents": [
             "Linux(?!.*(Android)).*Chrome/(?!.*(CrKey|GSA/))"
         ],
@@ -954,6 +1046,7 @@
         "developer_notes": "This won't match an Android device, Chromecast device, Google speaker or Google app"
     },
     {
+        "id":93,
         "user_agents": [
             "Mac OS X.*Chrome/(?!.*(Spreaker\/|OPR\/))"
         ],
@@ -966,6 +1059,7 @@
         "developer_notes": "This won't match the Spreaker app"
     },
     {
+        "id":94,
         "user_agents": [
             "Windows.*Chrome/(?!.*(OPR/))"
         ],
@@ -977,6 +1071,7 @@
         "os": "windows"
     },
     {
+        "id":95,
         "user_agents": [
             "iPad.*CriOS/"
         ],
@@ -985,6 +1080,7 @@
         "os": "ios"
     },
     {
+        "id":96,
         "user_agents": [
             "iPhone.*CriOS/"
         ],
@@ -993,6 +1089,7 @@
         "os": "ios"
     },
     {
+        "id":97,
         "user_agents": [
             "^gPodder/.*Windows",
             "^gpodder\\.net"
@@ -1005,12 +1102,14 @@
         ]
     },
     {
+        "id":98,
         "user_agents": [
             "^GStreamer"
         ],
         "device": "radio"
     },
     {
+        "id":99,
         "user_agents": [
             "^GaanaAndroid-"
         ],
@@ -1022,6 +1121,7 @@
         ]
     },
     {
+        "id":100,
         "user_agents": [
             "^Guardian-iOSLive/"
         ],
@@ -1029,6 +1129,7 @@
         "os": "ios"
     },
     {
+        "id":101,
         "user_agents": [
             "GuardianAndroidApp/"
         ],
@@ -1036,12 +1137,14 @@
         "os": "android"
     },
     {
+        "id":102,
         "user_agents": [
             "^gvfs"
         ],
         "bot": true
     },
     {
+        "id":103,
         "user_agents": [
             "^\\+hermespod\\.com/"
         ],
@@ -1054,6 +1157,7 @@
         "os": "windows"
     },
     {
+        "id":104,
         "user_agents": [
             "^Himalaya/.+iPhone"
         ],
@@ -1067,6 +1171,7 @@
         "description": "Himalaya is a podcast app"
     },
     {
+        "id":105,
         "user_agents": [
             "^iCatcher"
         ],
@@ -1075,6 +1180,7 @@
         "os": "ios"
     },
     {
+        "id":106,
         "user_agents": [
             "^iHeartRadio/.*Android"
         ],
@@ -1087,6 +1193,7 @@
         "info_url": "https://play.google.com/store/apps/details?id=com.clearchannel.iheartradio.controller"
     },
     {
+        "id":107,
         "user_agents": [
             "^iHeartRadio/.* CFNetwork/",
             "^iHeartRadio/.* iOS"
@@ -1102,6 +1209,7 @@
         "info_url": "https://apps.apple.com/us/app/iheart-radio-music-podcasts/id290638154"
     },
     {
+        "id":108,
         "user_agents": [
             "MSIE "
         ],
@@ -1113,6 +1221,7 @@
         "os": "windows"
     },
     {
+        "id":109,
         "user_agents": [
             "iVoox"
         ],
@@ -1120,6 +1229,7 @@
         "info_url": "https://www.ivoox.com/"
     },
     {
+        "id":110,
         "user_agents": [
             "iTMS",
             "itunesstored"
@@ -1127,6 +1237,7 @@
         "bot": true
     },
     {
+        "id":111,
         "user_agents": [
             "^iTunes/.+Mac OS",
             "^iTunes/.+OS X"
@@ -1140,6 +1251,7 @@
         "os": "macos"
     },
     {
+        "id":112,
         "user_agents": [
             "^iTunes/.+Windows"
         ],
@@ -1152,12 +1264,14 @@
         "os": "windows"
     },
     {
+        "id":113,
         "user_agents": [
             "^iTunes/4"
         ],
         "device": "speaker"
     },
     {
+        "id":114,
         "user_agents": [
             "J. River Internet Reader"
         ],
@@ -1170,6 +1284,7 @@
         "os": "windows"
     },
     {
+        "id":115,
         "user_agents": [
             ".*KAIOS/"
         ],
@@ -1183,6 +1298,7 @@
         "developer_notes": "This is a standard useragent for KaiOS, the cut-down operating system for mobile phones in developing countries. Watch out - it may also contain Android."
     },
     {
+        "id":116,
         "user_agents": [
             ".*PodLP/"
         ],
@@ -1197,6 +1313,7 @@
         "developer_notes": "Introduced in version v1.2.0.0 for limited content (downloads); available for all content after v1.3.0.0"
     },
     {
+        "id":117,
         "user_agents": [
             "^Laughable.+iOS"
         ],
@@ -1205,6 +1322,7 @@
         "os": "ios"
     },
     {
+        "id":118,
         "user_agents": [
             "^lesindesradios$"
         ],
@@ -1218,6 +1336,7 @@
         ]
     },
     {
+        "id":119,
         "user_agents": [
             "^lesindesradios/.*\\(Linux;Android"
         ],
@@ -1232,6 +1351,7 @@
         ]
     },
     {
+        "id":120,
         "user_agents": [
             "^com.jio.media.jiobeats",
             "^com.saavn.android",
@@ -1247,6 +1367,7 @@
         ]
     },
     {
+        "id":121,
         "user_agents": [
             "^lamarr-iOS",
             "^TheEconomist-Lamarr-ios"
@@ -1260,6 +1381,7 @@
         ]
     },
     {
+        "id":122,
         "user_agents": [
             "^lamarr-android",
             "^TheEconomist-Lamarr-android"
@@ -1273,6 +1395,7 @@
         ]
     },
     {
+        "id":123,
         "user_agents": [
             "LG Player"
         ],
@@ -1280,12 +1403,14 @@
         "os": "android"
     },
     {
+        "id":124,
         "user_agents": [
             "^libwww-perl"
         ],
         "bot": true
     },
     {
+        "id":125,
         "user_agents": [
             "Listen5"
         ],
@@ -1294,12 +1419,14 @@
         "os": "ios"
     },
     {
+        "id":126,
         "user_agents": [
             "LivelapBot"
         ],
         "bot": true
     },
     {
+        "id":127,
         "user_agents": [
             "^Luminary/.+Android"
         ],
@@ -1308,6 +1435,7 @@
         "os": "android"
     },
     {
+        "id":128,
         "user_agents": [
             "^Luminary/.+iOS"
         ],
@@ -1316,18 +1444,21 @@
         "os": "ios"
     },
     {
+        "id":129,
         "user_agents": [
             "^MajelanApp"
         ],
         "app": "Majelan"
     },
     {
+        "id":130,
         "user_agents": [
             "^Mechanize"
         ],
         "bot": true
     },
     {
+        "id":131,
         "user_agents": [
             "^MediaMonkey"
         ],
@@ -1336,6 +1467,7 @@
         "os": "windows"
     },
     {
+        "id":132,
         "user_agents": [
             "^Miro/.+Windows"
         ],
@@ -1348,6 +1480,7 @@
         "os": "windows"
     },
     {
+        "id":133,
         "user_agents": [
             ".*MJ12bot"
         ],
@@ -1358,6 +1491,7 @@
         "bot": true
     },
     {
+        "id":134,
         "user_agents": [
             "^mpv 0\\."
         ],
@@ -1365,6 +1499,7 @@
         "info_url": "https://mpv.io/"
     },
     {
+        "id":135,
         "user_agents": [
             "^MusicBee"
         ],
@@ -1377,6 +1512,7 @@
         "os": "windows"
     },
     {
+        "id":136,
         "user_agents": [
             "^NPR%20One/"
         ],
@@ -1386,6 +1522,7 @@
         ]
     },
     {
+        "id":137,
         "user_agents": [
             "^NPROneAndroid"
         ],
@@ -1396,11 +1533,13 @@
         ]
     },
     {
+        "id":138,
         "user_agents": [
             "^OkDownload/"
         ]
     },
     {
+        "id":139,
         "user_agents": [
             "okhttp"
         ],
@@ -1409,6 +1548,7 @@
         ]
     },
     {
+        "id":140,
         "user_agents": [
             "Opera/.*Android;"
         ],
@@ -1416,6 +1556,7 @@
         "os": "android"
     },
     {
+        "id":141,
         "user_agents": [
             "Opera/.*\\(Linux"
         ],
@@ -1424,6 +1565,7 @@
         "os": "linux"
     },
     {
+        "id":142,
         "user_agents": [
             "Opera/.*\\(Macintosh"
         ],
@@ -1432,6 +1574,7 @@
         "os": "macos"
     },
     {
+        "id":143,
         "user_agents": [
             "Opera/.*\\(Windows",
             "Windows.*OPR/"
@@ -1441,6 +1584,7 @@
         "os": "windows"
     },
     {
+        "id":144,
         "user_agents": [
             "Macintosh.*OPR/"
         ],
@@ -1452,6 +1596,7 @@
         ]
     },
     {
+        "id":145,
         "user_agents": [
             "^MauiBot"
         ],
@@ -1462,12 +1607,14 @@
         ]
     },
     {
+        "id":146,
         "user_agents": [
             "Opera[/ ]"
         ],
         "app": "Opera"
     },
     {
+        "id":147,
         "user_agents": [
             "^Overcast/2",
             "^Overcast/3"
@@ -1479,6 +1626,7 @@
         "os": "ios"
     },
     {
+        "id":148,
         "user_agents": [
             "^Overcast.*Apple Watch"
         ],
@@ -1490,6 +1638,7 @@
         "device": "watch"
     },
     {
+        "id":149,
         "user_agents": [
             "^Overcast/1.0 Podcast Sync"
         ],
@@ -1501,6 +1650,7 @@
         "bot": true
     },
     {
+        "id":150,
         "user_agents": [
             "^PandoraRSSCrawler"
         ],
@@ -1508,6 +1658,7 @@
         "app": "Pandora RSS crawler"
     },
     {
+        "id":151,
         "user_agents": [
             "^Pandora.+Android"
         ],
@@ -1518,6 +1669,7 @@
         ]
     },
     {
+        "id":152,
         "user_agents": [
             "iPhone.+Pandora\/"
         ],
@@ -1529,6 +1681,7 @@
         ]
     },
     {
+        "id":153,
         "user_agents": [
             "PaperLiBot\/"
         ],
@@ -1539,18 +1692,21 @@
         "bot": true
     },
     {
+        "id":154,
         "user_agents": [
             "^Player FM"
         ],
         "app": "Player FM"
     },
     {
+        "id":155,
         "user_agents": [
             "^Pingdom"
         ],
         "bot": true
     },
     {
+        "id":156,
         "user_agents": [
             "^Pocket Casts",
             "^PocketCasts/"
@@ -1565,6 +1721,7 @@
         "svg": "pocketcasts.svg"
     },
     {
+        "id":157,
         "user_agents": [
             "^Podcast.*Addict/"
         ],
@@ -1577,6 +1734,7 @@
         "os": "android"
     },
     {
+        "id":158,
         "user_agents": [
             "iOS.*The Podcast App/",
             "com.evolve.podcast/"
@@ -1590,6 +1748,7 @@
         "developer_notes": "The com.evolve version of the useragent is an error, and has been reported to the developers as a bug. Caution: the beginning of their main useragent is similar to Google Podcasts."
     },
     {
+        "id":159,
         "user_agents": [
             "^PodcastGuru "
         ],
@@ -1599,6 +1758,7 @@
         "description": "Podcast Guru is the simple and free podcast player"
     },
     {
+        "id":160,
         "user_agents": [
             "^PodcastRepublic.+Android"
         ],
@@ -1610,6 +1770,7 @@
         "os": "android"
     },
     {
+        "id":161,
         "user_agents": [
             "podCloud"
         ],
@@ -1620,12 +1781,14 @@
         "info_url": "https://podcloud.fr"
     },
     {
+        "id":162,
         "user_agents": [
             "^Podcoin"
         ],
         "app": "Podcoin"
     },
     {
+        "id":163,
         "user_agents": [
             "^PodCruncher/.* CFNetwork/"
         ],
@@ -1638,6 +1801,7 @@
         "info_url": "https://apps.apple.com/us/app/podcruncher-podcast-player/id421894356"
     },
     {
+        "id":164,
         "user_agents": [
             "^Podbean/Android App",
             "^Podbean/Android generic"
@@ -1652,6 +1816,7 @@
         "info_url": "https://play.google.com/store/apps/details?id=com.podbean.app.podcast"
     },
     {
+        "id":165,
         "user_agents": [
             "^Podbean/iOS"
         ],
@@ -1663,6 +1828,7 @@
         "info_url": "https://apps.apple.com/us/app/podbean-podcast-app-player/id973361050"
     },
     {
+        "id":166,
         "user_agents": [
             "podfollowbot/"
         ],
@@ -1675,6 +1841,7 @@
         "bot": true
     },
     {
+        "id":167,
         "user_agents": [
             "^Podhero",
             "^Swoot/"
@@ -1687,6 +1854,7 @@
         "description": "Podhero app on iOS and Android."
     },
     {
+        "id":168,
         "user_agents": [
             "^Podkicker"
         ],
@@ -1694,6 +1862,7 @@
         "os": "android"
     },
     {
+        "id":169,
         "user_agents": [
             "PodLink"
         ],
@@ -1701,6 +1870,7 @@
         "info_url": "https://pod.link/faq/crawler"
     },
     {
+        "id":170,
         "user_agents": [
             "^PodMN/Android"
         ],
@@ -1715,6 +1885,7 @@
         "svg": "podmn.svg"
     },
     {
+        "id":171,
         "user_agents": [
             "^PodMN/iOS"
         ],
@@ -1729,6 +1900,7 @@
         "svg": "podmn.svg"
     },
     {
+        "id":172,
         "user_agents": [
             "PodnewsBot"
         ],
@@ -1738,6 +1910,7 @@
         "info_url": "http://podnews.net"
     },
     {
+        "id":173,
         "user_agents": [
             "podnods-crawler",
             "podnods"
@@ -1748,6 +1921,7 @@
         "info_url": "https://podnods.com/about"
     },
     {
+        "id":174,
         "user_agents": [
             "podnods-player"
         ],
@@ -1756,6 +1930,7 @@
         "info_url": "https://podnods.com/about"
     },
     {
+        "id":175,
         "user_agents": [
             "Podyssey App"
         ],
@@ -1764,6 +1939,7 @@
         "info_url": "https://podyssey.fm"
     },
     {
+        "id":176,
         "user_agents": [
             "com.toysinboxes.Echo"
         ],
@@ -1773,6 +1949,7 @@
         "os": "ios"
     },
     {
+        "id":177,
         "user_agents": [
             "fm.podyssey.podcasts"
         ],
@@ -1782,12 +1959,14 @@
         "os": "android"
     },
     {
+        "id":178,
         "user_agents": [
             "python-requests"
         ],
         "bot": true
     },
     {
+        "id":179,
         "user_agents": [
             "^radio.de/app.+Android"
         ],
@@ -1797,6 +1976,7 @@
         "info_url": "https://www.radio.de/"
     },
     {
+        "id":180,
         "user_agents": [
             "^Radioplayer Android app"
         ],
@@ -1806,6 +1986,7 @@
         "info_url": "http://radioplayer.org"
     },
     {
+        "id":181,
         "user_agents": [
             "^Radioplayer iOS app"
         ],
@@ -1815,6 +1996,7 @@
         "info_url": "http://radioplayer.org"
     },
     {
+        "id":182,
         "user_agents": [
             "^RadioPublic/android-",
             "^RadioPublic Android"
@@ -1829,6 +2011,7 @@
         "os": "android"
     },
     {
+        "id":183,
         "user_agents": [
             "RadioPublic iOS",
             "RadioPublic.+CFNetwork",
@@ -1844,12 +2027,14 @@
         "os": "ios"
     },
     {
+        "id":184,
         "user_agents": [
             "request\\.js"
         ],
         "bot": true
     },
     {
+        "id":185,
         "user_agents": [
             "^Roku/DVP-8.*\\(04"
         ],
@@ -1857,12 +2042,14 @@
         "os": "roku"
     },
     {
+        "id":186,
         "user_agents": [
             "^RSSRadio \\("
         ],
         "bot": true
     },
     {
+        "id":187,
         "user_agents": [
             "^RSSRadio"
         ],
@@ -1876,12 +2063,14 @@
         "os": "ios"
     },
     {
+        "id":188,
         "user_agents": [
             "^Ruby"
         ],
         "developer_notes": "The generic Ruby user-agent."
     },
     {
+        "id":189,
         "user_agents": [
             "SemrushBot\/"
         ],
@@ -1892,6 +2081,7 @@
         "bot": true
     },
     {
+        "id":190,
         "user_agents": [
             "SerendeputyBot\/"
         ],
@@ -1903,6 +2093,7 @@
         "info_url": "https://serendeputy.com/about/serendeputy-bot"
     },
     {
+        "id":191,
         "user_agents": [
             "^Spotify/.+Linux"
         ],
@@ -1911,6 +2102,7 @@
         "os": "linux"
     },
     {
+        "id":192,
         "user_agents": [
             "Macintosh.+Spotify/",
             "^Spotify/.+OSX"
@@ -1920,6 +2112,7 @@
         "os": "macos"
     },
     {
+        "id":193,
         "user_agents": [
             "Windows.+Spotify/",
             "^Spotify/.+Win32"
@@ -1929,6 +2122,7 @@
         "os": "windows"
     },
     {
+        "id":194,
         "user_agents": [
             "^Spotify/.+Android"
         ],
@@ -1937,6 +2131,7 @@
         "os": "android"
     },
     {
+        "id":195,
         "user_agents": [
             "^Spotify/.*iOS"
         ],
@@ -1945,6 +2140,7 @@
         "os": "ios"
     },
     {
+        "id":196,
         "user_agents": [
             "^Spotify/1.0$"
         ],
@@ -1956,6 +2152,7 @@
         "developer_notes": "This useragent, currently simply Spotify/1.0, is used when retrieving the RSS and audio for Spotify's catalogue. It isn't used for passthru."
     },
     {
+        "id":197,
         "user_agents": [
             "Macintosh.*AppleWebKit(?!.*(Chrome\/)).*Safari/(?!.*(AdsBot/))"
         ],
@@ -1967,6 +2164,7 @@
         ]
     },
     {
+        "id":198,
         "user_agents": [
             "Windows.*AppleWebKit(?!.*(Chrome\/)).*Safari/"
         ],
@@ -1975,6 +2173,7 @@
         "os": "windows"
     },
     {
+        "id":199,
         "user_agents": [
             "iPhone.*AppleWebKit(?!.*(AdsBot|bingbot|CriOS)).*Safari/"
         ],
@@ -1983,6 +2182,7 @@
         "os": "ios"
     },
     {
+        "id":200,
         "user_agents": [
             "iPad.*AppleWebKit.*Safari/"
         ],
@@ -1991,18 +2191,21 @@
         "os": "ios"
     },
     {
+        "id":201,
         "user_agents": [
             "^Slack/"
         ],
         "app": "Slack"
     },
     {
+        "id":202,
         "user_agents": [
             "^Subcast"
         ],
         "app": "Subcast"
     },
     {
+        "id":203,
         "user_agents": [
             "Sonnet"
         ],
@@ -2013,6 +2216,7 @@
         "svg": "sonnet.svg"
     },
     {
+        "id":204,
         "user_agents": [
             "Sonos"
         ],
@@ -2021,6 +2225,7 @@
         "os": "sonos"
     },
     {
+        "id":205,
         "user_agents": [
             "^Spreaker for Android"
         ],
@@ -2028,18 +2233,21 @@
         "os": "android"
     },
     {
+        "id":206,
         "user_agents": [
             "Spreaker/"
         ],
         "app": "Spreaker"
     },
     {
+        "id":207,
         "user_agents": [
             "support@dorada.co.uk"
         ],
         "bot": true
     },
     {
+        "id":208,
         "user_agents": [
             "^Stitcher\/Android",
             "^Stitcher Demo\/"
@@ -2052,6 +2260,7 @@
         "os": "android"
     },
     {
+        "id":209,
         "user_agents": [
             "^AlexaMediaPlayer/Stitcher"
         ],
@@ -2060,6 +2269,7 @@
         "os": "alexa"
     },
     {
+        "id":210,
         "user_agents": [
             "^Stitcher/iOS"
         ],
@@ -2068,6 +2278,7 @@
         "device": "phone"
     },
     {
+        "id":211,
         "user_agents": [
             "^StitcherBot"
         ],
@@ -2075,12 +2286,14 @@
         "bot": true
     },
     {
+        "id":212,
         "user_agents": [
             "^Storiyoh/"
         ],
         "app": "Storiyoh"
     },
     {
+        "id":213,
         "user_agents": [
             "^Swinsian/"
         ],
@@ -2093,6 +2306,7 @@
         "os": "macos"
     },
     {
+        "id":214,
         "user_agents": [
             "TrendsmapResolver\/"
         ],
@@ -2100,6 +2314,7 @@
         "bot": true
     },
     {
+        "id":215,
         "user_agents": [
             "^Trackable/"
         ],
@@ -2107,7 +2322,8 @@
         "info_url": "https://chartable.com/",
         "bot": true
     },
-        {
+    {
+        "id":216,
         "user_agents": [
             "^TuneIn Radio/.*;Android"
         ],
@@ -2119,6 +2335,7 @@
         "info_url": "https://play.google.com/store/apps/details?id=tunein.player"
     },
     {
+        "id":217,
         "user_agents": [
             "^TuneIn Radio Pro/.*;Android"
         ],
@@ -2130,6 +2347,7 @@
         "info_url": "https://play.google.com/store/apps/details?id=radiotime.player"
     },
     {
+        "id":218,
         "user_agents": [
             "^TuneIn(%20| )Radio/.*(CFNetwork/|iPhone)"
         ],
@@ -2143,6 +2361,7 @@
         "info_url": "https://apps.apple.com/us/app/tunein-radio-live-news-music/id418987775"
     },
     {
+        "id":219,
         "user_agents": [
             "^TuneIn(%20| )Radio(%20| )Pro/.*CFNetwork/"
         ],
@@ -2155,6 +2374,7 @@
         "info_url": "https://apps.apple.com/us/app/tunein-pro-radio-sports/id319295332"
     },
     {
+        "id":220,
         "user_agents": [
             "^TuneIn(?!.*(CFNetwork|Android))"
         ],
@@ -2166,18 +2386,21 @@
         "developer_notes": "Other versions of this app use many other user agents."
     },
     {
+        "id":221,
         "user_agents": [
             "^Twitterbot"
         ],
         "bot": true
     },
     {
+        "id":222,
         "user_agents": [
             "^Typhoeus"
         ],
         "bot": true
     },
     {
+        "id":223,
         "user_agents": [
             "^VictorReader Stream"
         ],
@@ -2186,6 +2409,7 @@
         "os": "victorreader"
     },
     {
+        "id":224,
         "user_agents": [
             "^VLC/\\d"
         ],
@@ -2197,6 +2421,7 @@
         "info_url": "https://www.videolan.org/vlc/"
     },
     {
+        "id":225,
         "user_agents": [
             "Wget"
         ],
@@ -2204,6 +2429,7 @@
         "bot": true
     },
     {
+        "id":226,
         "user_agents": [
             "^Winamp"
         ],
@@ -2215,6 +2441,7 @@
         "os": "windows"
     },
     {
+        "id":227,
         "user_agents": [
             "^NSPlayer",
             "^WMPlayer/"
@@ -2227,12 +2454,14 @@
         "os": "windows"
     },
     {
+        "id":228,
         "user_agents": [
             "^WordPress"
         ],
         "bot": true
     },
     {
+        "id":229,
         "user_agents": [
             "YandexBot\/"
         ],
@@ -2240,18 +2469,21 @@
         "bot": true
     },
     {
+        "id":230,
         "user_agents": [
             "^yapa/"
         ],
         "app": "Yapa"
     },
     {
+        "id":231,
         "user_agents": [
             "stagefright/"
         ],
         "os": "android"
     },
     {
+        "id":232,
         "user_agents": [
             "^Podimo/.*iOS"
         ],
@@ -2264,6 +2496,7 @@
         "info_url": "https://apps.apple.com/dk/app/podimo-a-world-of-podcasts/id1476538730"
     },
     {
+        "id":233,
         "user_agents": [
             "^Podimo/.*Android"
         ],
@@ -2276,6 +2509,7 @@
         "info_url": "https://play.google.com/store/apps/details?id=com.podimo&hl=en_US"
     },
     {
+        "id":234,
         "user_agents": [
             "BingPreview/",
             "adidxbot/",
@@ -2289,12 +2523,14 @@
         ]
     },
     {
+        "id":235,
         "user_agents": [
             "^msnbot/"
         ],
         "bot": true
     },
     {
+        "id":236,
         "user_agents": [
             "^Deezer Podcasters\/1\\.0"
         ],
@@ -2302,6 +2538,7 @@
         "app": "Deezer Podcasters"
     },
     {
+        "id":237,
         "user_agents": [
             "^devcasts\/.*CFNetwork"
         ],
@@ -2314,6 +2551,7 @@
         "info_url": "http://devcasts.co/"
     },
     {
+        "id":238,
         "user_agents": [
             "^got/"
         ],
@@ -2322,6 +2560,7 @@
         "developer_notes": "Got is a HTTP library for NodeJs"
     },
     {
+        "id":239,
         "user_agents": [
             "INA dlweb"
         ],
@@ -2331,6 +2570,7 @@
         "developer_notes": "Institut National de l'Audiovisuel is a repository of all French radio and television audiovisual archives."
     },
     {
+        "id":240,
         "user_agents": [
             "^Instagram\/"
         ],
@@ -2340,6 +2580,7 @@
         ]
     },
     {
+        "id":241,
         "user_agents": [
             "^SoundOn/[\\d\\.]+\\s+\\(Linux;Android",
             "^SoundOn\/[^12]\\.\\d+\\.\\d+$",
@@ -2353,6 +2594,7 @@
         "os": "android"
     },
     {
+        "id":242,
         "user_agents": [
             "^SoundOn/1\\.1[0-2]\\.\\d+$",
             "^SoundOn/2\\.\\d+\\.\\d+$",
@@ -2368,12 +2610,14 @@
         "os": "ios"
     },
     {
+        "id":243,
         "user_agents": [
             "^SoundOn/[\\d\\.]+\\s+\\(bot"
         ],
         "bot": true
     },
     {
+        "id":244,
         "user_agents": [
             "^Podverse/Android Mobile App/"
         ],
@@ -2385,6 +2629,7 @@
         "developer_notes": "The standard device user agent is concatenated to the end of the Podverse/Android Mobile App/ user agent."
     },
     {
+        "id":245,
         "user_agents": [
             "^Podverse/iOS Mobile App/"
         ],
@@ -2399,6 +2644,7 @@
         "developer_notes": "The standard device user agent is concatenated to the end of the Podverse/iOS Mobile App/ user agent."
     },
     {
+        "id":246,
         "user_agents": [
             "^Podverse/Feed Parser"
         ],
@@ -2409,6 +2655,7 @@
         "developer_notes": "This service parses publicly-accessible RSS feeds on a timer, then stores parsed data in the Podverse database."
     },
     {
+        "id":247,
         "user_agents": [
             "^Podcast/1."
         ],
@@ -2417,6 +2664,7 @@
         "description": "Cosmos, a chinese podcast app"
     },
     {
+        "id":248,
         "user_agents": [
             "^Xiaoyuzhou\/.*Android\/"
         ],
@@ -2428,6 +2676,7 @@
         ]
     },
     {
+        "id":249,
         "user_agents": [
             "^Xiaoyuzhou/(?!.*(Android\/))"
         ],
@@ -2440,7 +2689,8 @@
             "Xiaoyuzhou/1.5.1"
         ]
     },
-        {
+    {
+        "id":250,
         "user_agents": [
             "^yacybot"
         ],
@@ -2453,6 +2703,7 @@
         ]
     },
     {
+        "id":251,
         "user_agents": [
             "^Podcast-CriticalMention/"
         ],
@@ -2464,6 +2715,7 @@
         ]
     },
     {
+        "id":252,
         "user_agents": [
             "^RSSOwl.*Windows"
         ],
@@ -2477,6 +2729,7 @@
         ]
     },
     {
+        "id":253,
         "user_agents": [
             "^ltx71 "
         ],
@@ -2489,6 +2742,7 @@
         ]
     },
     {
+        "id":254,
         "user_agents": [
             "^bl.uk_ldfc_bot"
         ],
@@ -2501,6 +2755,7 @@
         ]
     },
     {
+        "id":255,
         "user_agents": [
             "Archive-It;"
         ],
@@ -2513,6 +2768,7 @@
         ]
     },
     {
+        "id":256,
         "user_agents": [
             "VurblBot"
         ],
@@ -2525,6 +2781,7 @@
         ]
     },
     {
+        "id":257,
         "user_agents": [
             "PetalBot"
         ],
@@ -2537,6 +2794,7 @@
         ]
     },
     {
+        "id":258,
         "user_agents": [
             "PodhoundBeta"
         ],
@@ -2550,6 +2808,7 @@
         "developer_notes": "'It grabs it once to get the audio file length.', says the developer."
     },
     {
+        "id":259,
         "user_agents": [
             "hermespod.com/"
         ],
@@ -2562,6 +2821,7 @@
         "developer_notes": "HermesPod is no longer supported by its author."
     },
     {
+        "id":260,
         "user_agents": [
             "^gvfs/",
             "^rhythmbox/"
@@ -2575,6 +2835,7 @@
         "developer_notes": "The new UA is Rhythmbox: https://gitlab.gnome.org/GNOME/rhythmbox/-/issues/1855"
     },
     {
+        "id":261,
         "user_agents": [
             "archive.org_bot"
         ],
@@ -2587,6 +2848,7 @@
         ]
     },
     {
+        "id":262,
         "user_agents": [
             "AAABot"
         ],
@@ -2597,6 +2859,7 @@
         ]
     },
     {
+        "id":263,
         "user_agents": [
             "^MixerBox\/.*Android"
         ],
@@ -2607,6 +2870,7 @@
         ]
     },
     {
+        "id":264,
         "user_agents": [
         "^MixerBox\/.*iOS"
        ],
@@ -2617,6 +2881,7 @@
         ]
     },
     {
+        "id":265,
         "user_agents": [
             "^Podcastindex\\.org/"
         ],
