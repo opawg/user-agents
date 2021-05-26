@@ -3,9 +3,13 @@
   "items": {
     "type": "object",
     "required": [
+      "id",
       "user_agents"
     ],
     "properties": {
+      "id": {
+        "type": "integer"
+      }, 
       "user_agents": {
         "type": "array",
         "items": {
