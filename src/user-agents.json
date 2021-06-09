@@ -144,6 +144,17 @@
     },
     {
         "user_agents": [
+            "^Android_AudioNow/"
+        ],
+        "app": "Audio Now",
+        "examples": [
+            "Android_AudioNow"
+        ],
+        "info_url": "https://audionow.de/",
+        "os": "android"
+    },
+    {
+        "user_agents": [
             "^AndroidDownloadManager"
         ],
         "os": "android"
