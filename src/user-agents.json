@@ -580,13 +580,16 @@
     },
     {
         "user_agents": [
-            "Deezer/.*Android;"
+            "^Deezer/.*Android;",
+            "^DeezerJukebox/.+Android"
         ],
         "app": "Deezer",
+        "device": "phone",
         "os": "android",
         "examples": [
             "Deezer/6.2.2.80 (Android; 9; Mobile; fr) samsung SM-G950F",
-            "Deezer/6.2.3.96 (Android; 10; Mobile; fr) samsung SM-A405FN"
+            "Deezer/6.2.3.96 (Android; 10; Mobile; fr) samsung SM-A405FN",
+            "DeezerJukebox/6.2.26.58 (Linux;Android 10) ExoPlayerLib/2.12.1"
         ],
         "info_url": "https://play.google.com/store/apps/details?id=deezer.android.app"
     },
