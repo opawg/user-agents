@@ -2,7 +2,7 @@
 
 A list of apps, services and bots that consume podcast **audio**. This data is used by a number of podcast hosts to assist with their analytics.
 
-One public example is [this page at Podnews](https://podnews.net/about/podcast-stats) which uses this data alongside the RSS UA.
+One public example is [this page at Podnews](https://podnews.net/about/podcast-stats) which uses this data alongside the RSS UA. We're aware that this data is used by a number of large podcast hosts and private podcasters too.
 
 ## Contributing to the list
 
