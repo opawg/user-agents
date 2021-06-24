@@ -1527,6 +1527,19 @@
         "os": "windows"
     },
     {
+        "id":267,
+        "user_agents": [
+            "^MyTuner-ExoPlayerAdapter$"
+        ],
+        "app": "MyTuner",
+        "os": "android",
+        "device": "phone",
+        "examples": [
+            "MyTuner-ExoPlayerAdapter"
+        ],
+        "info_url": "www.mytuner-radio.com https://play.google.com/store/apps/details?id=com.appgeneration.itunerfree"
+    },
+    {
         "id":136,
         "user_agents": [
             "^NPR%20One/"
@@ -2106,6 +2119,34 @@
         ],
         "bot": true,
         "info_url": "https://serendeputy.com/about/serendeputy-bot"
+    },
+    {
+        "id":268,
+        "user_agents": [
+            "^SimpleRadio\/.+Android"
+        ],
+        "app": "Simple Radio",
+        "os": "android",
+        "device": "phone",
+        "examples": [
+            "SimpleRadio/4.2.2 (Android; U; Dalvik)"
+        ],
+        "info_url": "https://streema.com/mobile/ https://play.google.com/store/apps/details?id=com.streema.simpleradio"
+    },
+    {
+        "id":269,
+        "user_agents": [
+            "^Simple%20Radio\/.+Darwin"
+        ],
+        "app": "Simple Radio",
+        "os": "ios",
+        "device": "phone",
+        "examples": [
+            "Simple%20Radio/1631 CFNetwork/1220.1 Darwin/20.3.0",
+            "Simple%20Radio/1631 CFNetwork/1240.0.4 Darwin/20.5.0",
+            "Simple%20Radio/1631 CFNetwork/1237 Darwin/20.4.0"
+        ],
+        "info_url": "https://streema.com/mobile/ https://apps.apple.com/us/app/simple-radio-by-streema-tunein/id891132290"
     },
     {
         "id":191,
