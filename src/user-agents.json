@@ -1309,6 +1309,18 @@
     },
     {
         "user_agents": [
+            "Lisny"
+        ],
+        "app": "Lisny",
+        "os": "android",
+        "examples": [
+            "Lisny"
+        ],
+        "info_url": "https://www.lisny.com",
+        "description": "Lisny is a fast, beautiful and fun listening experience."
+    },
+    {
+        "user_agents": [
             "LivelapBot"
         ],
         "bot": true
