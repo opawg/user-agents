@@ -921,14 +921,16 @@
     },
     {
         "user_agents": [
-            "(iPhone|iPad|iPod touch).*GSA/",
+            "^GooglePodcasts/(iPhone|iPad|iPod touch|!Android).*GSA\/",
             "^Podcasts$",
-            "^GooglePodcasts/"
+            "^GooglePodcasts\/.*(iPhone|iPad|iPod touch)"
         ],
         "app": "Google Podcasts",
         "description": "Google Podcasts on iOS",
         "examples": [
-            "GooglePodcasts/2.0.2%20iPod_touch/13.4.1%20hw/iPod9_1",
+            "GooglePodcasts/2.0.2 iPod_touch/13.4.1 hw/iPod9_1",
+            "GooglePodcasts/2.0.10 iPhone/14.6 hw/iPhone12_1",
+            "GooglePodcasts/2.0.10 iPhone/14.6 hw/iPhone13_3",
             "Mozilla/5.0 (iPhone; CPU iPhone OS 13_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/107.0.310639584 Mobile/15E148 Safari/604.1",
             "Mozilla/5.0 (iPod touch; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/107.0.310639584 Mobile/15E148 Safari/601.1"
         ],
@@ -937,7 +939,7 @@
     },
     {
         "user_agents": [
-            "(?:Android;.+)?GSA/"
+            "(Android).*GSA\/"
         ],
         "app": "Google Podcasts",
         "os": "android",
@@ -1996,7 +1998,7 @@
     },
     {
         "user_agents": [
-            "Macintosh.*AppleWebKit(?!.*(Chrome\/)).*Safari/(?!.*(AdsBot/))"
+            "Macintosh.*AppleWebKit(?!.*(Chrome\/|GSA\/)).*Safari\/(?!.*(AdsBot\/))"
         ],
         "app": "Safari",
         "device": "pc",
@@ -2015,7 +2017,7 @@
     },
     {
         "user_agents": [
-            "iPhone.*AppleWebKit(?!.*(AdsBot|bingbot|CriOS)).*Safari/"
+            "iPhone.*AppleWebKit(?!.*(AdsBot|bingbot|CriOS|GSA\/)).*Safari\/"
         ],
         "app": "Safari",
         "device": "phone",
@@ -2666,5 +2668,26 @@
         "examples": [
             "Podcastindex.org/v0.3.3 (Aggrivate)"
         ]
+    },
+    {
+        "user_agents": [
+            "^sp-agent"
+        ],
+        "app": "Samsung Podcasts",
+        "info_url": "https://developer.samsung.com/podcasts",
+        "examples": [
+            "sp-agent"
+        ]
+    },
+    {
+        "user_agents": [
+            "^MixerBox\/"
+        ],
+        "app": "Mixerbox",
+        "info_url": "https://www.mixerbox.com/",
+        "examples": [
+            "MixerBox/869 CFNetwork/1300.1 Darwin/21.0.0"
+        ],
+        "developer_notes": "This app appears to use a RSS useragent of AmazonCloudFront (or it may simply be blank)"
     }
 ]
