@@ -867,6 +867,19 @@
     },
     {
         "user_agents": [
+            "Goodpods.Android"
+        ],
+        "examples": [
+            "Goodpods.Android / 2.2.2"
+        ],
+        "app": "Goodpods",
+        "os": "android",
+        "description": "The social podcasting app",
+        "developer_notes": "This app uses an RSS useragent of similar to PostmanRuntime7220",
+        "info_url": "https://www.goodpods.com/"
+    },
+    {
+        "user_agents": [
             "Googlebot/",
             "Googlebot-Video/",
             "Googlebot-Image/"
