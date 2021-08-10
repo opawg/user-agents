@@ -2030,6 +2030,18 @@
         "app": "Safari",
         "device": "tablet",
         "os": "ios"
+    },    
+    {
+        "user_agents": [
+            "^sp-agent"
+        ],
+        "app": "Samsung Free",
+        "device": "phone",
+        "os": "android",
+        "examples": [
+            "sp-agent"
+        ],
+        "info_url": "https://www.samsung.com/us/apps/samsung-free/"
     },
     {
         "user_agents": [
