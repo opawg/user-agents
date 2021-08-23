@@ -21,10 +21,14 @@
         "type": "string"
       },
       "device": {
-        "type": "string"
+        "type": "string",
+        "format": "enum",
+        "values": ["pc", "phone", "radio", "speaker", "tablet", "watch"]
       },
       "os": {
-        "type": "string"
+        "type": "string",
+        "format": "enum",
+        "values": ["android", "ios", "linux", "macos", "windows"]
       },
       "examples": {
         "type": "array",
