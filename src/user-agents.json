@@ -476,6 +476,19 @@
     },
     {
         "user_agents": [
+            "^Castamatic/.+Darwin"
+        ],
+        "app": "Castamatic",
+        "description": "Your new favorite podcast player for iOS devices",
+        "device": "phone",
+        "examples": [
+            "Castamatic/3847 CFNetwork/1240.0.4 Darwin/20.6.0"
+        ],
+        "os": "ios",
+        "info_url": "https://castamatic.com"
+    },
+    {
+        "user_agents": [
             "^Cast(?:b|B)ox/.+Android"
         ],
         "app": "CastBox",
