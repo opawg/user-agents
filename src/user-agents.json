@@ -772,6 +772,18 @@
     },
     {
         "user_agents": [
+            "iPhone.+\\[FBAN\/FBIO.+\\]"
+        ],
+        "app": "Facebook",
+        "device": "phone",
+        "os": "ios",
+        "examples": [
+          "Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iOS;FBSV/12.4.8;FBSS/2;FBID/phone;FBLC/de_DE;FBOP/5]"
+        ],
+        "description": "The Facebook app's built-in browser on iPhones."
+    },
+    {
+        "user_agents": [
             "^feedly/"
         ],
         "app": "Feedly",
@@ -1033,6 +1045,18 @@
         "app": "Google Chrome",
         "device": "phone",
         "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iPhone.+GSA\/\\d+"
+        ],
+        "app": "Google Search App",
+        "device": "phone",
+        "os": "ios",
+        "examples": [
+          "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/166.0.381336632 Mobile/15E148 Safari/604.1"
+        ],
+        "description": "The Google Search App on iPhone."
     },
     {
         "user_agents": [
@@ -1326,6 +1350,18 @@
             "^libwww-perl"
         ],
         "bot": true
+    },
+    {
+        "user_agents": [
+            "iPhone.+\\[LinkedInApp\\]"
+        ],
+        "app": "LinkedIn",
+        "device": "phone",
+        "os": "ios",
+        "examples": [
+          "Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [LinkedInApp]"
+        ],
+        "description": "The LinkedIn app's built-in browser on iPhones."
     },
     {
         "user_agents": [
