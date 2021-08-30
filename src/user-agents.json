@@ -2324,6 +2324,19 @@
     },
     {
         "user_agents": [
+            "iPhone.*XING"
+        ],
+        "app": "XING",
+        "device": "phone",
+        "os": "ios",
+        "examples": [
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) ; iPhone/13.6 XING/8.15.2 ttt_webview_iosm"
+        ],
+        "info_url": "https://www.xing.com/",
+        "description": "German version of LinkedIn"
+    },
+    {
+        "user_agents": [
             "YandexBot\/"
         ],
         "app": "YandexBot",
