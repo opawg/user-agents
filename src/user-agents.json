@@ -1599,6 +1599,17 @@
     },
     {
         "user_agents": [
+            "^Overcast//1.0 Podcast Sync .*"
+        ],
+        "app": "Overcast feed parser",
+        "examples": [
+            "Overcast//1.0 Podcast Sync (+http:////overcast.fm//)"
+        ],
+        "developer_notes": "Lisofc says: there is also this one for Overcast Bot",
+        "bot": true
+    },
+    {
+        "user_agents": [
             "^PandoraRSSCrawler"
         ],
         "bot": true,
