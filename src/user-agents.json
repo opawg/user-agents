@@ -572,6 +572,13 @@
     },
     {
         "user_agents": [
+            "^clark-crawler2"
+        ],
+        "app": "Clark-Crawler, unknown",
+        "bot": true
+    },
+    {
+        "user_agents": [
             "^curl"
         ],
         "bot": true
@@ -752,7 +759,7 @@
     },
     {
         "user_agents": [
-            "^Echo/1\\."
+            "^Echo\/1"
         ],
         "device": "speaker",
         "os": "alexa",
