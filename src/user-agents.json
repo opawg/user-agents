@@ -2758,5 +2758,17 @@
             "MixerBox/869 CFNetwork/1300.1 Darwin/21.0.0"
         ],
         "developer_notes": "This app appears to use a RSS useragent of AmazonCloudFront (or it may simply be blank)"
+    },
+    {
+        "user_agents": [
+            "^Tumult"
+        ],
+        "app": "Tumult",
+        "description": "Et le podcast devient social",
+        "device": "phone",
+        "examples": [
+            "Tumult"
+        ],
+        "info_url": "https://tumult-podcast.com/"
     }
 ]
