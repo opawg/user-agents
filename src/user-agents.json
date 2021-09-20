@@ -883,6 +883,28 @@
     },
     {
         "user_agents": [
+            "^Fountain.+iOS"
+        ],
+        "app": "Fountain",
+        "examples": [
+            "Fountain/0.2.6 iOS https://www.fountain.fm'"
+        ],
+        "info_url": "https://www.fountain.fm",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^Fountain.+Android"
+        ],
+        "app": "Fountain",
+        "examples": [
+            "Fountain/0.2.6 Android https://www.fountain.fm'"
+        ],
+        "info_url": "https://www.fountain.fm",
+        "os": "android"
+    },
+    {
+        "user_agents": [
             "^fyyd-poll"
         ],
         "app": "Fyyd",
