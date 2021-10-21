@@ -1497,6 +1497,17 @@
     },
     {
         "user_agents": [
+            ".*Neevabot"
+        ],
+        "app": "Neevabot",
+        "bot": true,
+        "info_url": "https://neeva.com/neevabot",
+        "examples": [
+            "Mozilla/5.0 (compatible; Neevabot/1.0; https://neeva.com/neevabot)"
+        ]
+    },
+    {
+        "user_agents": [
             "^NPR%20One/"
         ],
         "app": "NPR One",
@@ -1873,6 +1884,15 @@
         "app": "Podnods",
         "description": "Podnods is a podcast discovery site. This user agent is for users to sample and play podcasts.",
         "info_url": "https://podnods.com/about"
+    },
+    {
+        "user_agents": [
+            "Procast (iOS)"
+        ],
+        "app": "Procast",
+        "description": "Procast - The Podcast App",
+        "info_url": "https://procast.coderocker.de/",
+        "os": "ios"
     },
     {
         "user_agents": [
