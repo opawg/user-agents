@@ -768,13 +768,16 @@
     {
         "user_agents": [
             "FacebookBot",
-            "facebookexternalhit/"
+            "facebookexternalhit/",
+            "podcastbot"
         ],
         "bot": true,
         "app": "Facebook",
         "info_url": "https://www.facebook.com/externalhit_uatext.php",
+        "developer_notes": "The podcastbot UA appears to be part of Facebook Podcasts onboarding",
         "examples": [
-            "facebookexternalhit/1.1 ( http://www.facebook.com/externalhit_uatext.php)"
+            "facebookexternalhit/1.1 ( http://www.facebook.com/externalhit_uatext.php)",
+            "podcastbot"
         ]
     },
     {
@@ -789,6 +792,33 @@
         ],
         "description": "The Facebook app's built-in browser on iPhones."
     },
+    {
+        "user_agents": [
+            "iOS/Facebook"
+        ],
+        "app": "Facebook",
+        "device": "phone",
+        "os": "ios",
+        "examples": [
+          "iOS/Facebook"
+        ],
+        "developer_notes": "Spotted using a Facebook-exclusive audio feed. Distinct from the above, since it's the actual podcast player.",
+        "description": "The Facebook app's podcast player on iOS."
+    },  
+    {
+        "user_agents": [
+            "FB4A/Facebook"
+        ],
+        "app": "Facebook",
+        "device": "phone",
+        "os": "android",
+        "examples": [
+          "FB4A/Facebook"
+        ],
+        "developer_notes": "Spotted using a Facebook-exclusive audio feed",
+        "description": "The Facebook app's podcast player on Android."
+    },    
+
     {
         "user_agents": [
             "^feedly/"
