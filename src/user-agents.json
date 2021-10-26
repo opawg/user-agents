@@ -2131,6 +2131,14 @@
     },
     {
         "user_agents": [
+            "^Shadow"
+        ],
+        "app": "Shadow",
+        "os": "ios",
+        "info_url": "https://apps.apple.com/us/app/shadow/id940127690"
+    },
+    {
+        "user_agents": [
             "^Slack/"
         ],
         "app": "Slack"
