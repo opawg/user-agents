@@ -1913,6 +1913,14 @@
     },
     {
         "user_agents": [
+            "^Podopolo"
+        ],
+        "app": "Podopolo",
+        "description": "Listen with passion - connect with purpose",
+        "info_url": "https://podopolo.com/"
+    },
+    {
+        "user_agents": [
             "fm.podyssey.podcasts"
         ],
         "app": "Podyssey",
