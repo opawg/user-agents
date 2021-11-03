@@ -2902,5 +2902,14 @@
             "Tumult"
         ],
         "info_url": "https://tumult-podcast.com/"
+    },
+    {
+        "user_agents": [
+            "^Vodacast"
+        ],
+        "app": "Vodacast",
+        "description": "Podcasts with deeper digital stories",
+        "device": "phone",
+        "info_url": "https://auddiainc.com/vodacast-app/"
     }
 ]
