@@ -1933,7 +1933,7 @@
     },
     {
         "user_agents": [
-            "Procast (iOS)"
+            "^Procast.+iOS"
         ],
         "app": "Procast",
         "description": "Procast - The Podcast App",
