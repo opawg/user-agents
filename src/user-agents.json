@@ -2911,5 +2911,15 @@
         "description": "Podcasts with deeper digital stories",
         "device": "phone",
         "info_url": "https://auddiainc.com/vodacast-app/"
+    },
+    {
+        "user_agents": [
+            "^Palco MP3"
+        ],
+        "app": "Palco MP3",
+        "info_url": "https://www.palcomp3.com.br/",
+        "examples": [
+            "Palco MP3/3.13.18 (Linux;Android 11) ExoPlayerLib/2.11.0"
+        ],
     }
 ]
