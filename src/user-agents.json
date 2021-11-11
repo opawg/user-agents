@@ -954,9 +954,9 @@
         "os": "android",
         "description": "The social podcasting app",
         "info_url": "https://www.goodpods.com/",
-		"svg": "goodpods.svg"
+        "svg": "goodpods.svg"
     },
-	{
+    {
         "user_agents": [
             "Goodpods.IOS / \\d+\\.\\d+\\.\\d+"
         ],
@@ -967,9 +967,9 @@
         "os": "ios",
         "description": "The social podcasting app",
         "info_url": "https://www.goodpods.com/",
-		"svg": "goodpods.svg"
+        "svg": "goodpods.svg"
     },
-	{
+    {
         "user_agents": [
             "Goodpods/\\d+\\.\\d+"
         ],
@@ -977,12 +977,12 @@
             "Goodpods/2.2"
         ],
         "app": "Goodpods",
-		"os": "linux",
-		"bot": true,
+        "os": "linux",
+        "bot": true,
         "description": "The social podcasting app",
         "info_url": "https://www.goodpods.com/",
-		"svg": "goodpods.svg",
-		"developer_notes": "RSS scraper / podcast verifier. Contact hello at goodpods dot com."
+        "svg": "goodpods.svg",
+        "developer_notes": "RSS scraper / podcast verifier. Contact hello at goodpods dot com."
     },
     {
         "user_agents": [
