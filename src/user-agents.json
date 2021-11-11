@@ -945,7 +945,7 @@
     },
     {
         "user_agents": [
-            "Goodpods.Android"
+            "Goodpods.Android / \\d+\\.\\d+\\.\\d+"
         ],
         "examples": [
             "Goodpods.Android / 2.2.2"
@@ -953,8 +953,36 @@
         "app": "Goodpods",
         "os": "android",
         "description": "The social podcasting app",
-        "developer_notes": "This app uses an RSS useragent of similar to PostmanRuntime7220",
-        "info_url": "https://www.goodpods.com/"
+        "info_url": "https://www.goodpods.com/",
+		"svg": "goodpods.svg"
+    },
+	{
+        "user_agents": [
+            "Goodpods.IOS / \\d+\\.\\d+\\.\\d+"
+        ],
+        "examples": [
+            "Goodpods.IOS / 2.2.2"
+        ],
+        "app": "Goodpods",
+        "os": "ios",
+        "description": "The social podcasting app",
+        "info_url": "https://www.goodpods.com/",
+		"svg": "goodpods.svg"
+    },
+	{
+        "user_agents": [
+            "Goodpods/\\d+\\.\\d+"
+        ],
+        "examples": [
+            "Goodpods/2.2"
+        ],
+        "app": "Goodpods",
+		"os": "linux",
+		"bot": true,
+        "description": "The social podcasting app",
+        "info_url": "https://www.goodpods.com/",
+		"svg": "goodpods.svg",
+		"developer_notes": "RSS scraper / podcast verifier. Contact hello at goodpods dot com."
     },
     {
         "user_agents": [
