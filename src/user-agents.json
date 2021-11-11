@@ -448,6 +448,14 @@
         "device": "pc",
         "os": "linux"
     },
+	{
+        "user_agents": [
+            "iPhone.+(?:B|b)rave"
+        ],
+        "app": "Brave",
+        "device": "phone",
+        "os": "ios"
+    },
     {
         "user_agents": [
             "Mac OS X.+(?:B|b)rave"
@@ -726,7 +734,7 @@
     },
     {
         "user_agents": [
-            "Xbox.+Edge/"
+            "Xbox.+Edge?/"
         ],
         "app": "Edge",
         "device": "games_console",
@@ -740,9 +748,25 @@
         "os": "android",
         "info_url": "https://play.google.com/store/apps/details?id=com.microsoft.emmx&hl=en_AU&gl=US"
     },
+	{
+        "user_agents": [
+            "iPhone.+EdgiOS/"
+        ],
+        "app": "Edge",
+		"device": "phone",
+        "os": "ios"
+    },
+	{
+        "user_agents": [
+            "Macintosh.+MacEdgeClient/"
+        ],
+        "app": "Edge",
+		"device": "pc",
+        "os": "macos"
+    },
     {
         "user_agents": [
-            "Windows Phone.+Edge/"
+            "Windows Phone.+Edge?/"
         ],
         "app": "Edge",
         "device": "phone",
@@ -750,7 +774,7 @@
     },
     {
         "user_agents": [
-            "Windows.+Edge/"
+            "Windows.+Edge?/"
         ],
         "app": "Edge",
         "device": "pc",
@@ -798,7 +822,7 @@
         ],
         "developer_notes": "Spotted using a Facebook-exclusive audio feed. Distinct from the above, since it's the actual podcast player.",
         "description": "The Facebook app's podcast player on iOS."
-    },  
+    },
     {
         "user_agents": [
             "^FB4A\/Facebook"
@@ -811,7 +835,7 @@
         ],
         "developer_notes": "Spotted using a Facebook-exclusive audio feed",
         "description": "The Facebook app's podcast player on Android."
-    },    
+    },
 
     {
         "user_agents": [
