@@ -1239,6 +1239,18 @@
     },
     {
         "user_agents": [
+            "^HyperCatcher"
+        ],
+        "app": "HyperCatcher",
+        "device": "phone",
+        "examples": [
+            "HyperCatcher/1"
+        ],
+        "os": "ios",
+        "description": "Newsletters and podcasts together!"
+    },
+{
+        "user_agents": [
             "^iCatcher"
         ],
         "app": "iCatcher",
