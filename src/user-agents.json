@@ -182,6 +182,14 @@
     },
     {
         "user_agents": [
+            "^Applebot/"
+        ],
+        "bot": true,
+	"info_url": "http://www.apple.com/go/applebot",
+	"description": "Applebot is the web crawler for Apple. Products like Siri and Spotlight Suggestions use Applebot."
+    },	
+    {
+        "user_agents": [
             "^AppleCoreMedia/1\\..*iPod"
         ],
         "device": "mp3_player",
