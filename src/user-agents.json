@@ -1134,7 +1134,7 @@
     },
     {
         "user_agents": [
-            "Windows.*Chrome\/(?!.*(OPR\/))"
+            "Windows.*Chrome\/(?!.*(OPR|Edge\/))"
         ],
         "app": "Google Chrome",
         "device": "pc",
