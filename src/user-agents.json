@@ -2468,6 +2468,18 @@
     },
     {
         "user_agents": [
+            "^TuneIn/"
+        ],
+        "examples": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) TuneIn/1.25.0 Chrome/69.0.3497.128 Electron/4.2.8 Safari/537.36"
+        ],
+        "app": "TuneIn",
+	"device": "pc",
+        "info_url": "https://tunein.com/",
+        "developer_notes": "A TuneIn Electron app"
+    },
+    {
+        "user_agents": [
             "^Twitterbot"
         ],
         "bot": true
