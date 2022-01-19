@@ -3005,5 +3005,27 @@
         "examples": [
             "Palco MP3/3.13.18 (Linux;Android 11) ExoPlayerLib/2.11.0"
         ]
+    },
+    {
+        "user_agents": [
+            "^TheEconomist-Darwin-android"
+        ],
+        "app": "Economist Espresso",
+        "type": "phone",
+        "os":"android",
+        "examples": [
+            "TheEconomist-Darwin-android-2.1.1-master-2999-2001024"
+        ]
+    },
+    {
+        "user_agents": [
+            "^TheEconomist-Darwin-ios"
+        ],
+        "app": "Economist Espresso",
+        "type": "phone",
+        "os": "ios",
+        "examples": [
+            "TheEconomist-Darwin-ios-2.1.1-master-2999-2001024"
+        ]
     }
 ]
