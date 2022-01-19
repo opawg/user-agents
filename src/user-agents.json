@@ -3012,7 +3012,7 @@
         ],
         "app": "Economist Espresso",
         "type": "phone",
-        "os":"android",
+        "os": "android",
         "examples": [
             "TheEconomist-Darwin-android-2.1.1-master-2999-2001024"
         ]
