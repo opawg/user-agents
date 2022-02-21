@@ -2299,6 +2299,17 @@
     },
     {
         "user_agents": [
+            "^Snipd/"
+        ],
+        "app": "Snipd",
+	"os": "ios",
+	"info_url": "https://www.snipd.com/",
+	"examples": [
+            "Snipd/90 CFNetwork/1329 Darwin/21.3.0"
+        ]	    
+    },
+    {
+        "user_agents": [
             "^Subcast"
         ],
         "app": "Subcast"
