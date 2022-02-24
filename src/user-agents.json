@@ -939,11 +939,12 @@
     },
     {
         "user_agents": [
-            "^Fountain.+iOS"
+            "^Fountain.+(iOS|ios)"
         ],
         "app": "Fountain",
         "examples": [
-            "Fountain/0.2.6 iOS https://www.fountain.fm'"
+            "Fountain/0.2.6 iOS https://www.fountain.fm'",
+	    "Fountain/0.3.8 ios https://www.fountain.fm"
         ],
         "info_url": "https://www.fountain.fm",
         "os": "ios"
