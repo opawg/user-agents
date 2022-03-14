@@ -187,7 +187,7 @@
         "bot": true,
 	"info_url": "http://www.apple.com/go/applebot",
 	"description": "Applebot is the web crawler for Apple. Products like Siri and Spotlight Suggestions use Applebot."
-    },	
+    },
     {
         "user_agents": [
             "^AppleCoreMedia/1\\..*iPod"
@@ -677,11 +677,12 @@
     },
     {
         "user_agents": [
-            "DotBot/1"
+            "DotBot"
         ],
         "app": "DotBot",
         "examples": [
-            "Mozilla/5.0 (compatible; DotBot/1.1; http://www.opensiteexplorer.org/dotbot, help@moz.com)"
+            "Mozilla/5.0 (compatible; DotBot/1.1; http://www.opensiteexplorer.org/dotbot, help@moz.com)",
+            "Mozilla/5.0 (compatible; DotBot/1.2; https://opensiteexplorer.org/dotbot; help@moz.com)"
         ],
         "bot": true
     },
@@ -2259,11 +2260,14 @@
     },
     {
         "user_agents": [
-            "^Spotify/.*iOS"
+            "^Spotify/.+iOS"
         ],
         "app": "Spotify",
         "device": "phone",
-        "os": "ios"
+        "os": "ios",
+        "examples": [
+            "Spotify/8.7.10 iOS/15.3.1 (iPhone13,2)"
+        ],
     },
     {
         "user_agents": [
@@ -2334,7 +2338,7 @@
 	"info_url": "https://www.snipd.com/",
 	"examples": [
             "Snipd/90 CFNetwork/1329 Darwin/21.3.0"
-        ]	    
+        ]
     },
     {
         "user_agents": [
