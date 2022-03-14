@@ -1389,7 +1389,7 @@
     },
     {
         "user_agents": [
-            ".*KAIOS/"
+            ".*KAIOS\/(?!.*(PodKast))"
         ],
         "app": "KAIOS podcast app",
         "device": "phone",
@@ -1418,7 +1418,7 @@
         "user_agents": [
             ".*PodKast$"
         ],
-        "app": "PodKast podcast app for KaiOS",
+        "app": "PodKast app",
         "device": "phone",
         "os": "kaios",
         "examples": [
@@ -2324,11 +2324,21 @@
         "info_url": "https://apps.apple.com/us/app/shadow/id940127690"
     },
     {
-        "user_agents": [
+    "user_agents": [
             "^Slack/"
         ],
         "app": "Slack"
     },
+    {
+    "user_agents": [
+        "^Slackbot 1.0"
+    ],
+    "app": "Slack",
+    "bot": true,
+    "examples": [
+        "Slackbot 1.0 ( https://api.slack.com/robots)"
+    ]
+},
     {
         "user_agents": [
             "^Snipd/"
@@ -3069,6 +3079,18 @@
         "os": "ios",
         "examples": [
             "TheEconomist-Darwin-ios-2.1.1-master-2999-2001024"
+        ]
+    },
+    {
+        "user_agents": [
+            "^AudioWave iOS"
+        ],
+        "app": "AudioWave",
+        "type": "phone",
+        "os": "ios",
+        "info_url": "https://apps.apple.com/be/app/audiowave-podcast-player/id1602776751",
+        "examples": [
+            "AudioWave iOS"
         ]
     }
 ]
