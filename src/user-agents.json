@@ -1019,6 +1019,19 @@
     },
     {
         "user_agents": [
+            "Goodpods/1 CFNetwork"
+        ],
+        "examples": [
+            "Goodpods/1 CFNetwork/1329 Darwin/21.3.0"
+        ],
+        "app": "Goodpods",
+        "os": "ios",
+        "description": "The social podcasting app",
+        "info_url": "https://www.goodpods.com/",
+        "svg": "goodpods.svg"
+    },
+    {
+        "user_agents": [
             "Googlebot/",
             "Googlebot-Video/",
             "Googlebot-Image/"
@@ -1306,7 +1319,8 @@
     },
     {
         "user_agents": [
-            "iVoox"        ],
+            "iVoox"
+	    ],
         "app": "iVoox",
         "info_url": "https://www.ivoox.com/"
     },
