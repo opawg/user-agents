@@ -1423,7 +1423,7 @@
         "os": "kaios",
         "examples": [
             "Mozilla/5.0 (Mobile; M571M3; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5.1.2 PodKast",
-	    "KaiOS Downloader PodKast",
+	    "KaiOS Downloader PodKast"
         ],
         "description": "PodKast is a podcast app available for KaiOS smartphones"
     },
