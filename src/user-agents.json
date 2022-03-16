@@ -368,6 +368,7 @@
         "examples": [
             "AudioWaveBot/1.0"
         ],
+	"info_url": "https://audiowave.io"
         "bot": true
     },
     {
