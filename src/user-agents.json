@@ -362,6 +362,16 @@
     },
     {
         "user_agents": [
+            "^AudioWaveBot/1.0"
+        ],
+        "app": "AudioWave feed parser",
+        "examples": [
+            "AudioWaveBot/1.0"
+        ],
+        "bot": true
+    },
+    {
+        "user_agents": [
             "^BashPodder"
         ],
         "app": "BashPodder",
