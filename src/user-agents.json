@@ -362,6 +362,16 @@
     },
     {
         "user_agents": [
+            "^AudioWave/1",
+        ],
+        "app": "AudioWave",
+        "examples": [
+            "AudioWave/1.5 (+https://audiowave.io/; iPhone 15.4)"
+        ],
+        "os": "ios"
+    },
+    {
+        "user_agents": [
             "^AudioWaveBot/1.0"
         ],
         "app": "AudioWave feed parser",
