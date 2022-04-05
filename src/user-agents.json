@@ -3102,10 +3102,8 @@
         ],
         "app": "VG iOS app",
         "description": "A VG iOS app",
-        "os": "ios",
-        "device": "phone"
+        "os": "ios"
     },
-
     {
         "user_agents": [
             "iOS Aftonbladet Hermes\/"
@@ -3115,8 +3113,7 @@
         ],
         "app": "Aftonbladet iOS app",
         "description": "Aftonbladet iOS app",
-        "os": "ios",
-        "device": "phone"
+        "os": "ios"
     },
     {
         "user_agents": [
@@ -3127,8 +3124,7 @@
         ],
         "app": "Sportbladet iOS app",
         "description": "Sportbladet iOS app",
-        "os": "ios",
-        "device": "phone"
+        "os": "ios"
     },
     {
         "user_agents": [
@@ -3139,8 +3135,7 @@
         ],
         "app": "Aftenposten iOS app",
         "description": "Aftenposten iOS app",
-        "os": "ios",
-        "device": "phone"
+        "os": "ios"
     },
     {
         "user_agents": [
@@ -3151,8 +3146,7 @@
         ],
         "app": "Bergens Tidende iOS app",
         "description": "Bergens Tidende iOS app",
-        "os": "ios",
-        "device": "phone"
+        "os": "ios"
     },
     {
         "user_agents": [
@@ -3163,8 +3157,7 @@
         ],
         "app": "Stavanger Aftenblad iOS app",
         "description": "Stavanger Aftenblad iOS app",
-        "os": "ios",
-        "device": "phone"
+        "os": "ios"
     },
     {
         "user_agents": [
@@ -3175,8 +3168,7 @@
         ],
         "app": "Svenska Dagbladet iOS app",
         "description": "Svenska Dagbladet iOS app",
-        "os": "ios",
-        "device": "phone"
+        "os": "ios"
     },
     {
         "user_agents": [
@@ -3187,8 +3179,7 @@
         ],
         "app": "E24 iOS app",
         "description": "E24 iOS app",
-        "os": "ios",
-        "device": "phone"
+        "os": "ios"
     },
     {
         "user_agents": [
@@ -3199,8 +3190,7 @@
         ],
         "app": "Askoyvaringen iOS app",
         "description": "Askoyvaringen iOS app",
-        "os": "ios",
-        "device": "phone"
+        "os": "ios"
     },
     {
         "user_agents": [
@@ -3211,8 +3201,7 @@
         ],
         "app": "Bygdanytt iOS app",
         "description": "Bygdanytt iOS app",
-        "os": "ios",
-        "device": "phone"
+        "os": "ios"
     },
     {
         "user_agents": [
@@ -3223,8 +3212,7 @@
         ],
         "app": "Strilen iOS app",
         "description": "Strilen iOS app",
-        "os": "ios",
-        "device": "phone"
+        "os": "ios"
     },
     {
         "user_agents": [
@@ -3235,7 +3223,6 @@
         ],
         "app": "Vestnytt iOS app",
         "description": "Vestnytt iOS app",
-        "os": "ios",
-        "device": "phone"
+        "os": "ios"
     }
 ]
