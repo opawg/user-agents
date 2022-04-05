@@ -2322,7 +2322,7 @@
     examples: 
       - "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS VG Hermes/90.0.0 _app_"
     app: "VG iOS app"
-    description: "A VG iOS app"
+    description: "VG iOS app"
     os: "ios"
   - 
     user_agents: 
