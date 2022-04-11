@@ -3113,5 +3113,137 @@
         "examples": [
             "AudioWave iOS"
         ]
+    },
+    {
+        "user_agents": [
+            "iOS VG Hermes\/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS VG Hermes/90.0.0 _app_"
+        ],
+        "app": "VG iOS app",
+        "description": "VG iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS Aftonbladet Hermes\/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS Aftonbladet Hermes/90.0.0 _app_"
+        ],
+        "app": "Aftonbladet iOS app",
+        "description": "Aftonbladet iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS Sportbladet Hermes\/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS Sportbladet Hermes/90.0.0 _app_"
+        ],
+        "app": "Sportbladet iOS app",
+        "description": "Sportbladet iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS AP Hermes\/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS AP Hermes/90.0.0 _app_"
+        ],
+        "app": "Aftenposten iOS app",
+        "description": "Aftenposten iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS BT Hermes\/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS BT Hermes/90.0.0 _app_"
+        ],
+        "app": "Bergens Tidende iOS app",
+        "description": "Bergens Tidende iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS SA Hermes\/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS SA Hermes/90.0.0 _app_"
+        ],
+        "app": "Stavanger Aftenblad iOS app",
+        "description": "Stavanger Aftenblad iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS SvD Hermes\/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS SvD Hermes/90.0.0 _app_"
+        ],
+        "app": "Svenska Dagbladet iOS app",
+        "description": "Svenska Dagbladet iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS E24 Hermes\/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS E24 Hermes/90.0.0 _app_"
+        ],
+        "app": "E24 iOS app",
+        "description": "E24 iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS Askoyvaringen Hermes\/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS Askoyvaringen Hermes/90.0.0 _app_"
+        ],
+        "app": "Askoyvaringen iOS app",
+        "description": "Askoyvaringen iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS Bygdanytt Hermes\/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS Bygdanytt Hermes/90.0.0 _app_"
+        ],
+        "app": "Bygdanytt iOS app",
+        "description": "Bygdanytt iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS Strilen Hermes\/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS Strilen Hermes/90.0.0 _app_"
+        ],
+        "app": "Strilen iOS app",
+        "description": "Strilen iOS app",
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "iOS Vestnytt Hermes\/"
+        ],
+        "examples": [
+            "AppleCoreMedia/1.0.0.19E239 (iPhone; U; CPU OS 15_4 like Mac OS X; sv_se) iOS Vestnytt Hermes/90.0.0 _app_"
+        ],
+        "app": "Vestnytt iOS app",
+        "description": "Vestnytt iOS app",
+        "os": "ios"
     }
 ]
