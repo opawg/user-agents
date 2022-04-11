@@ -3244,5 +3244,16 @@
 		"app": "Vestnytt iOS app",
 		"description": "Vestnytt iOS app",
 		"os": "ios"
+	},
+	{
+		"user_agents": [
+			"^Riddler "
+		],
+		"examples": [
+			"Riddler (http://riddler.io/about)"
+		],
+		"app": "F-Secure Riddler",
+		"description": "an online research project which investigates algorithms for mapping the topology of the Internet",
+		"bot": true
 	}
 ]
