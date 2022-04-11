@@ -972,11 +972,12 @@
 	},
 	{
 		"user_agents": [
-			"^Fountain.+Android"
+			"^Fountain.+(Android|android)"
 		],
 		"app": "Fountain",
 		"examples": [
-			"Fountain/0.2.6 Android https://www.fountain.fm'"
+			"Fountain/0.2.6 Android https://www.fountain.fm'",
+			"Fountain/0.3.13 android https://www.fountain.fm"
 		],
 		"info_url": "https://www.fountain.fm",
 		"os": "android"
