@@ -3257,7 +3257,7 @@
 		"description": "an online research project which investigates algorithms for mapping the topology of the Internet",
 		"bot": true
 	},
- 	{
+	{
 		"user_agents": [
 			"^RSStT"
 		],
@@ -3268,5 +3268,5 @@
 		"description": "an RSS to Telegram bot",
 		"info_url": "https://apps.apple.com/be/app/audiowave-podcast-player/id1602776751",
 		"bot": true
-	},
+	}
 ]
