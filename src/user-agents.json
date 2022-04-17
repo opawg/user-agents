@@ -1238,6 +1238,16 @@
 },
 {
     "user_agents": [
+        "^Gaana-iOS"
+    ],
+    "app": "Gaana",
+    "os": "ios",
+    "examples": [
+        "Gaana-iOS"
+    ]
+},
+{
+    "user_agents": [
         "^Guardian-iOSLive/"
     ],
     "app": "Guardian",
@@ -3303,5 +3313,99 @@
     "app": "CPod",
     "device": "pc",
     "description":"A simple, beautiful podcast app, for Windows, MacOS and Linux"
+},
+{
+    "user_agents": [
+        "DataForSeoBot/"
+    ],
+    "examples": [
+        "Mozilla/5.0 (compatible; DataForSeoBot/1.0; +https://dataforseo.com/dataforseo-bot)"
+    ],
+    "info_url": "https://dataforseo.com/dataforseo-bot",
+    "app": "DataforSEO",
+    "bot": true,
+    "description":"Working on the biggest available backlink database on the web that every single member of the community, including you, can use and benefit from."
+},
+{
+    "user_agents": [
+        "Bullhorn/"
+    ],
+    "examples": [
+        "Bullhorn/1.0 (+http://bullhorn.fm/)"
+    ],
+    "info_url": "http://bullhorn.fm/",
+    "app": "Bullhorn"
+},
+{
+    "user_agents": [
+        "gPodder/"
+    ],
+    "examples": [
+        "gPodder/3.10.21 (+http://gpodder.org/) Linux",
+        "gPodder/3.10.15 (+http://gpodder.org/) Linux/5.4.0-74-generic",
+        "gPodder/3.10.15 (+http://gpodder.org/) Linux/5.4.0-90-generic",
+        "gPodder/3.10.17 (+http://gpodder.org/) Linux/5.11.0-49-generic"
+    ],
+    "info_url": "http://gpodder.org/",
+    "app": "gPodder",
+    "device": "pc"
+},
+{
+    "user_agents": [
+        "AirableBot-Podcast/"
+    ],
+    "examples": [
+        "AirableBot-Podcast/1.0 (+https//www.airablenow.com)"
+    ],
+    "info_url": "https//www.airablenow.com",
+    "bot": true,
+    "description":"An aggregator of internet radio and podcasts, for connected devices."
+},
+{
+    "user_agents": [
+        "Podcorn/"
+    ],
+    "examples": [
+        "Podcorn/1.0"
+    ],
+    "info_url": "https://podcorn.com/",
+    "bot": true,
+    "description":"The leading podcast influencer marketplace. Connecting unique voices to unique brands for native advertising."
+},
+{
+    "user_agents": [
+        "RedCircle"
+    ],
+    "examples": [
+        "RedCircle"
+    ],
+    "info_url": "https://redcircle.com/",
+    "bot": true,
+    "description":"A platform for podcasts and brands to scale their message."
+},
+{
+    "user_agents": [
+        "ProCast"
+    ],
+    "examples": [
+        "ProCast/1 CFNetwork/1240.0.4 Darwin/20.6.0"
+    ],
+    "info_url": "https://podcast-app.de/",
+    "description":"The new generation of Podcast player."
+},
+{
+    "user_agents": [
+        "AnchorImport"
+    ],
+    "examples": [
+        "AnchorImport/1.0"
+    ],
+    "description":"Anchor's tool for importing podcasts",
+    "bot":true,
+    "developer_notes": "This useragent is used during a user importing a podcast to the Anchor platform"
 }
+
+
+
+
 ]
