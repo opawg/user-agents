@@ -2820,9 +2820,9 @@
 },
 {
     "user_agents": [
-        "^Podcast/1."
+        "app.podcast.cosmos"
     ],
-    "app": "小宇宙",
+    "app": "Xiao Yu Zhou",
     "info_url": "https://www.coolapk.com/apk/app.podcast.cosmos",
     "description": "Cosmos, a chinese podcast app"
 },
