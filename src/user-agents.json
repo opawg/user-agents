@@ -1894,6 +1894,19 @@
     },
     {
         "user_agents": [
+            "sp-agent"
+        ],
+        "app": "Samsung Podcast",
+        "examples": [
+            "sp-agent"
+        ],
+		"app": "Samsung Free",
+        "device": "phone",
+		"os": "android",
+		"info_url": "https://developer.samsung.com/podcasts"
+    },
+    {
+        "user_agents": [
             "SemrushBot\/"
         ],
         "app": "SEMrushBot",
