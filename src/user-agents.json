@@ -3446,7 +3446,9 @@
         "Podio/1.0"
     ],
     "description":"Podcasts + Radio = Podio",
-    "info_url": "https://podio.radio/"
+    "info_url": "https://podio.radio/",
+    "bot":true,
+    "developer_notes": "This useragent appears to download and cache audio"
 }
  
 ]
