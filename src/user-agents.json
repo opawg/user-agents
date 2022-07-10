@@ -301,6 +301,19 @@
 },
 {
     "user_agents": [
+        "^atc\/.*"
+    ],
+    "app": "Apple Podcasts",
+    "device": "watch",
+    "os": "watchos",
+    "bot": true,
+    "developer_notes": "Verified (via stamping the audio URL with the RSS useragent) as being sourced from Apple Podcasts; and accordingly this is marked as a bot since these downloads are duplicated with the phone.",
+    "examples": [
+        "atc/1.0"
+    ]
+},
+{
+    "user_agents": [
         "^Podcasts/.*\\(.*\\)",
         "^Balados/.*\\(.*\\)",
         "^Podcasti/.*\\(.*\\)",
