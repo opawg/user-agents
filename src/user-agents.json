@@ -607,11 +607,19 @@
 },
 {
     "user_agents": [
-        "\\ CrKey/"
+        "Linux.+\\ CrKey/"
     ],
     "app": "Chromecast device",
     "device": "speaker",
-    "os": "android"
+    "os": "linux"
+},
+{
+    "user_agents": [
+        "Fuschia.+\\ CrKey/"
+    ],
+    "app": "Chromecast device",
+    "device": "speaker",
+    "os": "fuschia"
 },
 {
     "user_agents": [
