@@ -1013,10 +1013,10 @@
 },
 {
     "user_agents": [
-        "Goodpods.IOS / \\d+\\.\\d+\\.\\d+"
+        "Goodpods.[iI]OS / \\d+\\.\\d+\\.\\d+"
     ],
     "examples": [
-        "Goodpods.IOS / 2.2.2"
+        "Goodpods.iOS / 2.2.2"
     ],
     "app": "Goodpods",
     "os": "ios",
