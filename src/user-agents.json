@@ -607,7 +607,7 @@
 },
 {
     "user_agents": [
-        "Linux.+\\ CrKey/"
+        "(Linux).*\\ CrKey/"
     ],
     "app": "Chromecast device",
     "device": "speaker",
@@ -615,9 +615,9 @@
 },
 {
     "user_agents": [
-        "Fuschia.+\\ CrKey/"
+        "(Fuschia).*\\ CrKey/"
     ],
-    "app": "Chromecast device",
+    "app": "Google Nest Hub",
     "device": "speaker",
     "os": "fuschia"
 },
