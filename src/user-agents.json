@@ -1094,7 +1094,7 @@
     "app": "Google Assistant",
     "device": "speaker",
     "developer_notes": "This is audio downloaded as a result of a Google Assistant voice action. It's unlikely to appear in podcast host logs, since voice actions can only use up to 120 seconds of audio.",
-    "os": "google_assistant",
+    "os": "android",
     "info_url": "https://cloud.google.com/text-to-speech/docs/ssml"
 },
 {
@@ -1104,7 +1104,7 @@
     "app": "Google Podcasts",
     "device": "speaker",
     "description": "Google Podcasts on smart speakers",
-    "os": "google_assistant"
+    "os": "android"
 },
 {
     "user_agents": [
