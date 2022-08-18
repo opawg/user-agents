@@ -3054,7 +3054,7 @@
     "user_agents": [
         "^MixerBox\/.*iOS"
     ],
-    "name": "MixerBox",
+    "app": "MixerBox",
     "os": "ios",
     "examples": [
         "MixerBox/807.iOS (iPhone; iOS 14.4; en_US)"
