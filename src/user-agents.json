@@ -3129,7 +3129,7 @@
         "^TheEconomist-Darwin-android"
     ],
     "app": "Economist Espresso",
-    "type": "phone",
+    "device": "phone",
     "os": "android",
     "examples": [
         "TheEconomist-Darwin-android-2.1.1-master-2999-2001024"
@@ -3140,7 +3140,7 @@
         "^TheEconomist-Darwin-ios"
     ],
     "app": "Economist Espresso",
-    "type": "phone",
+    "device": "phone",
     "os": "ios",
     "examples": [
         "TheEconomist-Darwin-ios-2.1.1-master-2999-2001024"
@@ -3151,7 +3151,7 @@
         "^AudioWave iOS"
     ],
     "app": "AudioWave",
-    "type": "phone",
+    "device": "phone",
     "os": "ios",
     "info_url": "https://apps.apple.com/be/app/audiowave-podcast-player/id1602776751",
     "examples": [
