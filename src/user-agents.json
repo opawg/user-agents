@@ -2523,6 +2523,16 @@
 },
 {
     "user_agents": [
+        "Timpibot\/"
+    ],
+    "app": "Timpi search crawler",
+    "bot": true,
+    "examples": [
+        "Timpibot/0.8 ( http://www.timpi.io)"
+    ]	
+},
+{
+    "user_agents": [
         "TrendsmapResolver\/"
     ],
     "app": "Trendsmap Resolver",
