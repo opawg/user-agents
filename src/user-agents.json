@@ -1919,7 +1919,7 @@
 },
 {
     "user_agents": [
-        "^PodcastGuru "
+        "^PodcastGuru"
     ],
     "app": "Podcast Guru",
     "os": "android",
