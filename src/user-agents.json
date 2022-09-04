@@ -46,6 +46,16 @@
 },
 {
     "user_agents": [
+        "^AirableBot-Podcast"
+    ],
+    "app": "Airable",
+    "info_url": "https://www.airablenow.com/",
+    "examples": [
+        "AirableBot-Podcast/1.0 ( https//www.airablenow.com)"
+    ]
+},
+{
+    "user_agents": [
         "^AlexaMediaPlayer/1\\.",
         "^AlexaMediaPlayer/16\\.",
         "^AlexaMediaPlayer/2\\.",
