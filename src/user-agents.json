@@ -1906,4 +1906,9 @@
 	"info_url": "https:\/\/podio.radio\/",
 	"bot": true,
 	"developer_notes": "This useragent appears to download and cache audio"
+}, {
+	"user_agents": ["Playapod\/"],
+	"examples": ["Playapod/2.4.11"],
+	"description": "Best Cross-Platform Podcast and News App",
+	"info_url": "https:\/\/playapod.com\/"
 }]
