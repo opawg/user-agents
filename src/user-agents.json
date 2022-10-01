@@ -634,10 +634,10 @@
 	"device": "tablet",
 	"os": "android"
 }, {
-	"user_agents": ["Android.*Chrome\/(?!.*(Googlebot|CrKey|GSA|EdgA\/))"],
+	"user_agents": ["^(?!Podverse).*Android.*Chrome\/(?!.*(Googlebot|CrKey|GSA|EdgA\/))"],
 	"app": "Google Chrome",
 	"os": "android",
-	"developer_notes": "This won't match Googlebot, a Chromecast device, Google speaker or Google app"
+	"developer_notes": "This won't match Googlebot, a Chromecast device, Google speaker or Google app, or the Podverse app"
 }, {
 	"user_agents": ["CrOS.*Chrome\/"],
 	"app": "Google Chrome",
