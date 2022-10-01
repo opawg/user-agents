@@ -710,13 +710,6 @@
 	"user_agents": ["^gvfs"],
 	"bot": true
 }, {
-	"user_agents": ["^+hermespod.com\/"],
-	"app": "HermesPod",
-	"device": "pc",
-	"examples": ["+hermespod.com\/v1.5.x"],
-	"info_url": "http:\/\/hermespod.com\/",
-	"os": "windows"
-}, {
 	"user_agents": ["^Himalaya\/.+iPhone"],
 	"app": "Himalaya",
 	"device": "phone",
@@ -827,7 +820,7 @@
 	"info_url": "https:\/\/www.lesindesradios.fr\/",
 	"examples": ["lesindesradios"]
 }, {
-	"user_agents": ["^lesindesradios\/.*(Linux;Android"],
+	"user_agents": ["^lesindesradios\/.*Linux;Android"],
 	"app": "Les Ind\u00e9s Radios",
 	"os": "android",
 	"device": "phone",
@@ -952,26 +945,21 @@
 	"app": "Opera",
 	"os": "android"
 }, {
-	"user_agents": ["Opera\/.*(Linux"],
+	"user_agents": ["Opera\/.*Linux"],
 	"app": "Opera",
 	"device": "pc",
 	"os": "linux"
 }, {
-	"user_agents": ["Opera\/.*(Macintosh"],
+	"user_agents": ["Opera\/.*Macintosh", "Macintosh.*OPR\/"],
 	"app": "Opera",
 	"device": "pc",
-	"os": "macos"
+	"os": "macos",
+	"examples": ["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/86.0.4240.111 Safari\/537.36 OPR\/72.0.3815.186"]
 }, {
-	"user_agents": ["Opera\/.*(Windows", "Windows.*OPR\/"],
+	"user_agents": ["Opera\/.*Windows", "Windows.*OPR\/"],
 	"app": "Opera",
 	"device": "pc",
 	"os": "windows"
-}, {
-	"user_agents": ["Macintosh.*OPR\/"],
-	"app": "Opera",
-	"os": "macos",
-	"device": "pc",
-	"examples": ["Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/86.0.4240.111 Safari\/537.36 OPR\/72.0.3815.186"]
 }, {
 	"user_agents": ["^MauiBot"],
 	"app": "MauiBot",
@@ -1232,11 +1220,11 @@
 	"user_agents": ["request.js"],
 	"bot": true
 }, {
-	"user_agents": ["^Roku\/DVP-8.*(04"],
+	"user_agents": ["^Roku\/DVP-8"],
 	"device": "tv",
 	"os": "roku"
 }, {
-	"user_agents": ["^RSSRadio ("],
+	"user_agents": ["^RSSRadio "],
 	"bot": true
 }, {
 	"user_agents": ["^RSSRadio"],
@@ -1547,19 +1535,19 @@
 	"app": "Instagram",
 	"examples": ["Instagram\/252729634 CFNetwork\/1126 Darwin\/19.5.0"]
 }, {
-	"user_agents": ["^SoundOn\/[d.]+s+(Linux;Android", "^SoundOn\/[^12].d+.d+$", "^SoundOn\/1.[^1][^0-2]?.d+$"],
+	"user_agents": ["^SoundOn\/[d.]+s+Linux;Android", "^SoundOn\/[^12].d+.d+$", "^SoundOn\/1.[^1][^0-2]?.d+$"],
 	"app": "SoundOn",
 	"device": "phone",
 	"examples": ["SoundOn\/1.9.17 (Linux;Android 10) ExoPlayerLib\/2.9.4"],
 	"os": "android"
 }, {
-	"user_agents": ["^SoundOn\/1.1[0-2].d+$", "^SoundOn\/2.d+.d+$", "^SoundOn\/[d.]+s+(iOS"],
+	"user_agents": ["^SoundOn\/1.1[0-2].d+$", "^SoundOn\/2.d+.d+$", "^SoundOn\/[d.]+s+iOS"],
 	"app": "SoundOn",
 	"device": "phone",
 	"examples": ["SoundOn\/1.10.1", "SoundOn\/2.2.0", "SoundOn\/2.2.2 (iOS)"],
 	"os": "ios"
 }, {
-	"user_agents": ["^SoundOn\/[d.]+s+(bot"],
+	"user_agents": ["^SoundOn\/[d.]+s+bot"],
 	"bot": true
 }, {
 	"user_agents": ["^Podverse\/Android Mobile App\/"],
