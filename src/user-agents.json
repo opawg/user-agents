@@ -1026,10 +1026,10 @@
 	"examples": ["PodcastAddict\/v2 - Dalvik\/2.1.0 (Linux; U; Android 9; SM-N950U Build\/PPR1.180610.011)", "PodcastAddict\/v5 ( https:\/\/podcastaddict.com\/; Android podcast app)"],
 	"os": "android"
 }, {
-	"user_agents": ["iOS.*The Podcast App\/", "com.evolve.podcast\/"],
+	"user_agents": ["iOS.*The Podcast App\/", "com.evolve.podcast\/", "^ThePodcastApp],
 	"app": "The Podcast App",
 	"os": "ios",
-	"examples": ["podcast\/2358 iOS\/Version 13.5.1 (Build 017F80) The Podcast App\/3.22.1", "com.evolve.podcast\/3.22.1 (iPhone; ) (build 2358, iOS 13.5.1)"],
+	"examples": ["ThePodcastApp/6.28.1 (iPhone; iOS 16.0.2; ) player (build 6391; +https://podcast.app/)","podcast\/2358 iOS\/Version 13.5.1 (Build 017F80) The Podcast App\/3.22.1", "com.evolve.podcast\/3.22.1 (iPhone; ) (build 2358, iOS 13.5.1)"],
 	"developer_notes": "The com.evolve version of the useragent is an error, and has been reported to the developers as a bug. Caution: the beginning of their main useragent is similar to Google Podcasts."
 }, {
 	"user_agents": ["^PodcastGuru"],
