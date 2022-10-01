@@ -630,6 +630,12 @@
 	"examples": ["Mozilla\/5.0 (Linux; Android 10; Pixel 3a Build\/QQ2A.200305.002; wv) AppleWebKit\/537.36 (KHTML, like Gecko) Version\/4.0 Chrome\/80.0.3987.149 Mobile Safari\/537.36 GSA\/11.2.7.21.arm64", "Mozilla\/5.0 (Linux; Android 10; SM-G986U Build\/QP1A.190711.020; wv) AppleWebKit\/537.36 (KHTML, like Gecko) Version\/4.0 Chrome\/86.0.4240.75 Mobile Safari\/537.36 GSA\/11.31.12.21.arm64"],
 	"developer_notes": "*GSA\/ is used in the Google app when searching and playing podcasts, and in the Google Podcasts app"
 }, {
+	"user_agents": ["^GSA\/"],
+	"app": "Google Podcasts",
+	"description": "Google Podcasts (on something)",
+	"examples": ["GSA/13.38.11.26.arm64"],
+	"developer_notes": "GSA\/ is the Google Search app running on something."
+}, {
 	"user_agents": ["Linux; Android.*SM-T350"],
 	"device": "tablet",
 	"os": "android"
