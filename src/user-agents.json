@@ -326,7 +326,7 @@
 	"device": "speaker",
 	"os": "linux"
 }, {
-	"user_agents": ["(Fuschia).* CrKey\/"],
+	"user_agents": ["(Fuchsia).* CrKey\/"],
 	"app": "Google Nest Hub",
 	"device": "speaker",
 	"os": "fuschia"
