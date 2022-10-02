@@ -1141,6 +1141,12 @@
 	"description": "Podnods is a podcast discovery site. This user agent is for crawling podcast data.",
 	"info_url": "https:\/\/podnods.com\/about"
 }, {
+	"user_agents": ["^Podurama"],
+	"app": "Podurama",
+	"description": "Best free cross-platform podcast app",
+	"examples": ["Podurama/4.0.8.1 CFNetwork/1390 Darwin/22.0.0"],	
+	"info_url": "https:\/\/podurama.com"
+}, {
 	"user_agents": ["podnods-player"],
 	"app": "Podnods",
 	"description": "Podnods is a podcast discovery site. This user agent is for users to sample and play podcasts.",
