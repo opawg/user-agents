@@ -7,7 +7,7 @@
 	"user_agents": ["^Acast.+iOS"],
 	"app": "Acast",
 	"device": "phone",
-	"os": "ios"'
+	"os": "ios"
 }, {
 	"user_agents": ["AdsBot-Google"],
 	"app": "Google AdsBot",
