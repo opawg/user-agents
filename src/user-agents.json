@@ -191,6 +191,12 @@
 	"developer_notes": "Used when downloading podcasts (not progressive downloads). This could be on iOS or iPadOS.",
 	"examples": ["Podcasts\/1440.4 CFNetwork\/1128.0.1 Darwin\/19.6.0"]
 }, {
+	"user_agents": ["^Armadillo\/1"],
+	"examples": ["Armadillo/12.19 (Linux;Android 11) ExoPlayerLib/2.17.1"],
+	"os": "android",
+	"developer_notes": "This is a library, and not an app",
+	"info_url": "https:\/\/tech.scribd.com\/blog\/2021\/android-audio-player-tutorial-with-armadillo.html"
+}, {
 	"user_agents": ["^AudioWave\/1"],
 	"app": "AudioWave",
 	"examples": ["AudioWave\/1.5 (+https:\/\/audiowave.io\/; iPhone 15.4)"],
