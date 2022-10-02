@@ -7,7 +7,7 @@
 	"user_agents": ["^Acast.+iOS"],
 	"app": "Acast",
 	"device": "phone",
-	"os": "ios"
+	"os": "ios"'
 }, {
 	"user_agents": ["AdsBot-Google"],
 	"app": "Google AdsBot",
@@ -553,6 +553,12 @@
 	"user_agents": ["^fyyd-poll"],
 	"app": "Fyyd",
 	"bot": true
+}, {
+	"user_agents": ["^Garmin Forerunner"],
+	"app": "Garmin Forerunner",
+	"developer_notes": "This uses Spotify to transfer audio to compatible watches",
+	"device": "watch",
+	"examples": ["Garmin Forerunner 245 Music\/11.60"]
 }, {
 	"user_agents": ["^Go-http-client"],
 	"developer_notes": "This has been seen being used by a TuneIn client, and may be within WinAMP code.",
