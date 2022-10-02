@@ -1237,7 +1237,7 @@
 	"user_agents": ["request.js"],
 	"bot": true
 }, {
-	"user_agents": ["^Roku\/DVP-8"],
+	"user_agents": ["^Roku\/DVP-"],
 	"device": "tv",
 	"os": "roku"
 }, {
