@@ -762,6 +762,7 @@
 	"info_url": "https:\/\/www.ivoox.com\/"
 }, {
 	"user_agents": ["iTMS", "itunesstored"],
+	"app": "Apple Podcasts automated checks",
 	"bot": true
 }, {
 	"user_agents": ["^iTunes\/.+Mac OS", "^iTunes\/.+OS X"],
