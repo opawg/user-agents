@@ -564,7 +564,7 @@
 	"developer_notes": "This has been seen being used by a TuneIn client, and may be within WinAMP code.",
 	"examples": ["Go-http-client\/2.0"]
 }, {
-	"user_agents": ["Goodpods\.Android \/"],
+	"user_agents": ["Goodpods(.)Android \/"],
 	"examples": ["Goodpods.Android \/ 2.2.2","Goodpods.Android / 3.2.9"],
 	"app": "Goodpods",
 	"os": "android",
