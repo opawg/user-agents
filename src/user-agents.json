@@ -1879,7 +1879,7 @@
 	"description": "Stavanger Aftenblad Android app",
 	"os": "android"
 }, {
-	"user_agents": ["Android SvD Hermes\/"],
+	"user_agents": ["SvD Hermes\/"],
 	"examples": ["SvD Hermes/999999999 _app_"],
 	"app": "Svenska Dagbladet Android app",
 	"description": "Svenska Dagbladet Android app",
