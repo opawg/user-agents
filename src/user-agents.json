@@ -1843,6 +1843,54 @@
 	"description": "Vestnytt iOS app",
 	"os": "ios"
 }, {
+	"user_agents": ["Android VG Hermes\/"],
+	"examples": ["Android VG Hermes/1000094692 app vg_app_ VG/Snarvei/1000094692 VG-App"],
+	"app": "VG Android app",
+	"description": "VG Android app",
+	"os": "android"
+}, {
+	"user_agents": ["Android Aftonbladet Hermes\/"],
+	"examples": ["Android Aftonbladet Hermes/1000094692 _app_"],
+	"app": "Aftonbladet Android app",
+	"description": "Aftonbladet Android app",
+	"os": "android"
+},{
+	"user_agents": ["Android Sportbladet Hermes\/"],
+	"examples": ["Android Sportbladet Hermes/1000094692 _app_"],
+	"app": "Sportbladet Android app",
+	"description": "Sportbladet Android app",
+	"os": "android"
+}, {
+	"user_agents": ["Android AP Hermes\/"],
+	"examples": ["Android AP Hermes/1000094692 _app_"],
+	"app": "Aftenposten Android app",
+	"description": "Aftenposten Android app",
+	"os": "android"
+}, {
+	"user_agents": ["Android BT Hermes\/"],
+	"examples": ["Android BT Hermes/1000094692 _app_"],
+	"app": "Bergens Tidende Android app",
+	"description": "Bergens Tidende Android app",
+	"os": "android"
+}, {
+	"user_agents": ["Android SA Hermes\/"],
+	"examples": ["Android SA Hermes/1000094692 _app_"],
+	"app": "Stavanger Aftenblad Android app",
+	"description": "Stavanger Aftenblad Android app",
+	"os": "android"
+}, {
+	"user_agents": ["Android SvD Hermes\/"],
+	"examples": ["SvD Hermes/999999999 _app_"],
+	"app": "Svenska Dagbladet Android app",
+	"description": "Svenska Dagbladet Android app",
+	"os": "android"
+}, {
+	"user_agents": ["Android E24 Hermes\/"],
+	"examples": ["Android E24 Hermes/1000094692 _app_"],
+	"app": "E24 Android app",
+	"description": "E24 Android app",
+	"os": "android"
+}, {
 	"user_agents": ["^Riddler "],
 	"examples": ["Riddler (http:\/\/riddler.io\/about)"],
 	"app": "F-Secure Riddler",
