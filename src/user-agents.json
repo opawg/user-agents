@@ -558,6 +558,12 @@
 	"device": "watch",
 	"examples": ["Garmin Forerunner 245 Music\/11.60"]
 }, {
+	"user_agents": ["^Garmin fenix 5X Plus"],
+	"app": "Garmin fenix 5X",
+	"developer_notes": "This uses Spotify to transfer audio to compatible watches",
+	"device": "watch",
+	"examples": ["Garmin fenix 5X Plus/18.0"]
+}, {
 	"user_agents": ["^Go-http-client"],
 	"developer_notes": "This has been seen being used by a TuneIn client, and may be within WinAMP code.",
 	"examples": ["Go-http-client\/2.0"]
