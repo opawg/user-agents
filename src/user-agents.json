@@ -1990,7 +1990,7 @@
 	"bot": true,
 	"developer_notes": "This useragent is used during a user importing a podcast to the Anchor platform"
 }, {
-	"user_agents": ["Podio\/"],
+	"user_agents": ["^Podio\/"],
 	"examples": ["Podio\/1.0"],
 	"description": "Podcasts + Radio = Podio",
 	"info_url": "https:\/\/podio.radio\/",
