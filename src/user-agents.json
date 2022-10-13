@@ -953,6 +953,11 @@
 	"os": "android",
 	"examples": ["NPROneAndroid"]
 }, {
+	"user_agents": ["NRC Audio\/.*Android"],
+	"examples": ["NRC Audio/2.0.0 (nl.nrc.audio; build:29; Android 12; Sdk:31; Manufacturer:samsung; Model: SM-G975F) OkHttp/4.9.3"],
+	"description": "NRC Audio",
+	"os": "android"
+}, {
 	"user_agents": ["^OkDownload\/"]
 }, {
 	"user_agents": ["okhttp"],
@@ -1991,4 +1996,9 @@
 	"examples": ["Playapod/2.4.11"],
 	"description": "Best Cross-Platform Podcast and News App",
 	"info_url": "https:\/\/playapod.com\/"
+}, {
+	"user_agents": ["Zune\/"],
+	"examples": ["Zune\/4.8"],
+	"description": "Microsoft Zune",
+	"bot": false
 }]
