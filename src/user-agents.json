@@ -169,6 +169,12 @@
 	"info_url": "https:\/\/podnews.net\/article\/applecoremedia-user-agent",
 	"developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
 }, {
+	"user_agents": ["^Audacious"],
+	"examples": ["Audacious/3.10.1 neon/0.30.2"],
+	"device": "pc",
+	"description": "Audacious is an open source audio player.",
+	"info_url": "https:\/\/audacious-media-player.org\/"
+}, {
 	"user_agents": ["^atc\/.*"],
 	"app": "Apple Podcasts",
 	"device": "watch",
