@@ -46,7 +46,7 @@
 	"svg": "amazon.svg",
 	"bot": true
 }, {
-	"user_agents": ["^AmazonMusic(?!.iPhone|.Android)"],
+	"user_agents": ["^AmazonMusic(?!.*iPhone|.*Android|.*iPad)"],
 	"examples": ["AmazonMusic"],
 	"app": "Amazon Music Podcasts",
 	"description": "A music and podcasts streaming app",
@@ -60,6 +60,13 @@
 	"device": "phone",
 	"developer_notes": "Examples are from an Amazon contact",
 	"svg": "amazon.svg"
+}, {
+	"user_agents": ["^AmazonMusic.*iPad"],
+	"examples": ["AmazonMusic/22.13.3 iPad7,3 CFNetwork/1335.0.3 Darwin/21.6.0"],
+	"app": "Amazon Music Podcasts",
+	"description": "A music and podcasts streaming app",
+	"os": "ipados",
+	"device": "tablet"
 }, {
 	"user_agents": ["^AmazonMusic.*Android"],
 	"examples": ["AmazonMusic\/16.17.0 Dalvik\/2.1.0 (Linux; U; Android 6.0.1; vivo 1610 Build\/MMB29M)"],
@@ -175,7 +182,7 @@
 	"description": "Audacious is an open source audio player.",
 	"info_url": "https:\/\/audacious-media-player.org\/"
 }, {
-	"user_agents": ["^atc\/.*"],
+	"user_agents": ["^atc\/"],
 	"app": "Apple Podcasts",
 	"device": "watch",
 	"os": "watchos",
@@ -186,16 +193,8 @@
 	"user_agents": ["^Podcasts\/.*", "^Balados\/.*(.*)", "^Podcasti\/.*(.*)", "^Podcastit\/.*(.*)", "^Podcasturi\/.*(.*)", "^Podcasty\/.*(.*)", "^Podcast\u2019ler\/.*(.*)", "^Podkaster\/.*(.*)", "^Podcaster\/.*(.*)", "^Podcastok\/.*(.*)", "^\u041f\u043e\u0434\u043a\u0430\u0441\u0442\u0438\/.*(.*)", "^\u041f\u043e\u0434\u043a\u0430\u0441\u0442\u044b\/.*(.*)", "^\u05e4\u05d5\u05d3\u05e7\u05d0\u05e1\u05d8\u05d9\u05dd\/.*(.*)", "^\u0627\u0644\u0628\u0648\u062f\u0643\u0627\u0633\u062a\/.*(.*)", "^\u092a\u0949\u0921\u0915\u093e\u0938\u094d\u091f\/.*(.*)", "^\u0e1e\u0e47\u0e2d\u0e14\u0e04\u0e32\u0e2a\u0e17\u0e4c\/.*(.*)", "^\u64ad\u5ba2\/.*(.*)", "^\ud31f\uce90\uc2a4\ud2b8\/.*(.*)"],
 	"examples": ["Podcasts\/1410.53 CFNetwork\/1111 Darwin\/19.0.0 (x86_64)", "Podcaster\/1410.53 CFNetwork\/1111 Darwin\/19.0.0 (x86_64)"],
 	"app": "Apple Podcasts",
-	"device": "pc",
-	"os": "macos",
-	"description": "The Apple Podcasts app on MacOS Catalina and above",
-	"developer_notes": "Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Hungarian, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Swedish, Thai, Turkish."
-}, {
-	"user_agents": ["^Podcasts\/.*d$", "^Balados\/.*d$", "^Podcasti\/.*d$", "^Podcastit\/.*d$", "^Podcasturi\/.*d$", "^Podcasty\/.*d$", "^Podcast\u2019ler\/.*d$", "^Podkaster\/.*d$", "^Podcaster\/.*d$", "^Podcastok\/.*d$", "^\u041f\u043e\u0434\u043a\u0430\u0441\u0442\u0438\/.*d$", "^\u041f\u043e\u0434\u043a\u0430\u0441\u0442\u044b\/.*d$", "^\u05e4\u05d5\u05d3\u05e7\u05d0\u05e1\u05d8\u05d9\u05dd\/.*d$", "^\u0627\u0644\u0628\u0648\u062f\u0643\u0627\u0633\u062a\/.*d$", "^\u092a\u0949\u0921\u0915\u093e\u0938\u094d\u091f\/.*d$", "^\u0e1e\u0e47\u0e2d\u0e14\u0e04\u0e32\u0e2a\u0e17\u0e4c\/.*d$", "^%E6%92%AD%E5%AE%A2\/.*d$", "^\u64ad\u5ba2\/.*d$", "^\ud31f\uce90\uc2a4\ud2b8\/.*d$"],
-	"app": "Apple Podcasts",
-	"description": "The Apple Podcasts app",
-	"developer_notes": "Used when downloading podcasts (not progressive downloads). This could be on iOS or iPadOS.",
-	"examples": ["Podcasts\/1440.4 CFNetwork\/1128.0.1 Darwin\/19.6.0"]
+	"description": "The Apple Podcasts app.",
+	"developer_notes": "This could be on iOS, iPadOS or macOS. Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Hungarian, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Swedish, Thai, Turkish."
 }, {
 	"user_agents": ["^Armadillo\/1"],
 	"examples": ["Armadillo/12.19 (Linux;Android 11) ExoPlayerLib/2.17.1"],
@@ -645,24 +644,18 @@
 	"developer_notes": "'GooglePodcasts' is the iOS app, while (?:(?:iPhone|iPad|iPod touch);.+)?GSA\/ is used in the Google app when searching and playing podcasts. The first useragent was simply 'Podcasts'.",
 	"os": "ios"
 }, {
-	"user_agents": ["(Android).*GSA\/"],
+	"user_agents": ["(Android).*GSA\/","^GSA\/"],
 	"app": "Google Podcasts",
 	"os": "android",
 	"description": "Google Podcasts on Android (the app or player)",
-	"examples": ["Mozilla\/5.0 (Linux; Android 10; Pixel 3a Build\/QQ2A.200305.002; wv) AppleWebKit\/537.36 (KHTML, like Gecko) Version\/4.0 Chrome\/80.0.3987.149 Mobile Safari\/537.36 GSA\/11.2.7.21.arm64", "Mozilla\/5.0 (Linux; Android 10; SM-G986U Build\/QP1A.190711.020; wv) AppleWebKit\/537.36 (KHTML, like Gecko) Version\/4.0 Chrome\/86.0.4240.75 Mobile Safari\/537.36 GSA\/11.31.12.21.arm64"],
+	"examples": ["GSA/13.38.11.26.arm64","Mozilla\/5.0 (Linux; Android 10; Pixel 3a Build\/QQ2A.200305.002; wv) AppleWebKit\/537.36 (KHTML, like Gecko) Version\/4.0 Chrome\/80.0.3987.149 Mobile Safari\/537.36 GSA\/11.2.7.21.arm64", "Mozilla\/5.0 (Linux; Android 10; SM-G986U Build\/QP1A.190711.020; wv) AppleWebKit\/537.36 (KHTML, like Gecko) Version\/4.0 Chrome\/86.0.4240.75 Mobile Safari\/537.36 GSA\/11.31.12.21.arm64"],
 	"developer_notes": "*GSA\/ is used in the Google app when searching and playing podcasts, and in the Google Podcasts app"
-}, {
-	"user_agents": ["^GSA\/"],
-	"app": "Google Podcasts",
-	"description": "Google Podcasts (on something)",
-	"examples": ["GSA/13.38.11.26.arm64"],
-	"developer_notes": "GSA\/ is the Google Search app running on something."
 }, {
 	"user_agents": ["Linux; Android.*SM-T350"],
 	"device": "tablet",
 	"os": "android"
 }, {
-	"user_agents": ["^(?!Podverse).*Android.*Chrome\/(?!.*(Googlebot|CrKey|GSA|EdgA\/))"],
+	"user_agents": ["^(?!Podverse).*Android.*Chrome\/(?!.*(Googlebot|CrKey|GSA|Edge|EdgA\/))"],
 	"app": "Google Chrome",
 	"os": "android",
 	"developer_notes": "This won't match Googlebot, a Chromecast device, Google speaker or Google app, or the Podverse app"
@@ -685,7 +678,7 @@
 	"os": "macos",
 	"developer_notes": "This won't match the Spreaker app"
 }, {
-	"user_agents": ["Windows.*Chrome\/(?!.*(OPR|Edg\/))"],
+	"user_agents": ["Windows.*Chrome\/(?!.*(OPR|Edg|Electron|PodFriend\/))"],
 	"app": "Google Chrome",
 	"device": "pc",
 	"examples": ["Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/77.0.3865.120 Safari\/537.36"],
@@ -777,6 +770,12 @@
 }, {
 	"user_agents": ["iVoox"],
 	"app": "iVoox",
+	"info_url": "https:\/\/www.ivoox.com\/"
+}, {
+	"user_agents": ["iVooxApp.*iPhone"],
+	"app": "iVoox",
+	"os": "ios",
+	"examples": ["iVooxApp/3.85 (iPhone; iOS; iOS 15.6.1; d:16910714; 113F)"],
 	"info_url": "https:\/\/www.ivoox.com\/"
 }, {
 	"user_agents": ["ivooxApp.*Android", "FileDownloader\/"],
@@ -1000,10 +999,7 @@
 	"bot": true,
 	"examples": ["MauiBot (crawler.feedback dc@gmail.com)"]
 }, {
-	"user_agents": ["Opera[\/ ]"],
-	"app": "Opera"
-}, {
-	"user_agents": ["^Overcast\/2", "^Overcast\/3"],
+	"user_agents": ["^Overcast\/.*iOS"],
 	"app": "Overcast",
 	"examples": ["Overcast\/3.0 (+http:\/\/overcast.fm\/; iOS podcast app)"],
 	"os": "ios"
@@ -1040,8 +1036,9 @@
 	"examples": ["Mozilla\/5.0 (compatible; PaperLiBot\/2.1; https:\/\/support.paper.li\/entries\/20023257-what-is-paper-li)"],
 	"bot": true
 }, {
-	"user_agents": ["^Player FM"],
-	"app": "Player FM"
+	"user_agents": ["^Player FM","^Player%20FM"],
+	"app": "Player FM",
+    "examples": ["Player%20FM/588 CFNetwork/1121.2.2 Darwin/19.2.0"]
 }, {
 	"user_agents": ["^Pingdom"],
 	"bot": true
@@ -1060,7 +1057,13 @@
 	"examples": ["PodcastAddict\/v2 - Dalvik\/2.1.0 (Linux; U; Android 9; SM-N950U Build\/PPR1.180610.011)", "PodcastAddict\/v5 ( https:\/\/podcastaddict.com\/; Android podcast app)"],
 	"os": "android"
 }, {
-	"user_agents": ["iOS.*The Podcast App\/", "com.evolve.podcast\/", "^ThePodcastApp"],
+    "user_agents": ["^ThePodcastApp.*iPhone"],
+    "app": "The Podcast App",
+    "os": "ios",
+    "device": "phone",
+    "examples": ["ThePodcastApp/6.23.0 (iPhone; iOS 15.6.1; ) player (build 6272; +https://podcast.app/)"]
+}, {
+	"user_agents": ["iOS.*The Podcast App\/", "com.evolve.podcast\/", "^ThePodcastApp(?!.*(iPhone))"],
 	"app": "The Podcast App",
 	"os": "ios",
 	"examples": ["ThePodcastApp/6.28.1 (iPhone; iOS 16.0.2; ) player (build 6391; +https://podcast.app/)","podcast\/2358 iOS\/Version 13.5.1 (Build 017F80) The Podcast App\/3.22.1", "com.evolve.podcast\/3.22.1 (iPhone; ) (build 2358, iOS 13.5.1)"],
@@ -1351,7 +1354,7 @@
 	"device": "phone",
 	"os": "ios"
 }, {
-	"user_agents": ["iPad.*AppleWebKit.*Safari\/"],
+	"user_agents": ["iPad.*AppleWebKit(?!.*(AdsBot|bingbot|CriOS|GSA\/)).*Safari\/"],
 	"app": "Safari",
 	"device": "tablet",
 	"os": "ios"
@@ -1378,11 +1381,12 @@
 	"user_agents": ["^Subcast"],
 	"app": "Subcast"
 }, {
-	"user_agents": ["Sonnet"],
+	"user_agents": ["Sonnet","^Simple Podcast Player"],
 	"app": "Sonnet",
 	"description": "Sonnet is a simple, easy to use podcast app aimed at new listeners",
 	"os": "android",
 	"info_url": "https:\/\/sonnet.fm",
+    "examples": ["Simple Podcast Player/1.8 (Linux;Android 12) ExoPlayerLib/2.10.1"],
 	"svg": "sonnet.svg"
 }, {
 	"user_agents": ["Sonos"],
@@ -1461,13 +1465,13 @@
 	"os": "ios",
 	"info_url": "https:\/\/apps.apple.com\/us\/app\/tunein-radio-live-news-music\/id418987775"
 }, {
-	"user_agents": ["^TuneIn(%20| )Radio(%20| )Pro\/.*CFNetwork\/"],
-	"examples": ["TuneIn Radio Pro\/1361 CFNetwork\/1121.2.2 Darwin\/19.3.0", "TuneIn%20Radio%20Pro\/1383 CFNetwork\/1125.2 Darwin\/19.4.0"],
+	"user_agents": ["^TuneIn(%20| )Radio(%20| )Pro\/.*(CFNetwork\/|iPhone)"],
+	"examples": ["TuneIn Radio Pro/24.2.1; iPhone13,4; iOS/16.1"],
 	"app": "TuneIn",
 	"os": "ios",
 	"info_url": "https:\/\/apps.apple.com\/us\/app\/tunein-pro-radio-sports\/id319295332"
 }, {
-	"user_agents": ["^TuneIn(?!.*(CFNetwork|Android))"],
+	"user_agents": ["^TuneIn(?!.*(CFNetwork|Android|iPhone|iPad))"],
 	"examples": ["TuneIn Radio"],
 	"app": "TuneIn",
 	"info_url": "https:\/\/tunein.com\/",
@@ -1961,7 +1965,7 @@
 	"info_url": "http:\/\/bullhorn.fm\/",
 	"app": "Bullhorn"
 }, {
-	"user_agents": ["gPodder\/"],
+	"user_agents": ["gPodder\/.*Linux"],
 	"examples": ["gPodder\/3.10.21 (+http:\/\/gpodder.org\/) Linux", "gPodder\/3.10.15 (+http:\/\/gpodder.org\/) Linux\/5.4.0-74-generic", "gPodder\/3.10.15 (+http:\/\/gpodder.org\/) Linux\/5.4.0-90-generic", "gPodder\/3.10.17 (+http:\/\/gpodder.org\/) Linux\/5.11.0-49-generic"],
 	"info_url": "http:\/\/gpodder.org\/",
 	"app": "gPodder",
@@ -1983,6 +1987,7 @@
 	"examples": ["RedCircle"],
 	"info_url": "https:\/\/redcircle.com\/",
 	"bot": true,
+    "app": "RedCircle",
 	"description": "A platform for podcasts and brands to scale their message."
 }, {
 	"user_agents": ["ProCast"],
@@ -2010,7 +2015,17 @@
 	"info_url": "https:\/\/playapod.com\/"
 }, {
 	"user_agents": ["Zune\/"],
-	"examples": ["Zune\/4.8"],
-	"description": "Microsoft Zune",
-	"bot": false
+    "app": "Zune",
+	"examples": ["Zune\/4.8"]
+}, {
+	"user_agents": ["Headliner\/"],
+    "app":"Headliner",
+    "examples": ["Headliner/1.0.0 +https://headliner.app"],
+    "bot":true,
+    "developer_notes": "A tool that takes audio to reformat it for video platforms"
+}, {
+	"user_agents": ["Iframely\/"],
+    "app":"Iframely",
+    "examples": ["Iframely/1.3.1 (+https://iframely.com/docs/about)"],
+    "info_url": "https:\/\/iframely.com\/docs\/about"
 }]
