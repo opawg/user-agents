@@ -1194,7 +1194,8 @@
 	"user_agents": ["Podwatch-Pro Crawler"],
 	"app": "PodwatchPro",
 	"bot": true,
-	"description": "PodwatchPro is a podcast analytics software. This user agent is for crawling podcast data."
+	"description": "PodwatchPro is a podcast analytics software. This user agent is for crawling podcast data.",
+	"info_url": "https:\/\/www.agma-mmc.de\/media-analyse\/ma-podcast"
 }, {
 	"user_agents": ["Podyssey App"],
 	"app": "Podyssey",
