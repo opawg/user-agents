@@ -1191,6 +1191,11 @@
 	"info_url": "https:\/\/procast.coderocker.de\/",
 	"os": "ios"
 }, {
+	"user_agents": ["Podwatch-Pro Crawler"],
+	"app": "PodwatchPro",
+	"bot": true,
+	"description": "PodwatchPro is a podcast analytics software. This user agent is for crawling podcast data."
+}, {
 	"user_agents": ["Podyssey App"],
 	"app": "Podyssey",
 	"description": "Podyssey is a community for people that love podcasts. It's like Goodreads, but for podcasts.",
