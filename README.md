@@ -1,3 +1,9 @@
+# **THIS IS GOING AWAY**
+
+While this list is being kept updated, [you should now be using user-agents v2](https://github.com/opawg/user-agents-v2). It's more performant, more regularly updated, and better for everyone.
+
+- - -
+
 # User agent list
 
 A list of apps, services and bots that consume podcast **audio**. This data is used by a number of podcast hosts to assist with their analytics.
