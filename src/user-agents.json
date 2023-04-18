@@ -2034,4 +2034,9 @@
     "app":"Iframely",
     "examples": ["Iframely/1.3.1 (+https://iframely.com/docs/about)"],
     "info_url": "https:\/\/iframely.com\/docs\/about"
+},{
+	"user_agents": ["^(radio\.[a-zA-Z]{2,3}|GetPodcast) [0-9]+.[0-9]+.[0-9]+ \([a-zA-Z]+; iPhone OS .+; .+\)$"],
+	"app": "radio.net",
+	"device": "phone",
+	"os": "ios"
 }]
