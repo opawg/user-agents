@@ -2038,5 +2038,8 @@
 	"user_agents": ["^(radio\.[a-zA-Z]{2,3}|GetPodcast) [0-9]+.[0-9]+.[0-9]+ \([a-zA-Z]+; iPhone OS .+; .+\)$"],
 	"app": "radio.net",
 	"device": "phone",
-	"os": "ios"
+	"os": "ios",
+	"info_url": "https:\/\/www.radio.net\/",
+	"examples": ["radio.fr 5.6.22 (iPhone; iPhone OS 16.4; fr_FR)","radio.de 5.6.22 (iPad; iPhone OS 16.4; de_DE)","radio.de 5.6.22 (iPhone; iPhone OS 16.4; de_DE)
+radio.net 5.7.3 (iPhone; iPhone OS 17.0.1; fr_FR)","GetPodcast 5.6.22 (iPhone; iPhone OS 16.4; de_DE)"]
 }]
