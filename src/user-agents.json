@@ -2048,4 +2048,14 @@
 	"os": "android",
 	"info_url": "https:\/\/www.radio.net\/",
 	"examples": ["radio.de/5.10.5.3 (Linux; 13) ExoPlayerLib/2.18.2", "radio.de/5.10.3.0 (Linux;Android 13) ExoPlayerLib/2.18.2", "radio.de/5.10.5.3 (Linux; Android 13) ExoPlayerLib/2.18.2", "radio.de/5.10.5.3 (Linux; Android 13; de_DE) ExoPlayerLib/2.18.2", "radio.de/5.10.5.3 (Linux; Android 13; zn-Hans) ExoPlayerLib/2.18.2", "GetPodcast/5.10.5.3 (Linux; Android 13; de_DE) ExoPlayerLib/2.18.2"]
+},{
+    "user_agents": ["^Syok.+[Aa]ndroid"],
+    "app": "Syok",
+    "device": "phone",
+    "os": "android"
+},{
+    "user_agents": ["^Syok.+iOS"],
+    "app": "Syok",
+    "device": "phone",
+    "os": "ios"
 }]
