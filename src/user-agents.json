@@ -1048,7 +1048,7 @@
     "examples": ["PocketCasts/1"],
     "info_url": "https:\/\/www.pocketcasts.com\/",
     "description": "Pocket Casts feed parser",
-    "app": true
+    "bot": true
 },  {
     "user_agents": ["^Pocket Casts"],
     "app": "Pocket Casts",
