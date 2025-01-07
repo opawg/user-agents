@@ -1,6 +1,7 @@
-# **THIS IS GOING AWAY**
+# **THIS IS NO LONGER UPDATED**
 
-While this list is being kept updated, [you should now be using user-agents v2](https://github.com/opawg/user-agents-v2). It's more performant, more regularly updated, and better for everyone.
+**This list is no longer updated**
+[You should now be using user-agents v2](https://github.com/opawg/user-agents-v2). It's more performant, more regularly updated, and better for everyone.
 
 - - -
 
